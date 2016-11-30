@@ -22,5 +22,7 @@ script:
 
 after_success:
 - git add -A docs
+- git status
 - git commit -m 'Site updated'
+- git status
 - git push origin HEAD:master
