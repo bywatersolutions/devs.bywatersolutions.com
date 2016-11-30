@@ -19,8 +19,6 @@ before_script:
 
 script:
 - hexo generate
-
-after_success:
 - git add -A docs
 - git status
 - git commit -m 'Site updated'
