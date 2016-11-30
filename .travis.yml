@@ -18,10 +18,10 @@ before_script:
 - git config --global user.email 'kyle@bywatersolutions.com'
 
 script:
-- hexo generate
+- git log -1 --pretty=oneline | grep 'Site auto-updated' || hexo generate
 - git add -A docs
 - git status
-- git commit -m 'Site updated'
+- git commit -m 'Site auto-updated'
 - git status
 - git remote add github https://$GH_TOKEN@github.com/bywatersolutions/devs.bywatersolutions.com
 - git fetch github
