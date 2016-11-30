@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Add Owning Library Column to Checkouts | ByWater Solutions - Development Crowdsourcing</title>
+  <title>Allow partial writeoffs of fines | ByWater Solutions - Development Crowdsourcing</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" type="image/png" href="favicon.png"/>
   <link rel="stylesheet" href="/css/normalize.css">
@@ -24,21 +24,21 @@
 
   <section class="container">
 	<h2>
-		Add Owning Library Column to Checkouts
+		Allow partial writeoffs of fines
 	</h2>
-	<p class="short-description">Include owning library column on the list of checkouts for patrons</p>
+	<p class="short-description">Allow a partial writeoff in the same manner as a partial payment</p>
 
     
-        <a href="https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=15975">
-            Koha Community Bug #15975
+        <a href="https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=11210">
+            Koha Community Bug #11210
         </a>
     
 
 	<h3>
-		Goal: $1000
+		Goal: $2000
 	</h3>
 	<h3>
-		Raised: $1000
+		Raised: $150
 	</h3>
 	<h3>
 		Supporters: 1
@@ -46,17 +46,37 @@
 
 	<article class="article">
 		<p><img src="image.png" alt="Screenshot"></p>
-<h1 id="Work-to-be-done"><a href="#Work-to-be-done" class="headerlink" title="Work to be done:"></a>Work to be done:</h1><ul>
-<li>Include owning library column on the list of checkouts for patrons.</li>
-<li>Pages needing enhancement:<ul>
-<li>cgi-bin/koha/circ/circulation.pl</li>
-<li>cgi-bin/koha/members/moremember.pl</li>
-</ul>
-</li>
-</ul>
+<h1 id="Work-to-be-done"><a href="#Work-to-be-done" class="headerlink" title="Work to be done"></a>Work to be done</h1><ol>
+<li>Add “Write off selected” button</li>
+<li>Duplicate behavior of “Pay selected” but for write-offs</li>
+</ol>
 
 	</article>
 
+    
+        <h1>Make a pledge!</h1>
+        <form action="https://formspree.io/developments@bywatersolutions.com" method="POST">
+            <input type="hidden" name="project" value="Allow partial writeoffs of fines"/>
+
+            <p/>
+            <label for="library">Library Name (required)</label>
+            <input type="text" name="library"/>
+
+            <p/>
+            <label for="name">Your name (required)</label>
+            <input type="text" name="name"/>
+
+            <p/>
+            <label for="email">Email address (required)</label>
+            <input type="text" name="email"/>
+
+            <p/>
+            <label for="pledge_amount">Pledge amount</label>
+            <input type="text" name="pledge_amount"/>
+
+            <p/>
+            <input type="submit" value="Send">
+        </form>
     
 </section>
 
