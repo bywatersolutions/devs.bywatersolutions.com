@@ -1,6 +1,20 @@
 <section class="container">
-  <h2><%= page.title %></h2>
+  <h2>
+    <%= page.title %>
+  </h2>
+  <p class="short-description"><%= page.short_description %></p>
+
+  <h3>
+    Goal: $<%= page.goal %>
+  </h3>
+  <h3>
+    Raised: $<%= page.raised %>
+  </h3>
+  <h3>
+    Supporters: <%=page.supporters %>
+  </h3>
+
   <article class="article">
-  <%- page.content %>
+    <%- page.content %>
   </article>
 </section>

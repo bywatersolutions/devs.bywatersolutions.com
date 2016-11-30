@@ -1,20 +1,20 @@
 <section class="container">
   <h3 class="cards-title"><%= title %></h3>
   <ul class="cards-content">
-  <% items.slice(0, 7).forEach(item => { %>
+  <% items.slice(0, 999).forEach(item => { %>
     <li class="card-wrap">
       <a class="card" href="<%= url_for(item.path) %>">
+
         <h4 class="card-title"><%= item.title %></h4>
-        <% if (item.excerpt) { %>
-          <%= item.excerpt %>
-        <% } else { %>
-          <% var br = item.content.indexOf('\n') %>
-        	<% if(br === -1) { %>
-        	  <%- item.content %>
-        	<% } else { %>
-        	  <%- item.content.substring(0, br) %>
-          <% } %>
+
+        <% if (item.short_description) { %>
+          <%= item.short_description %>
         <% } %>
+
+        <% if ( item.raised == item.goal ) { %>
+              <h1 class="funded">Funded!</h1>
+        <% } %>
+
       </a>
     </li>
   <% }) %>

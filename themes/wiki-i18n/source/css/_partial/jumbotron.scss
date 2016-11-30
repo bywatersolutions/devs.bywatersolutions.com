@@ -1,7 +1,7 @@
 @import 'variables';
 
 .jumbotron {
-  background-color: $color-dark-gray;
+  background-color: LightSkyBlue;
   background-image: url('/images/pixels.png');
   background-repeat: repeat;
   overflow: hidden;
@@ -21,7 +21,7 @@
 .jumbotron-title {
   font-size: 4rem;
   margin: 6rem 0 3rem 0;
-  color: $color-text-yellow;
+  color: White;
 }
 
 .jumbotron-star {

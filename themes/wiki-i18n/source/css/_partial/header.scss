@@ -1,7 +1,7 @@
 @import 'variables';
 
 .header {
-  background: $color-yellow;
+  background: LightSkyBlue;
 }
 
 .header-content {
@@ -26,14 +26,7 @@
 .header-search-input {
   padding: 0.4rem 0.5rem 0.1rem;
   border: 0;
-  background: lighten($color-yellow, 25%);
   width: 16rem;
-  &:hover {
-    background: lighten($color-yellow, 30%);
-  }
-  &:focus {
-    background: lighten($color-yellow, 40%);
-  }
 }
 
 .header-lang-select-wrap {
