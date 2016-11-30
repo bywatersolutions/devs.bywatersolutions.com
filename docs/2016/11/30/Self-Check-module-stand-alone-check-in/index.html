@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Limit Item Types by Branch | ByWater Solutions - Development Crowdsourcing</title>
+  <title>Self-Check module stand alone check-in | ByWater Solutions - Development Crowdsourcing</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" type="image/png" href="favicon.png"/>
   <link rel="stylesheet" href="/css/normalize.css">
@@ -24,29 +24,33 @@
 
   <section class="container">
 	<h2>
-		Limit Item Types by Branch
+		Self-Check module stand alone check-in
 	</h2>
-	<p class="short-description">This feature will allow the creation of branch specific item types.</p>
+	<p class="short-description">Add a check-in button to the main self-check screen to allow check-in of multiple items.</p>
 
+    
+        <a href="https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=15492">
+            Koha Community Bug #15492
+        </a>
     
 
 	<h3>
-		Goal: $3500
+		Goal: $2000
 	</h3>
 	<h3>
-		Raised: $1000
+		Raised: $0
 	</h3>
 	<h3>
 		Supporters: 1
 	</h3>
 
 	<article class="article">
-		<p><img src="image.png" alt="Screenshot"></p>
+		<p>This would work very similarly to the current check-in module on the staff client, except that patron information won’t be displayed. Once all books are scanned in for check-in, a “Finish” button can be clicked in order to return to the main shelf-checkout screen to login with ID and checkout books as normal.</p>
 <h1 id="Work-to-be-done"><a href="#Work-to-be-done" class="headerlink" title="Work to be done"></a>Work to be done</h1><ol>
-<li>Create new table itemtype_branches similar to authorised_values_branches</li>
-<li>Add branch selector to itemtypes editor similar to branch limiter for authorised values</li>
-<li>Create subroutine to return only itemtypes for logged in branch</li>
-<li>Replace itemtype select in additem.pl with call to aforementioned subroutine</li>
+<li>Create new sco-checkin.pl script</li>
+<li>Create new sco-checkin.tt template</li>
+<li>Make sco-checkin.pl accept barcodes and mark items as returned</li>
+<li>If item cannot be returned ( i.e. AddReturn returns 0 ) request that the item be taken to a library for returning.</li>
 </ol>
 
 	</article>
@@ -54,7 +58,7 @@
     
         <h1>Make a pledge!</h1>
         <form action="https://formspree.io/developments@bywatersolutions.com" method="POST">
-            <input type="hidden" name="project" value="Limit Item Types by Branch"/>
+            <input type="hidden" name="project" value="Self-Check module stand alone check-in"/>
 
             <p/>
             <label for="library">Library Name (required)</label>
