@@ -64,7 +64,7 @@ body {
 
 .jumbotron {
   background-color: LightSkyBlue;
-  background-image: url("/images/pixels.png");
+  /*  background-image: url('/images/pixels.png'); */
   background-repeat: repeat;
   overflow: hidden;
   text-align: center;
@@ -151,7 +151,7 @@ body {
 
 .footer {
   background-color: #333;
-  background-image: url("/images/pixels.png");
+  /*  background-image: url('/images/pixels.png'); */
   background-repeat: repeat;
   overflow: hidden;
   text-align: center;
