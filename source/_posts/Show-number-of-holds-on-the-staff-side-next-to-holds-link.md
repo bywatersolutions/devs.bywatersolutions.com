@@ -4,7 +4,7 @@ raised: 0
 supporters: 0
 date: 2016-11-30 11:18:09
 goal: 3000
-short_description: Goal of Development: Show number of holds on the staff side on the search results parenthetical next to 'holds' link
+short_description: Show number of holds on the staff side on the search results parenthetical next to 'holds' link
 tags: koha holds
 bug: 14876
 ---
