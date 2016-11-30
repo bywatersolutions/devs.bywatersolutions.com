@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Split borrowers permission into create/edit | ByWater Solutions - Development Crowdsourcing</title>
+  <title>Delete Bib After Moving Item | ByWater Solutions - Development Crowdsourcing</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" type="image/png" href="favicon.png"/>
   <link rel="stylesheet" href="/css/normalize.css">
@@ -24,18 +24,14 @@
 
   <section class="container">
 	<h2>
-		Split borrowers permission into create/edit
+		Delete Bib After Moving Item
 	</h2>
-	<p class="short-description">Add ability to control if a staff user can create new patrons vs editing existing patrons</p>
+	<p class="short-description">After moving an item to a different bib, have the system prompt you to delete the first bib.</p>
 
-    
-        <a href="https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=15788">
-            Koha Community Bug #15788
-        </a>
     
 
 	<h3>
-		Goal: $1750
+		Goal: $2000
 	</h3>
 	<h3>
 		Raised: $0
@@ -45,11 +41,13 @@
 	</h3>
 
 	<article class="article">
-		<h1 id="Goal"><a href="#Goal" class="headerlink" title="Goal"></a>Goal</h1><p>Add ability to control if a staff user can create new patrons vs editing existing patrons</p>
-<h1 id="Work-to-be-done"><a href="#Work-to-be-done" class="headerlink" title="Work to be done:"></a>Work to be done:</h1><ol>
-<li>Add new borrowers sub-permission ‘modify’</li>
-<li>Add new borrowers sub-permission ‘create’</li>
-<li>Implement new permissions for patron editor/creator</li>
+		<p><img src="image.png" alt="Screenshot"></p>
+<h1 id="Expected-outcome-of-development"><a href="#Expected-outcome-of-development" class="headerlink" title="Expected outcome of development"></a>Expected outcome of development</h1><ol>
+<li>After item is moved from Record A to Record B, check to see if any items remain on Record A</li>
+<li>If no items remain on Record A, add a new button to the move item confirmation screen for “Delete record item was moved from”</li>
+<li>Clicking the button will spawn an ajax process to delete the record</li>
+<li>The button will be replaced with a confirmation of the success or failure of the record deletion</li>
+<li>The librarian will then be able to use the “OK” or “Attach another item” buttons as usual.</li>
 </ol>
 
 	</article>
@@ -57,7 +55,7 @@
     
         <h1>Make a pledge!</h1>
         <form action="https://formspree.io/developments@bywatersolutions.com" method="POST">
-            <input type="hidden" name="project" value="Split borrowers permission into create/edit"/>
+            <input type="hidden" name="project" value="Delete Bib After Moving Item"/>
 
             <p/>
             <label for="library">Library Name (required)</label>

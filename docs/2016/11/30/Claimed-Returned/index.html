@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Split borrowers permission into create/edit | ByWater Solutions - Development Crowdsourcing</title>
+  <title>Claimed Returned | ByWater Solutions - Development Crowdsourcing</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" type="image/png" href="favicon.png"/>
   <link rel="stylesheet" href="/css/normalize.css">
@@ -24,40 +24,62 @@
 
   <section class="container">
 	<h2>
-		Split borrowers permission into create/edit
+		Claimed Returned
 	</h2>
-	<p class="short-description">Add ability to control if a staff user can create new patrons vs editing existing patrons</p>
+	<p class="short-description">This feature will add the ability for library staff to mark things as claimed returned when the patron states that he/she returned an item that is still showing as checked out.</p>
 
     
-        <a href="https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=15788">
-            Koha Community Bug #15788
+        <a href="https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=14697">
+            Koha Community Bug #14697
         </a>
     
 
 	<h3>
-		Goal: $1750
+		Goal: $8000
 	</h3>
 	<h3>
-		Raised: $0
+		Raised: $2500
 	</h3>
 	<h3>
-		Supporters: 0
+		Supporters: 2
 	</h3>
 
 	<article class="article">
-		<h1 id="Goal"><a href="#Goal" class="headerlink" title="Goal"></a>Goal</h1><p>Add ability to control if a staff user can create new patrons vs editing existing patrons</p>
-<h1 id="Work-to-be-done"><a href="#Work-to-be-done" class="headerlink" title="Work to be done:"></a>Work to be done:</h1><ol>
-<li>Add new borrowers sub-permission ‘modify’</li>
-<li>Add new borrowers sub-permission ‘create’</li>
-<li>Implement new permissions for patron editor/creator</li>
-</ol>
+		<ul>
+<li>mark an item claimed returned via circulation<ul>
+<li>a check box on list of checkouts on patron record and check out screen</li>
+</ul>
+</li>
+<li>gray out/disable ‘claimed return’ status from lost menu on item detail page – only perform this action from patron/circulation</li>
+<li>sys pref to ask ‘charge’, ‘don’t charge’, or ‘ask for confirmation’ when marking an item claimed returned</li>
+<li>sys pref to say what ‘lost’ status is to be used for ‘claimed returns’ If no value ‘claims returned’ is off</li>
+<li>sys pref to offer an option to block a patron, or alert staff somehow, after a set number of claimed returns</li>
+<li>remove item from patron’s current list of check outs<ul>
+<li>This should stop fines from accruing</li>
+</ul>
+</li>
+<li>keep basic information about the item on patron’s record so you can track how many times they’ve said ‘i returned that’<ul>
+<li>This should be a tab on the list of checkouts section on patron detail and checkout page all titles they have claimed in the past (even if they have since been returned or deleted)</li>
+<li>ex. [title 1] / checked out {date} / claimed {date} / not returned / notes<br>[title 2] / checked out {date} / claimed {date} / found {date} / notes</li>
+</ul>
+</li>
+<li>show as missing in the opac and claimed returned in the staff client</li>
+<li>be able to mark item as ‘found’ from claimed tab if item happens to be found<ul>
+<li>Offer options of “returned by patron” or “found in library” in a pull down to the side of every item that has been claimed.</li>
+</ul>
+</li>
+<li>claimed items should be easily distinguishable on staff side (compared to lost items)</li>
+<li>on patron check out under ‘Attention’ so alert ‘Patron has claimed returns’ that links to the ‘Claimed’ tab below</li>
+<li>next to each claimed item have a ‘notes’ field for anything</li>
+</ul>
+<p>Learn more and follow the discussion <a href="http://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=14697" target="_blank" rel="external">here</a>.</p>
 
 	</article>
 
     
         <h1>Make a pledge!</h1>
         <form action="https://formspree.io/developments@bywatersolutions.com" method="POST">
-            <input type="hidden" name="project" value="Split borrowers permission into create/edit"/>
+            <input type="hidden" name="project" value="Claimed Returned"/>
 
             <p/>
             <label for="library">Library Name (required)</label>
