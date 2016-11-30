@@ -4,6 +4,12 @@
 	</h2>
 	<p class="short-description"><%= page.short_description %></p>
 
+    <% if ( page.bug ) { %>
+        <a href="https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=<%= page.bug %>">
+            Koha Community Bug #<%= page.bug %>
+        </a>
+    <% } %>
+
 	<h3>
 		Goal: $<%= page.goal %>
 	</h3>

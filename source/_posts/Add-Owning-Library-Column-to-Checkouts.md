@@ -6,6 +6,7 @@ goal: 1000
 raised: 1000
 supporters: 1
 short_description: Include owning library column on the list of checkouts for patrons
+bug: 15975
 ---
 
 ![Screenshot](image.png)

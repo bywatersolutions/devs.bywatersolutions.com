@@ -6,6 +6,7 @@ goal: 4500
 raised: 1000
 supporters: 1
 short_description: Allow for the use of Emojis when tagging
+bug: 15885
 ---
 
 ![Screenshot](image.jpg)
