@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Add Owning Library Column to Checkouts | ByWater Solutions - Development Crowdsourcing</title>
+  <title>Search serials by barcode | ByWater Solutions - Development Crowdsourcing</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" type="image/png" href="favicon.png"/>
   <link rel="stylesheet" href="/css/normalize.css">
@@ -24,13 +24,13 @@
 
   <section class="container">
 	<h2>
-		Add Owning Library Column to Checkouts
+		Search serials by barcode
 	</h2>
-	<p class="short-description">Include owning library column on the list of checkouts for patrons</p>
+	<p class="short-description">Allow serials to be searched by barcode from the top search bar and the advanced searched</p>
 
     
-        <a href="https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=15975">
-            Koha Community Bug #15975
+        <a href="https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=14875">
+            Koha Community Bug #14875
         </a>
     
 
@@ -46,14 +46,12 @@
 
 	<article class="article">
 		<p><img src="image.png" alt="Screenshot"></p>
-<h1 id="Work-to-be-done"><a href="#Work-to-be-done" class="headerlink" title="Work to be done:"></a>Work to be done:</h1><ul>
-<li>Include owning library column on the list of checkouts for patrons.</li>
-<li>Pages needing enhancement:<ul>
-<li>cgi-bin/koha/circ/circulation.pl</li>
-<li>cgi-bin/koha/members/moremember.pl</li>
-</ul>
-</li>
-</ul>
+<h1 id="Work-to-be-done"><a href="#Work-to-be-done" class="headerlink" title="Work to be done"></a>Work to be done</h1><ol>
+<li>Modify quick search to add barcode field ( may need to make it hidden by default ala the patron quick search</li>
+<li>Modify the advanced search to add barcode field</li>
+<li>Modify serials-search.pl to accept barcode as a parameter</li>
+<li>Modify SearchSubscriptions to accept barcode as a parameter</li>
+</ol>
 
 	</article>
 
