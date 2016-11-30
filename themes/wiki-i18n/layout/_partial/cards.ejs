@@ -1,7 +1,7 @@
 <section class="container">
   <h3 class="cards-title"><%= title %></h3>
   <ul class="cards-content">
-  <% items.slice(0, 999).forEach(item => { %>
+  <% items.reverse().forEach(item => { %>
     <li class="card-wrap">
       <a class="card" href="<%= url_for(item.path) %>">
 

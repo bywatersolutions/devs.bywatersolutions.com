@@ -5,8 +5,9 @@
   <%- partial('_partial/header') %>
   <%- partial('_partial/jumbotron') %>
   <%- partial('_partial/cards', {
-    title: __('new'),
-    items: page.posts,
+    title: __('Projects'),
+/*  items: page.posts, */
+    items: site.posts,
   }) %>
   <%- partial('_partial/footer') %>
   <%- partial('_partial/scripts') %>
