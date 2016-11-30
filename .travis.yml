@@ -1,0 +1,26 @@
+language: node_js
+
+node_js:
+- "node"
+
+branches:
+  only:
+  - master
+
+before_install:
+- npm install -g hexo
+
+install:
+- npm install
+
+before_script:
+- git config --global user.name 'Kyle M Hall'
+- git config --global user.email 'kyle@bywatersolutions.com'
+
+script:
+- hexo generate
+
+after_success:
+- git add -A docs
+- git commit -m 'Site updated'
+- git push -q origin HEAD:master
