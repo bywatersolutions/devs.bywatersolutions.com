@@ -11,11 +11,4 @@
     var siteUrl = window.HEXO_DATA.config.url;
     window.open(googleSearchPrefix + 'site:' + siteUrl + '+' + text, '_blank');
   });
-
-  var select = document.getElementById('header-lang-select');
-  select.addEventListener('change', function (e) {
-    e.preventDefault();
-    var option = e.target.querySelector('[value="' + e.target.value + '"]');
-    location.href = option.dataset.href;
-  });
 }());
