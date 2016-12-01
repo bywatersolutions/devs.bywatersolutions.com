@@ -2,7 +2,7 @@
   <h3 class="cards-title"><%= title %></h3>
   <ul class="cards-content">
   <% items.reverse().forEach(item => { %>
-    <li class="card-wrap">
+    <li class="card-wrap wrapper">
       <a class="card" href="<%= url_for(item.path) %>">
 
         <h4 class="card-title"><%= item.title %></h4>
@@ -11,8 +11,10 @@
           <%= item.short_description %>
         <% } %>
 
-        <% if ( item.raised == item.goal ) { %>
-              <h1 class="funded">Funded!</h1>
+        <% if (item.in_koha_release) { %>
+            <div class="ribbon-wrapper-green"><div class="ribbon-green">In Koha <%= item.in_koha_release %></div></div>
+        <% } else if ( item.raised == item.goal ) { %>
+            <div class="ribbon-wrapper-green"><div class="ribbon-green">Funded!</div></div>
         <% } %>
 
       </a>
