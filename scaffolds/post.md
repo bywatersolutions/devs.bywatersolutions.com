@@ -1,10 +1,11 @@
 ---
 title: {{ title }}
 date: {{ date }}
-goal:
+short_description:
+goal: 0
 raised: 0
 supporters: 0
-short_description:
+in_koha_release:
 tags:
 bug:
 ---
