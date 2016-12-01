@@ -69,3 +69,11 @@ theme: wiki-i18n
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+sitemap:
+    path: sitemap.xml
+
+robotstxt:
+  useragent: "*"
+  disallow:
+  sitemap: /sitemap.xml
