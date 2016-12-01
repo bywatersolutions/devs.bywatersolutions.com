@@ -76,9 +76,10 @@ body {
       text-decoration: underline; }
 
 .jumbotron-title {
+  background-color: White;
   font-size: 4rem;
   margin: 6rem 0 3rem 0;
-  color: White; }
+  color: LightSkyBlue; }
 
 .jumbotron-star {
   vertical-align: middle; }
