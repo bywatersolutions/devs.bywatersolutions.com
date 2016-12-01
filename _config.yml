@@ -36,7 +36,7 @@ filename_case: 0
 render_drafts: false
 post_asset_folder: true
 relative_link: false
-future: true
+future: false
 highlight:
   enable: true
   line_number: true
@@ -63,7 +63,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: wiki-i18n
+theme: magnetic
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

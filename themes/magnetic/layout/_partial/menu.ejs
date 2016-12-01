@@ -1,0 +1,46 @@
+<!-- Navigation -->
+<header>
+    <div class="logo">
+        <a href="<%- config.root %>"><%- config.title || "" %></a>
+    </div><!-- end logo -->
+
+    <div id="menu_icon"></div>
+    <nav>
+        <ul>
+            <% for (var i in theme.menu){ %>
+            <li>
+                <a href="<%- url_for(theme.menu[i]) %>"><%= i %></a>
+            </li>
+            <% } %>
+        </ul>
+    </nav><!-- end navigation menu -->
+
+    <div class="footer clearfix">
+        <ul class="social clearfix">
+            <% if (theme.twitter_url) { %>
+                <li><a href="<%- theme.twitter_url %>" class="twitter" target="_blank" data-title="Twitter"></a></li>
+            <% } %>
+            <% if (theme.facebook_url) { %>
+                <li><a href="<%- theme.facebook_url %>" class="fb" target="_blank" data-title="Facebook"></a></li>
+            <% } %>
+            <% if (theme.behance_url) { %>
+                <li><a href="<%- theme.behance_url %>" class="behance" target="_blank" data-title="Behance"></a></li>
+            <% } %>
+            <% if (theme.googleplus_url) { %>
+                <li><a href="<%- theme.googleplus_url %>" class="google" target="_blank" data-title="Google+"></a></li>
+            <% } %>
+            <% if (theme.dribble_url) { %>
+                <li><a href="<%- theme.dribble_url %>" class="dribble" target="_blank" data-title="Dribble"></a></li>
+            <% } %>
+            <% if (theme.rss_url) { %>
+                <li><a href="<%- theme.rss_url %>" class="rss" target="_blank" data-title="RSS"></a></li>
+            <% } %>
+        </ul><!-- end social -->
+
+        <div class="rights">
+            <p>Copyright © 2014 magnetic.</p>
+            <p>Template by <a href="http://pixelhint.com/magnetic-free-html5-responsive-photography-website-template/">Pixelhint.com</a></p>
+            <p>Hexo Theme by <a href="http://www.codeblocq.com/">Jonathan K.</a></p>
+        </div><!-- end rights -->
+    </div ><!-- end footer -->
+</header><!-- end header -->
