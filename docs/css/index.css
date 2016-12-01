@@ -148,18 +148,6 @@ body {
   .word:hover {
     background: #e6e6e6; }
 
-.funding-pledged {
-  color: skyBlue;
-  font-size: 200%; }
-
-.funding-goal, .funding-backers-text {
-  color: black;
-  font-size: 75%; }
-
-.funding-backers-count {
-  color: black;
-  font-size: 200%; }
-
 .archive-title {
   margin: 2rem 0 0; }
 
