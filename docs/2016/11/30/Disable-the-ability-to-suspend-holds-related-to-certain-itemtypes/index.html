@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Limit Item Types by Branch | ByWater Solutions - Development Crowdsourcing</title>
+  <title>Disable the ability to suspend holds related to certain itemtypes | ByWater Solutions - Development Crowdsourcing</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" type="image/png" href="favicon.png"/>
   <link rel="stylesheet" href="/css/normalize.css">
@@ -24,37 +24,42 @@
 
   <section class="container">
 	<h2>
-		Limit Item Types by Branch
+		Disable the ability to suspend holds related to certain itemtypes
 	</h2>
-	<p class="short-description">This feature will allow the creation of branch specific item types.</p>
+	<p class="short-description">Disallow &quot;suspend hold&quot; on certain item types.</p>
 
     
 
 	<h3>
-		Goal: $3500
+		Goal: $4500
 	</h3>
 	<h3>
-		Raised: $1000
+		Raised: $1500
 	</h3>
 	<h3>
 		Supporters: 1
 	</h3>
 
 	<article class="article">
-		<p><img src="image.png" alt="Screenshot"></p>
+		<p>For example: If an item is an “ILL” the ability to suspend the hold should not be an option.</p>
 <h1 id="Work-to-be-done"><a href="#Work-to-be-done" class="headerlink" title="Work to be done"></a>Work to be done</h1><ol>
-<li>Create new table itemtype_branches similar to authorised_values_branches</li>
-<li>Add branch selector to itemtypes editor similar to branch limiter for authorised values</li>
-<li>Create subroutine to return only itemtypes for logged in branch</li>
-<li>Replace itemtype select in additem.pl with call to aforementioned subroutine</li>
+<li>Add new field suspend_hold_allowed to the itemtypes table, default of 1</li>
+<li>Reveal this field though the itemtypes editor</li>
+<li>Create a subroutine that will look up the field value for a given itemtype</li>
+<li>Create a subroutine that accepts a reserve and calls the previous sub to find the value for this reserve ( based on itype/itemtype )</li>
+<li>Add a test before suspending for each hold suspension request</li>
+<li>Add a new TT plugin that uses this subroutine to disable suspend buttons in the opac</li>
+<li>Add ability to suspend individual holds in the staff intranet</li>
+<li>Add ability to disable suspending of individual holds in the staff intranet</li>
 </ol>
+<p>The last two steps give librarians not only more flexibility for suspending holds, but give a visual indicator that a hold is not suspend-able.</p>
 
 	</article>
 
     
         <h1>Make a pledge!</h1>
         <form action="https://formspree.io/developments@bywatersolutions.com" method="POST">
-            <input type="hidden" name="project" value="Limit Item Types by Branch"/>
+            <input type="hidden" name="project" value="Disable the ability to suspend holds related to certain itemtypes"/>
 
             <p/>
             <label for="library">Library Name (required)</label>
