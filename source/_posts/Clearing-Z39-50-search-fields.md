@@ -4,7 +4,7 @@ goal: 1000
 raised: 1000
 supporters: 1
 date: 2016-12-01 06:42:53
-short_description:
+short_description: Add a button on the Z39.50 search form that will reset all the fields to blank.
 in_koha_release: 3.20
 tags:
 bug:
