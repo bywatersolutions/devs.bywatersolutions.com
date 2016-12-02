@@ -71,7 +71,7 @@ deploy:
   type:
 
 sitemap:
-    path: sitemap.xml
+  path: http://devs.bywatersolutions.com/sitemap.xml
 
 robotstxt:
   useragent: "*"
