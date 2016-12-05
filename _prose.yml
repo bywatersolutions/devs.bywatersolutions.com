@@ -40,7 +40,7 @@ prose:
           element: "number"
           label: "Supporters"
           help: "The number of libraries giving funds for this project"
-      - name: "date":
+      - name: "date1":
         field:
           element: "text"
           label: "Date to publish"
