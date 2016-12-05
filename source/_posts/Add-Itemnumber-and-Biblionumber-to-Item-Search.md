@@ -2,14 +2,16 @@
 title: Add Itemnumber and Biblionumber to Item Search
 raised: 0
 supporters: 0
-date: 2016-11-30 11:12:31
+date: 'Wed Nov 30 2016 06:12:31 GMT-0500 (EST)'
 goal: 3000
-short_description: Show and export itemnumber and biblionumber via the item search in the staff client.
-tags:
+short_description: >-
+  Show and export itemnumber and biblionumber via the item search in the staff
+  client.
 bug: 15787
+published: true
 ---
 
-![Screenshot](image.png)
+![Add-Itemnumber-and-Biblionumber-to-Item-Search.png]({{site.baseurl}}/source/images/Add-Itemnumber-and-Biblionumber-to-Item-Search.png)
 
 # Goal
 Show and export itemnumber and biblionumber via the item search in the staff client.
