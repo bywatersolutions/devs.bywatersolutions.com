@@ -2,14 +2,17 @@
 title: Delete Bib After Moving Item
 raised: 0
 supporters: 0
-date: 2016-11-30 12:25:04
+date: 'Wed Nov 30 2016 07:25:04 GMT-0500 (EST)'
 goal: 2000
-short_description: After moving an item to a different bib, have the system prompt you to delete the first bib.
+short_description: >-
+  After moving an item to a different bib, have the system prompt you to delete
+  the first bib.
 tags: koha delete bib biblio cataloguing record
-bug:
+bug: 0
+published: true
 ---
 
-![Screenshot](image.png)
+![Delete-Bib-After-Moving-Item.png]({{site.baseurl}}/source/images/Delete-Bib-After-Moving-Item.png)
 
 # Expected outcome of development
 
