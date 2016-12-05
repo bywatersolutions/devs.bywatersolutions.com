@@ -40,11 +40,6 @@ prose:
           element: "number"
           label: "Supporters"
           help: "The number of libraries giving funds for this project"
-      - name: "date":
-        field:
-          element: "text"
-          label: "Date to publish"
-          help: "Post will not show until after this date, leave as CURRENT_DATETIME and it will be published immediately"
     source/_static:
       - name: "layout"
         field:
