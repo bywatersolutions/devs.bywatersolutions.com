@@ -6,7 +6,7 @@ prose:
     - /_layouts
     - /_includes
   metadata:
-    _posts:
+    source/_posts:
       - name: "layout"
         field:
           element: "hidden"
@@ -21,7 +21,7 @@ prose:
               value: "apples"
             - name: "Bananas"
               value: "bananas"
-    _posts/static:
+    source/_static:
       - name: "layout"
         field:
           element: "hidden"
