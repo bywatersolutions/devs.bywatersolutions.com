@@ -1,15 +1,16 @@
 ---
 title: Add Owning Library Column to Checkouts
-date: 2016-11-30 06:38:37
+date: 'Wed Nov 30 2016 01:38:37 GMT-0500 (EST)'
 tags: koha checkouts
 goal: 1000
 raised: 1000
 supporters: 1
 short_description: Include owning library column on the list of checkouts for patrons
 bug: 15975
+published: true
 ---
 
-![Screenshot](image.png)
+![Add-Owning-Library-Column-to-Checkouts.png]({{site.baseurl}}/source/images/Add-Owning-Library-Column-to-Checkouts.png)
 
 # Work to be done:
 * Include owning library column on the list of checkouts for patrons.
