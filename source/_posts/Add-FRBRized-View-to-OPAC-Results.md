@@ -5,7 +5,7 @@ supporters: 2
 date: CURRENT_DATETIME
 goal: 30000
 short_description: >-
-  Add a view to the OPAC of multiple difference editions from multiple different
+  Add a view to the OPAC of multiple different editions from multiple different
   sources.
 tags: 'koha,opac,catalog,frbr,frbrized'
 bug: 0
