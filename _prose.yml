@@ -11,41 +11,6 @@ prose:
         field:
           element: "text"
           label: "Title"
-      - name: "short_description"
-        field:
-          element: "short_description"
-          label: "Short Description"
-      - name: "tags"
-        field:
-          element: "text"
-          label: "Add Tags"
-          placeholder: "Separate tages with commas"
-      - name: "bug"
-        field:
-          element: "bug"
-          label: "Community Bug #"
-          help: "Bug number for this project from bugs.koha-community.org"
-      - name: "raised"
-        field:
-          element: "number"
-          label: "Raised"
-          help: "Amount raised already"
-      - name: "goal"
-        field:
-          element: "number"
-          label: "Goal"
-          help: "Total amount needing funded"
-      - name: "supporters"
-        field:
-          element: "number"
-          label: "Supporters"
-          help: "The number of libraries giving funds for this project"
-      - name: "date":
-        field:
-          element: "text"
-          label: "Date to publish"
-          help: "Post will not show until after this date, leave as CURRENT_DATETIME and it will be published immediately"
-          value: "CURRENT_DATETIME"
     source/_static:
       - name: "layout"
         field:
