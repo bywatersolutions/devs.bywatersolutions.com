@@ -18,7 +18,12 @@ before_script:
 - git config --global user.email 'kyle@bywatersolutions.com'
 
 script:
+# prose.io mangles the image paths, fix it before generating the statis files
+- git grep -l "{{site.baseurl}}/source" | xargs sed -i 's|{{site.baseurl}}/source||g'
+# Short circuite infinite loop of site updating
 - git log -1 --pretty=oneline | grep 'Site auto-updated' || hexo generate
+# don't commit the de-mangling of the image paths for prose.io, we need them to be mangled for editing
+- git checkout source/
 - git add -A docs
 - git status
 - git log -1 --pretty=oneline | grep 'Site auto-updated' || git commit -m 'Site auto-updated'
