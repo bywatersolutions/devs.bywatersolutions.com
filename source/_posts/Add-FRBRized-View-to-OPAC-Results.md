@@ -2,11 +2,14 @@
 title: Add FRBRized View to OPAC Results
 raised: 2500
 supporters: 2
-date: 2016-11-30 11:55:46
+date: {}
 goal: 30000
-short_description: Add a view to the OPAC of multiple difference editions from multiple different sources.
-tags: koha opac catalog frbr frbrized
-bug: 
+short_description: >-
+  Add a view to the OPAC of multiple difference editions from multiple different
+  sources.
+tags: 'koha,opac,catalog,frbr,frbrized'
+bug: null
+published: true
 ---
 
 ![Screenshot](image.png)
