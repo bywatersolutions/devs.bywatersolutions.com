@@ -1,5 +1,5 @@
 {
-  "name": "hexo-site",
+  "name": "devs-bywatersolutions-com",
   "version": "0.0.0",
   "private": true,
   "hexo": {
@@ -19,8 +19,5 @@
     "hexo-renderer-scss": "^1.0.2",
     "hexo-renderer-stylus": "^0.3.1",
     "hexo-server": "^0.2.0"
-  },
-  "devDependencies": {
-    "hexo-generator-archive-alphabet-i18n": "^0.1.0"
   }
 }
