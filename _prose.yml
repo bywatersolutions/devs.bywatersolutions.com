@@ -1,11 +1,11 @@
 prose:
-  rooturl: 'source/_posts'
+  rooturl: '/source/_posts'
   media: 'source/images'
   ignore:
     - _config.yml
-    - scaffolds
-    - themes
-	- docs
+    - /scaffolds
+    - /themes
+	- /docs
   metadata:
     _posts:
       - name: "layout"
