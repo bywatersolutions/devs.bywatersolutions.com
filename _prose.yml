@@ -24,7 +24,7 @@ prose:
         field:
           element: "bug"
           label: "Community Bug #"
-          help: "Bug number for this project from bugs.koha-community.org"
+          help: "Bug number for this project from bugs.koha-community.org""
       - name: "raised"
         field:
           element: "number"
