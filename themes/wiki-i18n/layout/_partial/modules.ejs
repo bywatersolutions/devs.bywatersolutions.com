@@ -7,13 +7,19 @@
     modules = Object.keys(modules);
 %>
 
-Limit to:
-<% modules.forEach( m => { %>
-    <a href="#" class="module_filter" id="module_filter-<%=m %>">
-        <%=m %>
-    </a>
-    &nbsp;
-<% }); %>
+<ul class="nav nav-pills">
+    <li class="nav-item">
+        <a class="nav-link active module_filter" id="module_filter-ALL" href="#">All categories</a>
+    </li>
+
+    <% modules.forEach( m => { %>
+        <li class="nav-item">
+            <a href="#" class="nav-link module_filter" id="module_filter-<%=m %>">
+                <%=m %>
+            </a>
+        </li>
+    <% }); %>
+</ul>
 
 <script type="text/javascript">
 (function() {
@@ -27,14 +33,20 @@ function filterCategories() {
     const parts = this.id.split("-");
     parts.shift();
     const module = parts.join("-");
-    const moduleClass = "module-" + module;
-    console.log(moduleClass);
+    let moduleClass = "module-" + module;
+
+    let links = document.getElementsByClassName('nav-link');
+    Array.from(links).forEach( link => {
+        link.classList.remove("active");
+    });
+    this.classList.add("active");
 
     let cards = document.getElementsByClassName('card-wrap');
     for ( let i = 0; i < cards.length; i++ ) {
         cards[i].style.display = 'none';
     }
     
+    if ( module == "ALL" ) moduleClass = "card-wrap";
     cards = document.getElementsByClassName( moduleClass );
     for ( let i = 0; i < cards.length; i++ ) {
         cards[i].style.display = 'block';

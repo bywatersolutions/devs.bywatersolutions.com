@@ -1,23 +1,24 @@
 <section class="container">
-  <h3 class="cards-title"><%= title %></h3>
   <ul class="cards-content">
   <% items.reverse().forEach(item => { %>
     <li class="card-wrap wrapper module-<%= item.module %>">
-      <a class="card" href="<%= url_for(item.path) %>">
+      <div class="card">
+        <div class="card-block">
+            <h2 class="card-title"><%= item.title %></h2>
 
-        <h4 class="card-title"><%= item.title %></h4>
+            <% if (item.short_description) { %>
+              <h5><%= item.short_description %></h5>
+            <% } %>
 
-        <% if (item.short_description) { %>
-          <%= item.short_description %>
-        <% } %>
+            <a href="<%= url_for(item.path) %>" class="btn btn-primary">Details</a>
 
-        <% if (item.in_koha_release) { %>
-            <div class="ribbon-wrapper-green"><div class="ribbon-green">In Koha <%= item.in_koha_release %></div></div>
-        <% } else if ( item.raised == item.goal ) { %>
-            <div class="ribbon-wrapper-green"><div class="ribbon-green">Funded!</div></div>
-        <% } %>
+            <% if (item.in_koha_release) { %>
+                <div class="ribbon-wrapper-green"><div class="ribbon-green">Koha <%= item.in_koha_release %></div></div>
+            <% } else if ( item.raised == item.goal ) { %>
+                <div class="ribbon-wrapper-green"><div class="ribbon-green">Funded!</div></div>
+            <% } %>
 
-      </a>
+      </div>
     </li>
   <% }) %>
   <!-- HIDE SHOW MORE FOR NOW
