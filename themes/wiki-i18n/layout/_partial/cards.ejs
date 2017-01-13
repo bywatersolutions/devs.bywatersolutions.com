@@ -2,7 +2,7 @@
   <h3 class="cards-title"><%= title %></h3>
   <ul class="cards-content">
   <% items.reverse().forEach(item => { %>
-    <li class="card-wrap wrapper">
+    <li class="card-wrap wrapper module-<%= item.module %>">
       <a class="card" href="<%= url_for(item.path) %>">
 
         <h4 class="card-title"><%= item.title %></h4>

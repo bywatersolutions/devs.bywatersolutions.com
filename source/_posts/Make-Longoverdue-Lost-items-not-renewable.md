@@ -7,7 +7,7 @@ goal: 1500
 short_description: Prevent renewals based on item table values.
 tags: koha renew renewal renewals
 bug: 15494
-moudle: Circulation
+module: Circulation
 ---
 
 This development would allow a library to prevent the renewal of items based on the values of any field in the items table including but not limited to any itemlost value.

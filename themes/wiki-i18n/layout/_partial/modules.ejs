@@ -1,0 +1,43 @@
+<%
+    let modules = [];
+    items.reverse().forEach(item => {
+        modules[item.module] = 1;
+    });
+
+    modules = Object.keys(modules);
+%>
+
+Limit to:
+<% modules.forEach( m => { %>
+    <a href="#" class="module_filter" id="module_filter-<%=m %>">
+        <%=m %>
+    </a>
+    &nbsp;
+<% }); %>
+
+<script type="text/javascript">
+(function() {
+    const links = document.getElementsByClassName("module_filter");
+    for ( let i = 0; i < links.length; i++ ) {
+        links[i].addEventListener("click", filterCategories );
+    }
+})();
+
+function filterCategories() {
+    const parts = this.id.split("-");
+    parts.shift();
+    const module = parts.join("-");
+    const moduleClass = "module-" + module;
+    console.log(moduleClass);
+
+    let cards = document.getElementsByClassName('card-wrap');
+    for ( let i = 0; i < cards.length; i++ ) {
+        cards[i].style.display = 'none';
+    }
+    
+    cards = document.getElementsByClassName( moduleClass );
+    for ( let i = 0; i < cards.length; i++ ) {
+        cards[i].style.display = 'block';
+    }
+}
+</script>
