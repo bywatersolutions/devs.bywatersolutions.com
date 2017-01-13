@@ -8,6 +8,7 @@ short_description: Add a button on the Z39.50 search form that will reset all th
 in_koha_release: 3.20
 tags:
 bug:
+module: Cataloging
 ---
 
 When doing multiple z39.50 searches one after another, it would be helpful if there was a way to clear all the entries in the z39.50 in one fell swoop instead of having to remove each field individually. This development will add a button on the Z39.50 search form that will reset all the fields to blank.

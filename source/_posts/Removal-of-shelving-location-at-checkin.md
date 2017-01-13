@@ -7,6 +7,7 @@ goal: 1500
 short_description: Shelving locations need to ability to be removed upon checkin.
 tags:
 bug:
+module: Circulation
 ---
 
 Shelving locations need to ability to be removed upon checkin.

@@ -7,6 +7,7 @@ goal: 2500
 short_description: Show holding counts when searching Z39.50 targets
 tags: koha holds z39.50
 bug: 15499
+module: Cataloging
 ---
 
 ![Screenshot](image.png)

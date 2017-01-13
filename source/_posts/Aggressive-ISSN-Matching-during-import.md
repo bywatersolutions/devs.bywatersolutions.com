@@ -7,6 +7,7 @@ goal: 1500
 short_description: When importing records using the record import tool, it would be nice to be able to aggressively match on ISSN.
 tags:
 bug:
+module: Cataloging
 ---
 
 When importing records using the record import tool, it would be nice to be able to match on ISSN.  This development will be similar to the ISBN matching (http://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=10500) that was done previously but change to match on ISSN.

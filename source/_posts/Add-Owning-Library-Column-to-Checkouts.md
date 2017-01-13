@@ -8,6 +8,7 @@ supporters: 1
 short_description: Include owning library column on the list of checkouts for patrons
 bug: 15975
 published: true
+module: Circulation
 ---
 
 ![Add-Owning-Library-Column-to-Checkouts.png]({{site.baseurl}}/source/images/Add-Owning-Library-Column-to-Checkouts.png)

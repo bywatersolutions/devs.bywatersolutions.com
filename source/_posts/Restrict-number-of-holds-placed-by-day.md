@@ -7,6 +7,7 @@ goal: 4000
 short_description: Add the ability to restrict the number of holds placed per day up to the maximum number of holds in circ/hold rules.
 tags: koha hold limit restrict limits daily day
 bug:
+module: Holds
 ---
 
 # Example

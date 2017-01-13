@@ -10,6 +10,7 @@ short_description: >-
 tags: koha hold status
 bug: 15505
 published: true
+module: Holds
 ---
 
 ![Mark-Hold-Items-On-hold-instead-of-Available.png]({{site.baseurl}}/source/images/Mark-Hold-Items-On-hold-instead-of-Available.png)

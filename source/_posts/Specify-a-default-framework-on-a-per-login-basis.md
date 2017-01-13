@@ -7,6 +7,7 @@ goal: 3000
 short_description: Specify a default framework on a per-login basis
 tags: koha marc framework frameworks
 bug: 15786
+module: Cataloging
 ---
 
 ![Screenshot](image.png)

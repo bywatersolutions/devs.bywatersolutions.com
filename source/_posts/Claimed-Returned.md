@@ -7,6 +7,7 @@ goal: 8000
 short_description: This feature will add the ability for library staff to mark things as claimed returned when the patron states that he/she returned an item that is still showing as checked out.
 tags: koha claims returned
 bug: 14697
+module: Circulation
 ---
 
 * mark an item claimed returned via circulation

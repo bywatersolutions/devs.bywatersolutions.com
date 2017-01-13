@@ -7,6 +7,7 @@ raised: 0
 supporters: 0
 short_description: Add ability to control if an individual staff user can override checkout restriction based on noissuescharge
 bug: 15789
+module: Circulation
 ---
 
 # Goal of development:

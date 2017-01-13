@@ -7,6 +7,7 @@ goal: 1000
 short_description: Add the ability to enter a number for additional copies of items instead of hitting "add" repeatably in a basket.
 tags:
 bug:
+module: Cataloging
 ---
 
 Add the ability to enter a number for additional copies of items instead of hitting “add” repeatably in a basket.  This development will add a new form to the page where you will be able to specify how many copies of the item to be added.

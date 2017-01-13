@@ -7,6 +7,7 @@ goal: 2000
 short_description: Add a way to restrict holds for patrons who are at or over their circulation limit.
 tags: koha circulation debar debarment restriction restrictions
 bug:
+module: Circulation
 ---
 
 This development will add a way to restrict holds for patrons who are at or over their circulation limit by:

@@ -7,6 +7,7 @@ goal: 2500
 short_description: When printing a lists, you can only print one page at a time. This development will allow you to print all pages of a list at once.
 tags:
 bug:
+module: Catalog
 ---
 
 When printing a lists, you can only print one page at a time. This development will allow you to print all pages of a list at once.

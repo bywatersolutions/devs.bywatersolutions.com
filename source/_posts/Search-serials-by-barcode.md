@@ -7,6 +7,7 @@ goal: 1000
 short_description: Allow serials to be searched by barcode from the top search bar and the advanced searched
 tags: koha serials
 bug: 14875
+module: Serials
 ---
 
 ![Screenshot](image.png)

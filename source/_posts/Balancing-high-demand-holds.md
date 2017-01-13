@@ -7,6 +7,7 @@ goal: 2500
 short_description: Add options to the decreaseLoanHighHolds preferences so that users have the ability to choose A) based on the number of holds, as Koha currently does, or have the ability to B) set a number of holds past the number of holdable items in that record
 tags:
 bug:
+module: Holds
 ---
 
 This development will add an option to the decreaseLoanHighHolds preferences so that users have the ability to choose A) based on the number of holds, as Koha currently does, or have the ability to B) set a number of holds past the number of holdable items in that record.

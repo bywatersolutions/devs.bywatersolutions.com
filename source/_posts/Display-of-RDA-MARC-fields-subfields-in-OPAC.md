@@ -7,6 +7,7 @@ goal: 1000
 short_description: Additional RDA MARC fields/subfields in and the order which the fields/subfields should be displayed.
 tags:
 bug:
+module: Catalog
 ---
 
 Additional MARC fields/subfields in and the order which the fields/subfields should be displayed.  Depending on the field it should either be displayed in the brief view (ie, list of search results) and/or the full record view.  This development will create a custom XSLT that will include the addition of the MARC tags/subfields to meet the new RDA standard:

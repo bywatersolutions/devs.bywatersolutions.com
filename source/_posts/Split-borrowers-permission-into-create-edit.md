@@ -7,6 +7,7 @@ tags:
 goal: 1750
 short_description: Add ability to control if a staff user can create new patrons vs editing existing patrons
 bug: 15788
+module: Patrons
 ---
 
 # Goal

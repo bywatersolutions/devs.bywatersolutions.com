@@ -7,6 +7,7 @@ goal: 3000
 short_description: Show number of holds on the staff side on the search results parenthetical next to 'holds' link
 tags: koha holds
 bug: 14876
+module: Holds
 ---
 
 ![Screenshot](image.png)

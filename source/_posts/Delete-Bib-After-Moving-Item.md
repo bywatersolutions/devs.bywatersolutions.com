@@ -10,6 +10,7 @@ short_description: >-
 tags: koha delete bib biblio cataloguing record
 bug: 0
 published: true
+module: Cataloging
 ---
 
 ![Delete-Bib-After-Moving-Item.png]({{site.baseurl}}/source/images/Delete-Bib-After-Moving-Item.png)

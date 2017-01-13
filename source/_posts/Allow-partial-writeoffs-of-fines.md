@@ -8,6 +8,7 @@ short_description: Allow a partial writeoff in the same manner as a partial paym
 tags: koha circulation fine fines writeoff writeoffs
 bug: 11210
 published: true
+module: Accounting
 ---
 
 ![Allow-partial-writeoffs-of-fines.png]({{site.baseurl}}/source/images/Allow-partial-writeoffs-of-fines.png))

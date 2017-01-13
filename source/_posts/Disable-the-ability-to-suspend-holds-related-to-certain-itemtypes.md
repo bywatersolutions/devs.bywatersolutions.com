@@ -7,6 +7,7 @@ goal: 4500
 short_description: Disallow "suspend hold" on certain item types.
 tags: koha hold holds suspend
 bug:
+module: Holds
 ---
 
 For example: If an item is an “ILL” the ability to suspend the hold should not be an option.

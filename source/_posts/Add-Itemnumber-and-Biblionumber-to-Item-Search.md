@@ -9,6 +9,7 @@ short_description: >-
   client.
 bug: 15787
 published: true
+module: Catalog
 ---
 
 ![Add-Itemnumber-and-Biblionumber-to-Item-Search.png]({{site.baseurl}}/source/images/Add-Itemnumber-and-Biblionumber-to-Item-Search.png)

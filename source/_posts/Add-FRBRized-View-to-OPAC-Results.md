@@ -9,7 +9,7 @@ short_description: >-
   sources.
 tags: 'koha,opac,catalog,frbr,frbrized'
 bug: 0
-published: true
+module: Catalog
 ---
 
 ![Add-FRBRized-View-to-OPAC-Results.png]({{site.baseurl}}/source/images/Add-FRBRized-View-to-OPAC-Results.png)

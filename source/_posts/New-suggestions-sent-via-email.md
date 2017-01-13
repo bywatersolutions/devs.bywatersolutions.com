@@ -7,6 +7,7 @@ goal: 2000
 short_description: Allow email alerts to be sent to librarians when new suggestions are created by patrons.
 tags: koha acquisitions suggestions email
 bug: 5770
+module: Acquisitions
 ---
 
 # Goal

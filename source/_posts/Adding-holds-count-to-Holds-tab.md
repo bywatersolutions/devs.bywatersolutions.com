@@ -8,6 +8,7 @@ short_description: Adding holds count to 'Holds' tab
 tags: hold count number holds reserve reserves
 bug: 0
 published: true
+module: Holds
 ---
 
 ![Adding-holds-count-to-Holds-tab.png]({{site.baseurl}}/source/images/Adding-holds-count-to-Holds-tab.png)

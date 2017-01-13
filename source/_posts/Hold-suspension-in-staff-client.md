@@ -7,6 +7,7 @@ goal: 1000
 short_description: Holds suspension on single items rather than entire list on a patron record from the staff client.
 tags:
 bug:
+module: Holds
 ---
 
 Currently, patrons are able to suspend individual holds in the OPAC; however staff can only cancel holds for the patrons from within the staff client. This development would give staff the same functionality as patrons in order to assist them.
