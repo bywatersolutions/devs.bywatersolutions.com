@@ -1,6 +1,6 @@
 ---
 title: Make Longoverdue/Lost items not renewable
-raised: 0
+raised: 1500
 supporters: 1
 date: 2016-11-30 14:53:02
 goal: 1500
