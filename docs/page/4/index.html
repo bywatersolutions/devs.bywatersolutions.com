@@ -23,8 +23,10 @@
   <header class="header">
   <div class="container">
     <div class="header-content">
-      <img style="vertical-align:middle" src="/images/logo.png" height="25" width="25" />
-      <h1 class="header-logo">ByWater Solutions</h1>
+      <a href="/">
+          <img style="vertical-align:middle" src="/images/logo.png" height="25" width="25" />
+          <h1 class="header-logo">ByWater Solutions</h1>
+      </a>
       <form id="header-search-form" class="header-search-form">
         <input id="header-search-input" class="header-search-input" type="text" placeholder="Search..."/>
       </form>
@@ -43,6 +45,7 @@
 
   
 
+<section class="container">
 <ul class="nav nav-pills">
     <li class="nav-item">
         <a class="nav-link active module_filter" id="module_filter-ALL" href="#">All categories</a>
@@ -62,12 +65,6 @@
         </li>
     
         <li class="nav-item">
-            <a href="#" class="nav-link module_filter" id="module_filter-Serials">
-                Serials
-            </a>
-        </li>
-    
-        <li class="nav-item">
             <a href="#" class="nav-link module_filter" id="module_filter-Holds">
                 Holds
             </a>
@@ -76,6 +73,12 @@
         <li class="nav-item">
             <a href="#" class="nav-link module_filter" id="module_filter-Self-Checkout">
                 Self-Checkout
+            </a>
+        </li>
+    
+        <li class="nav-item">
+            <a href="#" class="nav-link module_filter" id="module_filter-Serials">
+                Serials
             </a>
         </li>
     
@@ -110,6 +113,7 @@
         </li>
     
 </ul>
+</section>
 
 <script type="text/javascript">
 (function() {
@@ -179,24 +183,6 @@ function filterCategories() {
       </div>
     </li>
   
-    <li class="card-wrap wrapper module-Serials">
-      <div class="card">
-        <div class="card-block">
-            <h2 class="card-title">Search serials by barcode</h2>
-
-            
-              <h5>Allow serials to be searched by barcode from the top search bar and the advanced searched</h5>
-            
-
-            <a href="/2016/11/30/Search-serials-by-barcode/" class="btn btn-primary">Details</a>
-
-            
-                <div class="ribbon-wrapper-green"><div class="ribbon-green">Funded!</div></div>
-            
-
-      </div>
-    </li>
-  
     <li class="card-wrap wrapper module-Holds">
       <div class="card">
         <div class="card-block">
@@ -232,6 +218,22 @@ function filterCategories() {
     <li class="card-wrap wrapper module-Self-Checkout">
       <div class="card">
         <div class="card-block">
+            <h2 class="card-title">Self-check module highlighting</h2>
+
+            
+              <h5>Ability for self-check users to distinguish newly checked out books from currently checked out books.</h5>
+            
+
+            <a href="/2016/12/01/Self-check-module-highlighting/" class="btn btn-primary">Details</a>
+
+            
+
+      </div>
+    </li>
+  
+    <li class="card-wrap wrapper module-Self-Checkout">
+      <div class="card">
+        <div class="card-block">
             <h2 class="card-title">Self-Check module stand alone check-in</h2>
 
             
@@ -245,17 +247,19 @@ function filterCategories() {
       </div>
     </li>
   
-    <li class="card-wrap wrapper module-Self-Checkout">
+    <li class="card-wrap wrapper module-Serials">
       <div class="card">
         <div class="card-block">
-            <h2 class="card-title">Self-check module highlighting</h2>
+            <h2 class="card-title">Search serials by barcode</h2>
 
             
-              <h5>Ability for self-check users to distinguish newly checked out books from currently checked out books.</h5>
+              <h5>Allow serials to be searched by barcode from the top search bar and the advanced searched</h5>
             
 
-            <a href="/2016/12/01/Self-check-module-highlighting/" class="btn btn-primary">Details</a>
+            <a href="/2016/11/30/Search-serials-by-barcode/" class="btn btn-primary">Details</a>
 
+            
+                <div class="ribbon-wrapper-green"><div class="ribbon-green">Funded!</div></div>
             
 
       </div>
@@ -329,16 +333,16 @@ function filterCategories() {
       </div>
     </li>
   
-    <li class="card-wrap wrapper module-Acquisitions">
+    <li class="card-wrap wrapper module-Circulation">
       <div class="card">
         <div class="card-block">
-            <h2 class="card-title">New suggestions sent via email</h2>
+            <h2 class="card-title">New permission for fine overrides</h2>
 
             
-              <h5>Allow email alerts to be sent to librarians when new suggestions are created by patrons.</h5>
+              <h5>Add ability to control if an individual staff user can override checkout restriction based on noissuescharge</h5>
             
 
-            <a href="/2016/11/30/New-suggestions-sent-via-email/" class="btn btn-primary">Details</a>
+            <a href="/2016/11/30/New-permission-for-fine-overrides/" class="btn btn-primary">Details</a>
 
             
 
@@ -363,16 +367,16 @@ function filterCategories() {
       </div>
     </li>
   
-    <li class="card-wrap wrapper module-Circulation">
+    <li class="card-wrap wrapper module-Acquisitions">
       <div class="card">
         <div class="card-block">
-            <h2 class="card-title">New permission for fine overrides</h2>
+            <h2 class="card-title">New suggestions sent via email</h2>
 
             
-              <h5>Add ability to control if an individual staff user can override checkout restriction based on noissuescharge</h5>
+              <h5>Allow email alerts to be sent to librarians when new suggestions are created by patrons.</h5>
             
 
-            <a href="/2016/11/30/New-permission-for-fine-overrides/" class="btn btn-primary">Details</a>
+            <a href="/2016/11/30/New-suggestions-sent-via-email/" class="btn btn-primary">Details</a>
 
             
 
@@ -411,22 +415,6 @@ function filterCategories() {
       </div>
     </li>
   
-    <li class="card-wrap wrapper module-Tags">
-      <div class="card">
-        <div class="card-block">
-            <h2 class="card-title">Enable Emoji Support for Tags</h2>
-
-            
-              <h5>Allow for the use of Emojis when tagging</h5>
-            
-
-            <a href="/2016/11/30/Enable-Emoji-Support-for-Tags/" class="btn btn-primary">Details</a>
-
-            
-
-      </div>
-    </li>
-  
     <li class="card-wrap wrapper module-Circulation">
       <div class="card">
         <div class="card-block">
@@ -438,6 +426,8 @@ function filterCategories() {
 
             <a href="/2016/11/30/Make-Longoverdue-Lost-items-not-renewable/" class="btn btn-primary">Details</a>
 
+            
+                <div class="ribbon-wrapper-green"><div class="ribbon-green">Funded!</div></div>
             
 
       </div>
@@ -477,6 +467,22 @@ function filterCategories() {
       </div>
     </li>
   
+    <li class="card-wrap wrapper module-Tags">
+      <div class="card">
+        <div class="card-block">
+            <h2 class="card-title">Enable Emoji Support for Tags</h2>
+
+            
+              <h5>Allow for the use of Emojis when tagging</h5>
+            
+
+            <a href="/2016/11/30/Enable-Emoji-Support-for-Tags/" class="btn btn-primary">Details</a>
+
+            
+
+      </div>
+    </li>
+  
     <li class="card-wrap wrapper module-Catalog">
       <div class="card">
         <div class="card-block">
@@ -490,22 +496,6 @@ function filterCategories() {
 
             
                 <div class="ribbon-wrapper-green"><div class="ribbon-green">Funded!</div></div>
-            
-
-      </div>
-    </li>
-  
-    <li class="card-wrap wrapper module-Accounting">
-      <div class="card">
-        <div class="card-block">
-            <h2 class="card-title">Allow partial writeoffs of fines</h2>
-
-            
-              <h5>Allow a partial writeoff in the same manner as a partial payment</h5>
-            
-
-            <a href="/2016/11/30/Allow-partial-writeoffs-of-fines/" class="btn btn-primary">Details</a>
-
             
 
       </div>
@@ -595,6 +585,22 @@ function filterCategories() {
       </div>
     </li>
   
+    <li class="card-wrap wrapper module-Accounting">
+      <div class="card">
+        <div class="card-block">
+            <h2 class="card-title">Allow partial writeoffs of fines</h2>
+
+            
+              <h5>Allow a partial writeoff in the same manner as a partial payment</h5>
+            
+
+            <a href="/2016/11/30/Allow-partial-writeoffs-of-fines/" class="btn btn-primary">Details</a>
+
+            
+
+      </div>
+    </li>
+  
     <li class="card-wrap wrapper module-Cataloging">
       <div class="card">
         <div class="card-block">
@@ -674,7 +680,7 @@ function filterCategories() {
               <h5>Add a view to the OPAC of multiple different editions from multiple different sources.</h5>
             
 
-            <a href="/2017/01/13/Add-FRBRized-View-to-OPAC-Results/" class="btn btn-primary">Details</a>
+            <a href="/2017/02/07/Add-FRBRized-View-to-OPAC-Results/" class="btn btn-primary">Details</a>
 
             
 
@@ -731,7 +737,7 @@ function filterCategories() {
 
 <script>
   window.HEXO_DATA = {
-    config: {"title":"ByWater Solutions - Development Crowdsourcing","subtitle":null,"description":"Crowdsource developments for Koha, Libki and more!","author":"Kyle M Hall","language":"en","timezone":null,"url":"http://devs.bywatersolutions.com","root":"/","permalink":":year/:month/:day/:title/","permalink_defaults":null,"source_dir":"source","public_dir":"docs","tag_dir":"tags","archive_dir":"archives","category_dir":"categories","code_dir":"downloads/code","i18n_dir":":lang","skip_render":null,"new_post_name":":title.md","default_layout":"post","titlecase":false,"external_link":true,"filename_case":0,"render_drafts":false,"post_asset_folder":true,"relative_link":false,"future":true,"highlight":{"enable":true,"auto_detect":false,"line_number":true,"tab_replace":null},"default_category":"uncategorized","category_map":null,"tag_map":null,"date_format":"YYYY-MM-DD","time_format":"HH:mm:ss","per_page":10,"pagination_dir":"page","theme":"wiki-i18n","deploy":{"type":null},"sitemap":{"path":"http://devs.bywatersolutions.com/sitemap.xml"},"robotstxt":{"useragent":"*","disallow":null,"sitemap":"/sitemap.xml"},"archive_generator":{"per_page":10,"yearly":true,"monthly":true,"daily":false},"category_generator":{"per_page":10},"index_generator":{"per_page":10,"order_by":"-date"},"tag_generator":{"per_page":10},"marked":{"gfm":true,"pedantic":false,"sanitize":false,"tables":true,"breaks":true,"smartLists":true,"smartypants":true},"server":{"port":4000,"log":false,"ip":"0.0.0.0","compress":false,"header":true}},
+    config: {"title":"ByWater Solutions - Development Crowdsourcing","subtitle":null,"description":"Crowdsource developments for Koha, Libki and more!","author":"Kyle M Hall","language":"en","timezone":null,"url":"http://devs.bywatersolutions.com","root":"/","permalink":":year/:month/:day/:title/","permalink_defaults":null,"source_dir":"source","public_dir":"docs","tag_dir":"tags","archive_dir":"archives","category_dir":"categories","code_dir":"downloads/code","i18n_dir":":lang","skip_render":null,"new_post_name":":title.md","default_layout":"post","titlecase":false,"external_link":true,"filename_case":0,"render_drafts":false,"post_asset_folder":true,"relative_link":false,"future":true,"highlight":{"enable":true,"auto_detect":false,"line_number":true,"tab_replace":null},"default_category":"uncategorized","category_map":null,"tag_map":null,"date_format":"YYYY-MM-DD","time_format":"HH:mm:ss","per_page":10,"pagination_dir":"page","theme":"wiki-i18n","deploy":{"type":null},"sitemap":{"path":"http://devs.bywatersolutions.com/sitemap.xml"},"robotstxt":{"useragent":"*","disallow":null,"sitemap":"/sitemap.xml"},"archive_generator":{"per_page":10,"yearly":true,"monthly":true,"daily":false},"category_generator":{"per_page":10},"tag_generator":{"per_page":10},"index_generator":{"per_page":10,"order_by":"-date"},"marked":{"gfm":true,"pedantic":false,"sanitize":false,"tables":true,"breaks":true,"smartLists":true,"smartypants":true},"server":{"port":4000,"log":false,"ip":"0.0.0.0","compress":false,"header":true}},
   };
 </script>
 <script src="/js/header.js"></script>
