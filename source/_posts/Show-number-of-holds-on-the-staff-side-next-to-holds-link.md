@@ -1,13 +1,16 @@
 ---
 title: Show number of holds on the staff side next to 'holds' link
-raised: 0
+raised: 3000
 supporters: 0
-date: 2016-11-30 11:18:09
+date: 'Wed Nov 30 2016 06:18:09 GMT-0500 (EST)'
 goal: 3000
-short_description: Show number of holds on the staff side on the search results parenthetical next to 'holds' link
+short_description: >-
+  Show number of holds on the staff side on the search results parenthetical
+  next to 'holds' link
 tags: koha holds
 bug: 14876
 module: Holds
+published: true
 ---
 
 ![Screenshot](image.png)
