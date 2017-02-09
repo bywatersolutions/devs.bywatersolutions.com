@@ -1,7 +1,7 @@
 ---
 title: Show number of holds on the staff side next to 'holds' link
 raised: 3000
-supporters: 0
+supporters: 1 
 date: 'Wed Nov 30 2016 06:18:09 GMT-0500 (EST)'
 goal: 3000
 short_description: >-
