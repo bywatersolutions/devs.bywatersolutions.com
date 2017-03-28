@@ -1,12 +1,12 @@
 ---
 title: New notice for patrons that owe money
-raised: 0
-supporters: 0
+raised: 2000
+supporters: 1
 date: 2016-11-30 11:46:07
 goal: 2000
 short_description: The goal of this development is to be able to send a notice to patrons that owe money on a monthly basis
 tags: koha notices notice fine fines fee fees
-bug: 15507
+bug: 16149
 module: Accounting
 ---
 
