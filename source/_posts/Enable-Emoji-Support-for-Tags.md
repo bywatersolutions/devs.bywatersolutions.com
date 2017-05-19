@@ -3,8 +3,8 @@ title: Enable Emoji Support for Tags
 date: 'Wed Nov 30 2016 01:20:30 GMT-0500 (EST)'
 tags: koha emoji tags
 goal: 4500
-raised: 1000
-supporters: 1
+raised: 4500
+supporters: 2
 short_description: Allow for the use of Emojis when tagging
 bug: 15885
 published: true

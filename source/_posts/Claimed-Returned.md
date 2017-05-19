@@ -1,7 +1,7 @@
 ---
 title: Claimed Returned
-raised: 2500
-supporters: 2
+raised: 8000
+supporters: 3
 date: 2016-11-30 12:40:18
 goal: 8000
 short_description: This feature will add the ability for library staff to mark things as claimed returned when the patron states that he/she returned an item that is still showing as checked out.
