@@ -3,7 +3,7 @@ title: Search filters for cataloging module
 raised: 0
 supporters: 0
 date: 'Mon Jul 17 2017 06:47:33 GMT-0500 (EST)'
-goal: .nan
+goal: 12500
 bug: 0
 module: Cataloging
 published: true
