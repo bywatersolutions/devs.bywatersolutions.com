@@ -1,6 +1,6 @@
 ---
 title: Allow partial writeoffs of fines
-raised: 150
+raised: 2000
 supporters: 1
 date: 'Wed Nov 30 2016 06:35:35 GMT-0500 (EST)'
 goal: 2000
@@ -11,7 +11,7 @@ published: true
 module: Accounting
 ---
 
-![Allow-partial-writeoffs-of-fines.png]({{site.baseurl}}/source/images/Allow-partial-writeoffs-of-fines.png))
+![Allow-partial-writeoffs-of-fines.png]({{site.baseurl}}/source/images/Allow-partial-writeoffs-of-fines.png)
 
 # Work to be done
 1. Add “Write off selected” button
