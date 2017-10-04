@@ -1,6 +1,6 @@
 ---
 title: Self-check module highlighting
-raised: 0
+raised: 1000
 supporters: 1
 date: 2016-12-01 06:15:19
 goal: 1000
