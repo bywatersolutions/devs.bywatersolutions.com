@@ -1,13 +1,16 @@
 ---
 title: New suggestions sent via email
-raised: 0
+raised: 2000
 supporters: 1
-date: 2016-11-30 14:55:31
+date: 'Wed Nov 30 2016 09:55:31 GMT-0500 (EST)'
 goal: 2000
-short_description: Allow email alerts to be sent to librarians when new suggestions are created by patrons.
+short_description: >-
+  Allow email alerts to be sent to librarians when new suggestions are created
+  by patrons.
 tags: koha acquisitions suggestions email
 bug: 5770
 module: Acquisitions
+published: true
 ---
 
 # Goal
