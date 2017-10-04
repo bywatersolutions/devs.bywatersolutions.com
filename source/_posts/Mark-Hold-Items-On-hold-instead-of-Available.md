@@ -1,6 +1,6 @@
 ---
 title: Mark Hold Items 'On hold' instead of 'Available'
-raised: 1500
+raised: 2500
 supporters: 1
 date: 'Wed Nov 30 2016 06:43:31 GMT-0500 (EST)'
 goal: 2500
