@@ -53,6 +53,12 @@
 
     
         <li class="nav-item">
+            <a href="#" class="nav-link module_filter" id="module_filter-Patrons">
+                Patrons
+            </a>
+        </li>
+    
+        <li class="nav-item">
             <a href="#" class="nav-link module_filter" id="module_filter-Cataloging">
                 Cataloging
             </a>
@@ -61,12 +67,6 @@
         <li class="nav-item">
             <a href="#" class="nav-link module_filter" id="module_filter-Holds">
                 Holds
-            </a>
-        </li>
-    
-        <li class="nav-item">
-            <a href="#" class="nav-link module_filter" id="module_filter-Patrons">
-                Patrons
             </a>
         </li>
     
@@ -83,14 +83,14 @@
         </li>
     
         <li class="nav-item">
-            <a href="#" class="nav-link module_filter" id="module_filter-Catalog">
-                Catalog
+            <a href="#" class="nav-link module_filter" id="module_filter-Circulation">
+                Circulation
             </a>
         </li>
     
         <li class="nav-item">
-            <a href="#" class="nav-link module_filter" id="module_filter-Circulation">
-                Circulation
+            <a href="#" class="nav-link module_filter" id="module_filter-Catalog">
+                Catalog
             </a>
         </li>
     
@@ -151,16 +151,16 @@ function filterCategories() {
   <section class="container">
   <ul class="cards-content">
   
-    <li class="card-wrap wrapper module-Cataloging">
+    <li class="card-wrap wrapper module-Patrons">
       <div class="card">
         <div class="card-block">
-            <h2 class="card-title">Show item count on Z39.50 results</h2>
+            <h2 class="card-title">Split borrowers permission into create/edit</h2>
 
             
-              <h5>Show holding counts when searching Z39.50 targets</h5>
+              <h5>Add ability to control if a staff user can create new patrons vs editing existing patrons</h5>
             
 
-            <a href="/2016/11/30/Show-item-count-on-Z39-50-results/" class="btn btn-primary">Details</a>
+            <a href="/2016/11/30/Split-borrowers-permission-into-create-edit/" class="btn btn-primary">Details</a>
 
             
 
@@ -201,16 +201,16 @@ function filterCategories() {
       </div>
     </li>
   
-    <li class="card-wrap wrapper module-Patrons">
+    <li class="card-wrap wrapper module-Cataloging">
       <div class="card">
         <div class="card-block">
-            <h2 class="card-title">Split borrowers permission into create/edit</h2>
+            <h2 class="card-title">Show item count on Z39.50 results</h2>
 
             
-              <h5>Add ability to control if a staff user can create new patrons vs editing existing patrons</h5>
+              <h5>Show holding counts when searching Z39.50 targets</h5>
             
 
-            <a href="/2016/11/30/Split-borrowers-permission-into-create-edit/" class="btn btn-primary">Details</a>
+            <a href="/2016/11/30/Show-item-count-on-Z39-50-results/" class="btn btn-primary">Details</a>
 
             
 
@@ -230,22 +230,6 @@ function filterCategories() {
 
             
                 <div class="ribbon-wrapper-green"><div class="ribbon-green">Funded!</div></div>
-            
-
-      </div>
-    </li>
-  
-    <li class="card-wrap wrapper module-Cataloging">
-      <div class="card">
-        <div class="card-block">
-            <h2 class="card-title">Search filters for cataloging module</h2>
-
-            
-              <h5>Add advanced search and filtering capabilities to the cataloging search via a filters box</h5>
-            
-
-            <a href="/2017/07/17/Search-filters-for-cataloging-module/" class="btn btn-primary">Details</a>
-
             
 
       </div>
@@ -285,6 +269,22 @@ function filterCategories() {
       </div>
     </li>
   
+    <li class="card-wrap wrapper module-Cataloging">
+      <div class="card">
+        <div class="card-block">
+            <h2 class="card-title">Search filters for cataloging module</h2>
+
+            
+              <h5>Add advanced search and filtering capabilities to the cataloging search via a filters box</h5>
+            
+
+            <a href="/2017/07/17/Search-filters-for-cataloging-module/" class="btn btn-primary">Details</a>
+
+            
+
+      </div>
+    </li>
+  
     <li class="card-wrap wrapper module-Holds">
       <div class="card">
         <div class="card-block">
@@ -296,24 +296,6 @@ function filterCategories() {
 
             <a href="/2016/12/01/Restrict-number-of-holds-placed-by-day/" class="btn btn-primary">Details</a>
 
-            
-
-      </div>
-    </li>
-  
-    <li class="card-wrap wrapper module-Catalog">
-      <div class="card">
-        <div class="card-block">
-            <h2 class="card-title">Printing lists</h2>
-
-            
-              <h5>When printing a lists, you can only print one page at a time. This development will allow you to print all pages of a list at once.</h5>
-            
-
-            <a href="/2016/12/01/Printing-lists/" class="btn btn-primary">Details</a>
-
-            
-                <div class="ribbon-wrapper-green"><div class="ribbon-green">Funded!</div></div>
             
 
       </div>
@@ -353,16 +335,16 @@ function filterCategories() {
       </div>
     </li>
   
-    <li class="card-wrap wrapper module-Circulation">
+    <li class="card-wrap wrapper module-Catalog">
       <div class="card">
         <div class="card-block">
-            <h2 class="card-title">Override fix loan period</h2>
+            <h2 class="card-title">Printing lists</h2>
 
             
-              <h5>When checking out to someone that is homebound or in a limited access area (such as a bookmobile that comes through once a month), it is necessary to set a fixed loan period. There needs to be a way to override this feature on the fly.</h5>
+              <h5>When printing a lists, you can only print one page at a time. This development will allow you to print all pages of a list at once.</h5>
             
 
-            <a href="/2016/12/01/Override-fix-loan-period/" class="btn btn-primary">Details</a>
+            <a href="/2016/12/01/Printing-lists/" class="btn btn-primary">Details</a>
 
             
                 <div class="ribbon-wrapper-green"><div class="ribbon-green">Funded!</div></div>
@@ -374,29 +356,13 @@ function filterCategories() {
     <li class="card-wrap wrapper module-Circulation">
       <div class="card">
         <div class="card-block">
-            <h2 class="card-title">New permission for fine overrides</h2>
+            <h2 class="card-title">Override fix loan period</h2>
 
             
-              <h5>Add ability to control if an individual staff user can override checkout restriction based on noissuescharge</h5>
+              <h5>When checking out to someone that is homebound or in a limited access area (such as a bookmobile that comes through once a month), it is necessary to set a fixed loan period. There needs to be a way to override this feature on the fly.</h5>
             
 
-            <a href="/2016/11/30/New-permission-for-fine-overrides/" class="btn btn-primary">Details</a>
-
-            
-
-      </div>
-    </li>
-  
-    <li class="card-wrap wrapper module-Circulation">
-      <div class="card">
-        <div class="card-block">
-            <h2 class="card-title">Make Longoverdue/Lost items not renewable</h2>
-
-            
-              <h5>Prevent renewals based on item table values.</h5>
-            
-
-            <a href="/2016/11/30/Make-Longoverdue-Lost-items-not-renewable/" class="btn btn-primary">Details</a>
+            <a href="/2016/12/01/Override-fix-loan-period/" class="btn btn-primary">Details</a>
 
             
                 <div class="ribbon-wrapper-green"><div class="ribbon-green">Funded!</div></div>
@@ -423,6 +389,22 @@ function filterCategories() {
       </div>
     </li>
   
+    <li class="card-wrap wrapper module-Circulation">
+      <div class="card">
+        <div class="card-block">
+            <h2 class="card-title">New permission for fine overrides</h2>
+
+            
+              <h5>Add ability to control if an individual staff user can override checkout restriction based on noissuescharge</h5>
+            
+
+            <a href="/2016/11/30/New-permission-for-fine-overrides/" class="btn btn-primary">Details</a>
+
+            
+
+      </div>
+    </li>
+  
     <li class="card-wrap wrapper module-Accounting">
       <div class="card">
         <div class="card-block">
@@ -433,6 +415,42 @@ function filterCategories() {
             
 
             <a href="/2016/11/30/New-notice-for-patrons-that-owe-money/" class="btn btn-primary">Details</a>
+
+            
+                <div class="ribbon-wrapper-green"><div class="ribbon-green">Funded!</div></div>
+            
+
+      </div>
+    </li>
+  
+    <li class="card-wrap wrapper module-Holds">
+      <div class="card">
+        <div class="card-block">
+            <h2 class="card-title">Mark Hold Items &#39;On hold&#39; instead of &#39;Available&#39;</h2>
+
+            
+              <h5>Make the status of items targeted for holds marked as &#39;On hold&#39; instead of &#39;Available&#39;</h5>
+            
+
+            <a href="/2016/11/30/Mark-Hold-Items-On-hold-instead-of-Available/" class="btn btn-primary">Details</a>
+
+            
+                <div class="ribbon-wrapper-green"><div class="ribbon-green">Funded!</div></div>
+            
+
+      </div>
+    </li>
+  
+    <li class="card-wrap wrapper module-Circulation">
+      <div class="card">
+        <div class="card-block">
+            <h2 class="card-title">Make Longoverdue/Lost items not renewable</h2>
+
+            
+              <h5>Prevent renewals based on item table values.</h5>
+            
+
+            <a href="/2016/11/30/Make-Longoverdue-Lost-items-not-renewable/" class="btn btn-primary">Details</a>
 
             
                 <div class="ribbon-wrapper-green"><div class="ribbon-green">Funded!</div></div>
@@ -467,24 +485,6 @@ function filterCategories() {
             
 
             <a href="/2016/12/01/Hold-suspension-in-staff-client/" class="btn btn-primary">Details</a>
-
-            
-                <div class="ribbon-wrapper-green"><div class="ribbon-green">Funded!</div></div>
-            
-
-      </div>
-    </li>
-  
-    <li class="card-wrap wrapper module-Holds">
-      <div class="card">
-        <div class="card-block">
-            <h2 class="card-title">Mark Hold Items &#39;On hold&#39; instead of &#39;Available&#39;</h2>
-
-            
-              <h5>Make the status of items targeted for holds marked as &#39;On hold&#39; instead of &#39;Available&#39;</h5>
-            
-
-            <a href="/2016/11/30/Mark-Hold-Items-On-hold-instead-of-Available/" class="btn btn-primary">Details</a>
 
             
                 <div class="ribbon-wrapper-green"><div class="ribbon-green">Funded!</div></div>
@@ -579,42 +579,6 @@ function filterCategories() {
       </div>
     </li>
   
-    <li class="card-wrap wrapper module-Holds">
-      <div class="card">
-        <div class="card-block">
-            <h2 class="card-title">Balancing high demand holds</h2>
-
-            
-              <h5>Add options to the decreaseLoanHighHolds preferences so that users have the ability to choose A) based on the number of holds, as Koha currently does, or have the ability to B) set a number of holds past the number of holdable items in that record</h5>
-            
-
-            <a href="/2016/12/01/Balancing-high-demand-holds/" class="btn btn-primary">Details</a>
-
-            
-                <div class="ribbon-wrapper-green"><div class="ribbon-green">Funded!</div></div>
-            
-
-      </div>
-    </li>
-  
-    <li class="card-wrap wrapper module-Cataloging">
-      <div class="card">
-        <div class="card-block">
-            <h2 class="card-title">Aggressive ISSN Matching during import</h2>
-
-            
-              <h5>When importing records using the record import tool, it would be nice to be able to aggressively match on ISSN.</h5>
-            
-
-            <a href="/2016/12/01/Aggressive-ISSN-Matching-during-import/" class="btn btn-primary">Details</a>
-
-            
-                <div class="ribbon-wrapper-green"><div class="ribbon-green">Funded!</div></div>
-            
-
-      </div>
-    </li>
-  
     <li class="card-wrap wrapper module-Circulation">
       <div class="card">
         <div class="card-block">
@@ -625,6 +589,24 @@ function filterCategories() {
             
 
             <a href="/2016/11/30/Claimed-Returned/" class="btn btn-primary">Details</a>
+
+            
+                <div class="ribbon-wrapper-green"><div class="ribbon-green">Funded!</div></div>
+            
+
+      </div>
+    </li>
+  
+    <li class="card-wrap wrapper module-Holds">
+      <div class="card">
+        <div class="card-block">
+            <h2 class="card-title">Balancing high demand holds</h2>
+
+            
+              <h5>Add options to the decreaseLoanHighHolds preferences so that users have the ability to choose A) based on the number of holds, as Koha currently does, or have the ability to B) set a number of holds past the number of holdable items in that record</h5>
+            
+
+            <a href="/2016/12/01/Balancing-high-demand-holds/" class="btn btn-primary">Details</a>
 
             
                 <div class="ribbon-wrapper-green"><div class="ribbon-green">Funded!</div></div>
@@ -651,6 +633,24 @@ function filterCategories() {
       </div>
     </li>
   
+    <li class="card-wrap wrapper module-Cataloging">
+      <div class="card">
+        <div class="card-block">
+            <h2 class="card-title">Aggressive ISSN Matching during import</h2>
+
+            
+              <h5>When importing records using the record import tool, it would be nice to be able to aggressively match on ISSN.</h5>
+            
+
+            <a href="/2016/12/01/Aggressive-ISSN-Matching-during-import/" class="btn btn-primary">Details</a>
+
+            
+                <div class="ribbon-wrapper-green"><div class="ribbon-green">Funded!</div></div>
+            
+
+      </div>
+    </li>
+  
     <li class="card-wrap wrapper module-Holds">
       <div class="card">
         <div class="card-block">
@@ -664,22 +664,6 @@ function filterCategories() {
 
             
                 <div class="ribbon-wrapper-green"><div class="ribbon-green">Funded!</div></div>
-            
-
-      </div>
-    </li>
-  
-    <li class="card-wrap wrapper module-Catalog">
-      <div class="card">
-        <div class="card-block">
-            <h2 class="card-title">Add Itemnumber and Biblionumber to Item Search</h2>
-
-            
-              <h5>Show and export itemnumber and biblionumber via the item search in the staff client.</h5>
-            
-
-            <a href="/2016/11/30/Add-Itemnumber-and-Biblionumber-to-Item-Search/" class="btn btn-primary">Details</a>
-
             
 
       </div>
@@ -706,13 +690,29 @@ function filterCategories() {
     <li class="card-wrap wrapper module-Catalog">
       <div class="card">
         <div class="card-block">
+            <h2 class="card-title">Add Itemnumber and Biblionumber to Item Search</h2>
+
+            
+              <h5>Show and export itemnumber and biblionumber via the item search in the staff client.</h5>
+            
+
+            <a href="/2016/11/30/Add-Itemnumber-and-Biblionumber-to-Item-Search/" class="btn btn-primary">Details</a>
+
+            
+
+      </div>
+    </li>
+  
+    <li class="card-wrap wrapper module-Catalog">
+      <div class="card">
+        <div class="card-block">
             <h2 class="card-title">Add FRBRized View to OPAC Results</h2>
 
             
               <h5>Add a view to the OPAC of multiple different editions from multiple different sources.</h5>
             
 
-            <a href="/2017/01/13/Add-FRBRized-View-to-OPAC-Results/" class="btn btn-primary">Details</a>
+            <a href="/2017/10/05/Add-FRBRized-View-to-OPAC-Results/" class="btn btn-primary">Details</a>
 
             
 

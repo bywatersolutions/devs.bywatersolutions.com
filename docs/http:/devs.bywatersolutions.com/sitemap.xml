@@ -2,240 +2,240 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://devs.bywatersolutions.com/2016/12/01/Self-check-module-highlighting/</loc>
-    
-    <lastmod>2017-10-05T14:19:45.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2016/11/30/New-suggestions-sent-via-email/</loc>
-    
-    <lastmod>2017-10-05T14:19:45.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://devs.bywatersolutions.com/2016/11/30/Mark-Hold-Items-On-hold-instead-of-Available/</loc>
     
-    <lastmod>2017-10-05T14:19:45.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2016/11/30/Allow-partial-writeoffs-of-fines/</loc>
-    
-    <lastmod>2017-08-18T18:45:03.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2017/07/17/Search-filters-for-cataloging-module/</loc>
-    
-    <lastmod>2017-07-17T12:11:15.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2016/11/30/Enable-Emoji-Support-for-Tags/</loc>
-    
-    <lastmod>2017-05-19T11:53:17.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2016/11/30/Claimed-Returned/</loc>
-    
-    <lastmod>2017-05-19T11:45:28.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2016/12/01/Ability-to-change-the-number-ordered/</loc>
-    
-    <lastmod>2017-03-28T13:51:17.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2016/11/30/New-notice-for-patrons-that-owe-money/</loc>
-    
-    <lastmod>2017-03-28T13:50:47.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2016/11/30/Show-number-of-holds-on-the-staff-side-next-to-holds-link/</loc>
-    
-    <lastmod>2017-02-09T18:38:20.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2016/11/30/Make-Longoverdue-Lost-items-not-renewable/</loc>
-    
-    <lastmod>2017-02-07T13:33:41.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2016/11/30/Split-borrowers-permission-into-create-edit/</loc>
-    
-    <lastmod>2017-01-13T16:09:24.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2016/11/30/Specify-a-default-framework-on-a-per-login-basis/</loc>
-    
-    <lastmod>2017-01-13T16:09:17.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2016/11/30/Show-item-count-on-Z39-50-results/</loc>
-    
-    <lastmod>2017-01-13T16:08:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2016/11/30/Self-Check-module-stand-alone-check-in/</loc>
-    
-    <lastmod>2017-01-13T16:08:12.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2016/11/30/Search-serials-by-barcode/</loc>
-    
-    <lastmod>2017-01-13T16:07:41.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2016/12/01/Restrict-number-of-holds-placed-by-day/</loc>
-    
-    <lastmod>2017-01-13T16:07:32.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2016/12/01/Restrict-Holds-Based-on-Circ-Limit/</loc>
-    
-    <lastmod>2017-01-13T16:07:23.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2016/12/01/Removal-of-shelving-location-at-checkin/</loc>
-    
-    <lastmod>2017-01-13T16:07:11.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2016/12/01/Printing-lists/</loc>
-    
-    <lastmod>2017-01-13T16:06:17.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2016/12/01/Override-fix-loan-period/</loc>
-    
-    <lastmod>2017-01-13T16:06:08.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2016/11/30/New-permission-for-fine-overrides/</loc>
-    
-    <lastmod>2017-01-13T16:05:40.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2016/11/30/Limit-Item-Types-by-Branch/</loc>
-    
-    <lastmod>2017-01-13T16:04:05.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2016/12/01/Hold-suspension-in-staff-client/</loc>
-    
-    <lastmod>2017-01-13T16:03:51.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2016/12/01/Display-of-RDA-MARC-fields-subfields-in-OPAC/</loc>
-    
-    <lastmod>2017-01-13T16:03:33.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2016/11/30/Disable-the-ability-to-suspend-holds-related-to-certain-itemtypes/</loc>
-    
-    <lastmod>2017-01-13T16:01:20.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2016/11/30/Delete-Bib-After-Moving-Item/</loc>
-    
-    <lastmod>2017-01-13T16:01:13.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2016/12/01/Clearing-Z39-50-search-fields/</loc>
-    
-    <lastmod>2017-01-13T16:01:00.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2016/12/01/Balancing-high-demand-holds/</loc>
-    
-    <lastmod>2017-01-13T16:00:21.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2016/12/01/Aggressive-ISSN-Matching-during-import/</loc>
-    
-    <lastmod>2017-01-13T15:59:56.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2016/12/01/Adding-holds-count-to-Holds-tab/</loc>
-    
-    <lastmod>2017-01-13T15:59:45.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2016/11/30/Add-Owning-Library-Column-to-Checkouts/</loc>
-    
-    <lastmod>2017-01-13T15:59:35.000Z</lastmod>
+    <lastmod>2017-10-05T14:33:08.801Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://devs.bywatersolutions.com/2016/11/30/Add-Itemnumber-and-Biblionumber-to-Item-Search/</loc>
     
-    <lastmod>2017-01-13T15:59:21.000Z</lastmod>
+    <lastmod>2017-10-05T14:33:08.801Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://devs.bywatersolutions.com/2017/01/13/Add-FRBRized-View-to-OPAC-Results/</loc>
+    <loc>http://devs.bywatersolutions.com/2016/11/30/Add-Owning-Library-Column-to-Checkouts/</loc>
     
-    <lastmod>2017-01-13T15:58:51.000Z</lastmod>
+    <lastmod>2017-10-05T14:33:08.801Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2016/12/01/Adding-holds-count-to-Holds-tab/</loc>
+    
+    <lastmod>2017-10-05T14:33:08.801Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2016/11/30/Allow-partial-writeoffs-of-fines/</loc>
+    
+    <lastmod>2017-10-05T14:33:08.801Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2016/11/30/Delete-Bib-After-Moving-Item/</loc>
+    
+    <lastmod>2017-10-05T14:33:08.801Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2016/11/30/Enable-Emoji-Support-for-Tags/</loc>
+    
+    <lastmod>2017-10-05T14:33:08.801Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2016/11/30/Limit-Item-Types-by-Branch/</loc>
+    
+    <lastmod>2017-10-05T14:33:08.801Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2017/10/05/Add-FRBRized-View-to-OPAC-Results/</loc>
+    
+    <lastmod>2017-10-05T14:33:08.801Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2016/12/01/Self-check-module-highlighting/</loc>
+    
+    <lastmod>2017-10-05T14:31:55.041Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2016/11/30/Specify-a-default-framework-on-a-per-login-basis/</loc>
+    
+    <lastmod>2017-10-05T14:31:55.041Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2016/11/30/Self-Check-module-stand-alone-check-in/</loc>
+    
+    <lastmod>2017-10-05T14:31:55.041Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2016/11/30/Search-serials-by-barcode/</loc>
+    
+    <lastmod>2017-10-05T14:31:55.041Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2016/11/30/Split-borrowers-permission-into-create-edit/</loc>
+    
+    <lastmod>2017-10-05T14:31:55.041Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2017/07/17/Search-filters-for-cataloging-module/</loc>
+    
+    <lastmod>2017-10-05T14:31:55.041Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2016/11/30/Show-number-of-holds-on-the-staff-side-next-to-holds-link/</loc>
+    
+    <lastmod>2017-10-05T14:31:55.041Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2016/12/01/Restrict-number-of-holds-placed-by-day/</loc>
+    
+    <lastmod>2017-10-05T14:31:55.041Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2016/11/30/Show-item-count-on-Z39-50-results/</loc>
+    
+    <lastmod>2017-10-05T14:31:55.041Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2016/11/30/New-notice-for-patrons-that-owe-money/</loc>
+    
+    <lastmod>2017-10-05T14:31:55.041Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2016/11/30/New-permission-for-fine-overrides/</loc>
+    
+    <lastmod>2017-10-05T14:31:55.041Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2016/11/30/New-suggestions-sent-via-email/</loc>
+    
+    <lastmod>2017-10-05T14:31:55.041Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2016/12/01/Override-fix-loan-period/</loc>
+    
+    <lastmod>2017-10-05T14:31:55.041Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2016/12/01/Printing-lists/</loc>
+    
+    <lastmod>2017-10-05T14:31:55.041Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2016/12/01/Removal-of-shelving-location-at-checkin/</loc>
+    
+    <lastmod>2017-10-05T14:31:55.041Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2016/12/01/Restrict-Holds-Based-on-Circ-Limit/</loc>
+    
+    <lastmod>2017-10-05T14:31:55.041Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2016/11/30/Make-Longoverdue-Lost-items-not-renewable/</loc>
+    
+    <lastmod>2017-10-05T14:31:55.037Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2016/12/01/Hold-suspension-in-staff-client/</loc>
+    
+    <lastmod>2017-10-05T14:31:55.037Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2016/12/01/Display-of-RDA-MARC-fields-subfields-in-OPAC/</loc>
+    
+    <lastmod>2017-10-05T14:31:55.037Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2016/11/30/Disable-the-ability-to-suspend-holds-related-to-certain-itemtypes/</loc>
+    
+    <lastmod>2017-10-05T14:31:55.037Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2016/12/01/Clearing-Z39-50-search-fields/</loc>
+    
+    <lastmod>2017-10-05T14:31:55.037Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2016/11/30/Claimed-Returned/</loc>
+    
+    <lastmod>2017-10-05T14:31:55.037Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2016/12/01/Balancing-high-demand-holds/</loc>
+    
+    <lastmod>2017-10-05T14:31:55.037Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2016/12/01/Aggressive-ISSN-Matching-during-import/</loc>
+    
+    <lastmod>2017-10-05T14:31:55.037Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2016/12/01/Ability-to-change-the-number-ordered/</loc>
+    
+    <lastmod>2017-10-05T14:31:55.037Z</lastmod>
     
   </url>
   
