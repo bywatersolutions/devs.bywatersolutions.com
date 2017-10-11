@@ -46,6 +46,12 @@ prose:
           label: "Date"
           help: "Date after which the post will be published, set to CURRENT_DATETIME for it be published right away"
           value: "CURRENT_DATETIME"
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published"
+          help: "Check to make post visible, uncheck to hide it"
+          value: true
     source/_static:
       - name: "layout"
         field:
