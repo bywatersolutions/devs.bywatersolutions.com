@@ -24,10 +24,9 @@ script:
 - git log -1 --pretty=oneline | grep 'Site auto-updated' || hexo generate
 # don't commit the de-mangling of the image paths for prose.io, we need them to be mangled for editing
 - git checkout source/
-- git add -A docs
+- git add docs
 - git status
 - git log -1 --pretty=oneline | grep 'Site auto-updated' || git commit -m 'Site auto-updated'
 - git status
 - git remote add github https://$GH_TOKEN@github.com/bywatersolutions/devs.bywatersolutions.com
-- git fetch github
 - git push github HEAD:master
