@@ -9,7 +9,8 @@ function isRoot() {
 }
 
 function getLangs() {
-  return this.config.language.filter(lang => lang !== 'default');
+//  return this.config.language.filter(lang => lang !== 'default');
+    return ['en'];
 }
 
 function switchLang(lang) {
