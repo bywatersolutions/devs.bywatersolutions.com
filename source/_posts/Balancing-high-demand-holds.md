@@ -21,6 +21,6 @@ Work to be done:
     * decreaseLoanHighHoldsIgnoreWithdrawn
     * decreaseLoanHighHoldsIgnoreNotForLoan
     * Implement logic for new system preferences
-2. Add unit tests
+2. Add unit tests.
 
 We can use the multi-select enhancement for system preferences from bug 9043 to avoid having 4 prefs.
