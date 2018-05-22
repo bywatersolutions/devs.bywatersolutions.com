@@ -5,7 +5,7 @@ goal: 2500
 supporters: 0
 date: '2017-10-10 13:54 -0400'
 published: true
-title: add patron attributes into the patron card creator
+title: Add patron attributes into the patron card creator
 short_description: add patron attributes into the patron card creator
 Module: Tools
 ---
