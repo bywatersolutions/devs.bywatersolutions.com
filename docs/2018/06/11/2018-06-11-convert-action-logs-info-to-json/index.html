@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>ByWater Solutions - Development Crowdsourcing</title>
+  <title>Convert action_logs.info to JSON | ByWater Solutions - Development Crowdsourcing</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" type="image/png" href="favicon.png"/>
 
@@ -34,37 +34,82 @@
   </div>
 </header>
 
-  <div class="container">
-    <h2 class="archive-title">Archives</h2>
-  </div>
   <section class="container">
+	<h2>
+		Convert action_logs.info to JSON
+	</h2>
+	<p class="short-description">Action_logs does not give enough detail. This will help resolve this issue.</p>
 
-    <h3 class="words-title">_</h3>
-  
-  <a class="word" href="/2018/06/11/Add-FRBRized-View-to-OPAC-Results/">
-    Add FRBRized View to OPAC Results
-  </a>
+    
+        <a href="https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=15296">
+            Koha Community Bug #15296
+        </a>
+    
 
-  <a class="word" href="/2018/06/11/2018-06-11-convert-action-logs-info-to-json/">
-    Convert action_logs.info to JSON
-  </a>
+	<h3>
+		Goal: $6000
+	</h3>
+	<h3>
+		Raised: $0
+	</h3>
+	<h3>
+		Supporters: 0
+	</h3>
 
-  <a class="word" href="/2018/06/07/2018-06-07-prevent-backdated-returns-from-creating-credits/">
-    Prevent backdated returns from creating credits
-  </a>
+	<article class="article">
+		<h2 id="Work-to-be-done"><a href="#Work-to-be-done" class="headerlink" title="Work to be done:"></a>Work to be done:</h2><p>Convert action_logs.info to JSON</p>
+<p>1) Mode code to store json in info column.</p>
+<p>2) Database update to convert existing D::D info to JSON.</p>
+<p>3) Add code to store diffs of changed patron in JSON in action_logs.info.</p>
 
-  <a class="word" href="/2018/06/07/2018-06-07-localuse-recorded-for-holds-transfers/">
-    localuse recorded for holds/transfers
-  </a>
+	</article>
 
-  <a class="word" href="/2018/05/22/2018-05-22-your-filename/">
-    Extend Deduplication plugin to work for authorities
-  </a>
+    
+        <h1>Make a pledge!</h1>
+        <form action="https://formspree.io/developments@bywatersolutions.com" method="POST">
+            <input type="hidden" name="project" value="Convert action_logs.info to JSON"/>
 
-  <a class="word" href="/2018/01/05/2018-01-05-batch-checkin-module/">
-    Batch Checkin Module
-  </a>
+            <p/>
+            <label for="library">Library Name (required)</label>
+            <input type="text" name="library"/>
 
+            <p/>
+            <label for="name">Your name (required)</label>
+            <input type="text" name="name"/>
+
+            <p/>
+            <label for="email">Email address (required)</label>
+            <input type="text" name="email"/>
+
+            <p/>
+            <label for="pledge_amount">Pledge amount</label>
+            <input type="text" name="pledge_amount"/>
+
+            <p/>
+            <input type="submit" value="Send">
+        </form>
+    
+
+	<div id="disqus_thread"></div>
+	<script>
+		/**
+		*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+		*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+		/*
+		var disqus_config = function () {
+			this.page.url = page.permalink;  // Replace PAGE_URL with your page's canonical URL variable
+			this.page.identifier = 'bwsdev'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+		};
+		*/
+		(function() { // DON'T EDIT BELOW THIS LINE
+			var d = document, s = d.createElement('script');
+			s.src = '//bwsdevs.disqus.com/embed.js';
+			s.setAttribute('data-timestamp', +new Date());
+			(d.head || d.body).appendChild(s);
+		})();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                                
 </section>
 
   <section class="footer">
@@ -93,5 +138,6 @@
 </script>
 <script src="/js/header.js"></script>
 
+  <script id="dsq-count-scr" src="//bwsdevs.disqus.com/count.js" async></script>
   </body>
 </html>
