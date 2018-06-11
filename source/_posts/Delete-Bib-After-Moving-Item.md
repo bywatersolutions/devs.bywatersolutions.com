@@ -1,7 +1,7 @@
 ---
 title: Delete Bib After Moving Item
 raised: 2000
-supporters: 0
+supporters: 1
 date: 'Wed Nov 30 2016 07:25:04 GMT-0500 (EST)'
 goal: 2000
 short_description: >-
