@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>FRBR-ized Catalog | ByWater Solutions - Development Crowdsourcing</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" type="image/png" href="favicon.png">
+
+  <script src="http://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha256-gL1ibrbVcRIHKlCO5OXOPC/lZz/gpdApgQAzskqqXp8=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/css/tether.min.css" integrity="sha256-y4TDcAD4/j5o4keZvggf698Cr9Oc7JZ+gGMax23qmVA=" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/index.css">
+</head>
+
+  <body>
+  <header class="header">
+  <div class="container">
+    <div class="header-content">
+      <a href="/">
+          <img style="vertical-align:middle" src="/images/logo.png" height="25" width="25">
+          <h1 class="header-logo">ByWater Solutions</h1>
+      </a>
+      <form id="header-search-form" class="header-search-form">
+        <input id="header-search-input" class="header-search-input" type="text" placeholder="Search...">
+      </form>
+    </div>
+  </div>
+</header>
+
+  <section class="container">
+	<h2>
+		FRBR-ized Catalog
+	</h2>
+	<p class="short-description">FRBR-ized Catalog</p>
+
+    
+
+	<h3>
+		Goal: $22000
+	</h3>
+	<h3>
+		Raised: $0
+	</h3>
+	<h3>
+		Supporters: 0
+	</h3>
+
+	<article class="article">
+		<h2 id="FRBR-ized-Catalog"><a href="#FRBR-ized-Catalog" class="headerlink" title="FRBR-ized Catalog"></a>FRBR-ized Catalog</h2><h3 id="We’re-looking-for-sponsors-to-bring-a-FRBR-ized-catalog-in-to-Koha-Below-you-will-find-our-5-phase-approach-and-associated-costs-which-will-bring-a-FRBR-style-catalog-in-to-Koha"><a href="#We’re-looking-for-sponsors-to-bring-a-FRBR-ized-catalog-in-to-Koha-Below-you-will-find-our-5-phase-approach-and-associated-costs-which-will-bring-a-FRBR-style-catalog-in-to-Koha" class="headerlink" title="We’re looking for sponsors to bring a FRBR-ized catalog in to Koha. Below you will find our 5 phase approach and associated costs which will bring a FRBR style catalog in to Koha."></a>We’re looking for sponsors to bring a FRBR-ized catalog in to Koha. Below you will find our 5 phase approach and associated costs which will bring a FRBR style catalog in to Koha.</h3><p>A FRBR-ized catalog can enable users to find what they are seeking by collocating bibliographic records that are related to other bibliographic records. This document will outline the steps needed to attain a FRBR style catalog. Bibliographic records will be assigned a GroupID that relates to the FRBR concept of ‘work’. All related bibliographic records will need the GroupID assigned. Searches will pull the groups of bibliographic records with the same GroupID and display the bibliographic records to users. We propose a 5 phase approach to this development as outlined below.</p>
+<p><strong>Phase 1</strong> will set the architecture needed for subsequent phases. A MARC tag and subfield will be added to bibliographic frameworks to hold the GroupID. This MARC tag will be configurable through settings and can be unique to each library. The default MARC tag if none is specified will be 998 subfield a. Secondly, a new database table will be created that stores all the GroupIDs, description of the work, and source of the id. The initial implementation will only have a single “local” source. Future development (in phase5) will utilize the source field.</p>
+<p><strong>Phase 2</strong> allows catalogers to assign GroupIDs to the bibliographic record. GroupIDs can be added to bibliographic records in three ways.</p>
+<ol>
+<li>A button is provided when cataloging. Clicking on the button brings a new popup window where GroupIDs can be searched and selected for addition to the bibliographic record</li>
+<li>If no existing GroupID is found when cataloging, the cataloger can add a new GroupID in the popup window and it will be created and assigned to the bibliographic record.</li>
+<li>If the cataloger previously created the GroupID and the number is known, they can manually add it to the tag/subfield when cataloging.</li>
+</ol>
+<p><strong>Phase 3</strong> will allow for the display of the grouped bibliographic records in the OPAC. The exact specifics of the display have not been determined at this point. It is expected that the most relevant biblioographic record in the group will be displayed first and all other related bibliographic records will appear under the main record.</p>
+<p><strong>Phase 4</strong> involves the removal of duplicate search results. Once a bibliographic record is displayed, as a primary result or related result, it will not display itself as a primary result in the search results.</p>
+<p><strong>Phase 5</strong> is a future development that depends on external sources of data such as MANA KB or BookBrainz. The expected functionality is that we can link Koha bibliographic records to an external source using a standard id (e.g. ISBN/ISSN/UPC). This linking would be done either at the time of cataloging or through a nightly cron. Future development may involve linking existing GroupIDs to other GroupIDs. (For example, fan fiction Fifty Shades GroupID is linked to Twilight Series GroupID). The display of primary Groups or linked Groups would also need to be addressed.</p>
+<p><strong>Technical specifications</strong></p>
+<p><strong>Phase 1</strong> - Add a “group ID” to the bibliographic record.<br>a - The groupID will be stored in the koha database for use in grouping and fetching records<br>b - The groupID will be stored in the MARC record as well<br>c - The groupID will also contain a ‘source’ field, this way multiple group IDs can use different sources of truth</p>
+<p><strong>Phase 2</strong> - Build a system for entering the groupID<br>a - The initial method will allow for adding/grouping manually</p>
+<p><strong>Phase 3</strong> - Records containing a group ID will display the other records containing the same group ID on the results or details page<br>a - Provide an API to retrieve records by GroupID<br>b - Develop OPAC display using React or similar framework</p>
+<p><strong>Phase 4</strong> - Filter duplicate record results (if one record refers to another, don’t return the second as a unique result)<br>a - This development will be targeted at the Elasticsearch engine</p>
+<p><strong>Phase 5</strong> - Develop a system for storing the group ID and allowing lookup by ISBN<br>a - This may use the MANA system in development for Koha<br>b - This may use an outside source such as ‘Bookbrainz’ as it matures<br>c - This will be exapandable to allow for multiple future linkings</p>
+<p><strong>Cost:<br>Phase 1 - $4000<br>Phase 2 - $2000<br>Phase 3 - $8000<br>Phase 4 - $8000<br>Phase 5 - This requires the other developments and further discussion before pricing</strong></p>
+
+	</article>
+
+    
+        <h1>Make a pledge!</h1>
+        <form action="https://formspree.io/developments@bywatersolutions.com" method="POST">
+            <input type="hidden" name="project" value="FRBR-ized Catalog">
+
+            <p>
+            <label for="library">Library Name (required)</label>
+            <input type="text" name="library">
+
+            </p><p>
+            <label for="name">Your name (required)</label>
+            <input type="text" name="name">
+
+            </p><p>
+            <label for="email">Email address (required)</label>
+            <input type="text" name="email">
+
+            </p><p>
+            <label for="pledge_amount">Pledge amount</label>
+            <input type="text" name="pledge_amount">
+
+            </p><p>
+            <input type="submit" value="Send">
+        </p></form>
+    
+
+	<div id="disqus_thread"></div>
+	<script>
+		/**
+		*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+		*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+		/*
+		var disqus_config = function () {
+			this.page.url = page.permalink;  // Replace PAGE_URL with your page's canonical URL variable
+			this.page.identifier = 'bwsdev'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+		};
+		*/
+		(function() { // DON'T EDIT BELOW THIS LINE
+			var d = document, s = d.createElement('script');
+			s.src = '//bwsdevs.disqus.com/embed.js';
+			s.setAttribute('data-timestamp', +new Date());
+			(d.head || d.body).appendChild(s);
+		})();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                                
+</section>
+
+  <section class="footer">
+  <div class="container">
+    <span class="footer-item">Created by <a href="undefined">Kyle M Hall</a></span>
+  </div>
+</section>
+
+  
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45256157-8', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+<script>
+  window.HEXO_DATA = {
+    config: {"title":"ByWater Solutions - Development Crowdsourcing","subtitle":null,"description":"Crowdsource developments for Koha, Libki and more!","author":"Kyle M Hall","language":"en","timezone":null,"url":"http://devs.bywatersolutions.com","root":"/","permalink":":year/:month/:day/:title/","permalink_defaults":null,"source_dir":"source","public_dir":"docs","tag_dir":"tags","archive_dir":"archives","category_dir":"categories","code_dir":"downloads/code","i18n_dir":":lang","skip_render":null,"new_post_name":":title.md","default_layout":"post","titlecase":false,"external_link":true,"filename_case":0,"render_drafts":false,"post_asset_folder":true,"relative_link":false,"future":true,"highlight":{"enable":true,"auto_detect":false,"line_number":true,"tab_replace":null},"default_category":"uncategorized","category_map":null,"tag_map":null,"date_format":"YYYY-MM-DD","time_format":"HH:mm:ss","per_page":10,"pagination_dir":"page","theme":"wiki-i18n","deploy":{"type":null},"ignore":[],"sitemap":{"path":"http://devs.bywatersolutions.com/sitemap.xml"},"robotstxt":{"useragent":"*","disallow":null,"sitemap":"/sitemap.xml"},"archive_generator":{"per_page":10,"yearly":true,"monthly":true,"daily":false},"category_generator":{"per_page":10},"index_generator":{"per_page":10,"order_by":"-date"},"tag_generator":{"per_page":10},"marked":{"gfm":true,"pedantic":false,"sanitize":false,"tables":true,"breaks":true,"smartLists":true,"smartypants":true},"server":{"port":4000,"log":false,"ip":"0.0.0.0","compress":false,"header":true}},
+  };
+</script>
+<script src="/js/header.js"></script>
+
+  <script id="dsq-count-scr" src="//bwsdevs.disqus.com/count.js" async></script>
+  </body>
+</html>
