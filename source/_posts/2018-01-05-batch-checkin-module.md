@@ -11,4 +11,4 @@ tags: circulation
 ---
 # Batch Checkin Module
 
-Work to be done, add batch checkin feature similar to batch checkout feature.
+Work to be done, add batch checkin feature similar to batch checkout feature. The ability for batch checkin for Self-Check and RFID machines. 
