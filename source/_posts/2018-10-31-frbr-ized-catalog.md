@@ -7,7 +7,7 @@ date: '2018-10-31 14:36 -0400'
 published: true
 title: FRBR-ized Catalog
 short_description: FRBR-ized Catalog
-tags: 'Featured, Catalog'
+tags: Featured
 ---
 ## FRBR-ized Catalog
 
