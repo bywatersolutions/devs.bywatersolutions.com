@@ -1,7 +1,7 @@
 ---
 title: Limit Item Types by Branch
-raised: 1000
-supporters: 1
+raised: 3500
+supporters: 3
 date: 'Wed Nov 30 2016 07:36:29 GMT-0500 (EST)'
 goal: 3500
 short_description: This feature will allow the creation of branch specific item types.
