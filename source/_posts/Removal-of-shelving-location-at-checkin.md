@@ -1,13 +1,13 @@
 ---
 title: Removal of shelving location at checkin
 raised: 1500
-supporters: 2
-date: 2016-12-01 06:26:05
+supporters: 3
+date: 'Thu Dec 01 2016 01:26:05 GMT-0500 (Eastern Standard Time)'
 goal: 1500
 short_description: Shelving locations need to ability to be removed upon checkin.
-tags:
-bug:
+bug: 0
 module: Circulation
+published: true
 ---
 
 Shelving locations need to ability to be removed upon checkin.
