@@ -1,8 +1,8 @@
 ---
 bug: 0
-raised: 0
+raised: 3000
 goal: 3000
-supporters: 0
+supporters: 1
 date: '2017-11-02 13:56 -0400'
 published: true
 title: Match on multiple records
