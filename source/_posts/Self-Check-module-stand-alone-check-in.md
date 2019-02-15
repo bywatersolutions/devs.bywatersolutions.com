@@ -1,13 +1,16 @@
 ---
 title: Self-Check module stand alone check-in
-raised: 0
+raised: 2000
 supporters: 1
-date: 2016-11-30 14:58:23
+date: 'Wed Nov 30 2016 08:58:23 GMT-0600 (Central Standard Time)'
 goal: 2000
-short_description: Add a check-in button to the main self-check screen to allow check-in of multiple items.
+short_description: >-
+  Add a check-in button to the main self-check screen to allow check-in of
+  multiple items.
 tags: koha sco self-check selfcheck
 bug: 15492
 module: Self-Checkout
+published: true
 ---
 
 This would work very similarly to the current check-in module on the staff client, except that patron information won’t be displayed. Once all books are scanned in for check-in, a “Finish” button can be clicked in order to return to the main shelf-checkout screen to login with ID and checkout books as normal.
