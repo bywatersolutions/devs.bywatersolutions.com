@@ -7,6 +7,10 @@ prose:
     - /_includes
   metadata:
     source/_posts:
+      - name: "module"
+        field:
+          element: "text"
+          label: "Module"
       - name: "title"
         field:
           element: "text"
