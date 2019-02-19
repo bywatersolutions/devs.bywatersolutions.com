@@ -8,6 +8,7 @@ published: true
 title: Allow Prioritization of Multiple Image Sources
 short_description: Cover Images
 tags: OPAC
+module: OPAC
 ---
 ## Allow Prioritization of Multiple Image Sources
 
