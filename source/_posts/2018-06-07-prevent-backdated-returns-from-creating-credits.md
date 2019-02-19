@@ -1,8 +1,8 @@
 ---
 bug: 0
-raised: 0
+raised: 2000
 goal: 2000
-supporters: 0
+supporters: 1
 date: '2018-06-07 14:20 -0400'
 published: true
 title: Prevent backdated returns from creating credits
