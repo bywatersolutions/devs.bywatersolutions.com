@@ -8,6 +8,7 @@ published: true
 title: Add patron attributes into the patron card creator
 short_description: add patron attributes into the patron card creator
 Module: Tools
+module: Tools
 ---
 ## add patron attributes into the patron card creator
 
