@@ -8,7 +8,7 @@ published: true
 title: Holds and Self-checkout
 short_description: Holds and Self-checkout
 funder: Washoe - 500
-module: Shelf Checkout
+module: Shelf-Checkout
 ---
 Work to be done:
 1) Add new SIP2 option or system preference ( or 2nd option to AllowItemsOnHoldCheckout ) to allow allow non-waiting items on hold to be checked out
