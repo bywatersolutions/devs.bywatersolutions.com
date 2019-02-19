@@ -7,7 +7,7 @@ date: '2017-11-02 10:42 -0400'
 published: true
 title: Check boxes on import screen
 short_description: 'Check boxes on import screen (manage-marc-import.pl?import_batch_id=####)'
-module: tools
+module: Tools
 ---
 ## 
 
