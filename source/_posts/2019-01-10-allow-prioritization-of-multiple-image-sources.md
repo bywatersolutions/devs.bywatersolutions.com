@@ -7,7 +7,7 @@ date: '2019-01-10 14:45 -0500'
 published: true
 title: Allow Prioritization of Multiple Image Sources
 short_description: Cover Images
-tags: Cover Images
+tags: OPAC
 ---
 ## Allow Prioritization of Multiple Image Sources
 
