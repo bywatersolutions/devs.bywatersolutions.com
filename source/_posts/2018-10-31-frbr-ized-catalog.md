@@ -7,8 +7,8 @@ date: '2018-10-31 14:36 -0400'
 published: true
 title: FRBR-ized Catalog
 short_description: FRBR-ized Catalog
-tags: FRBR, cataloging
-module: Featured
+tags: 'FRBR, cataloging'
+module: Catalog
 ---
 ## FRBR-ized Catalog
 
