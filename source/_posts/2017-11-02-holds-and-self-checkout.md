@@ -1,8 +1,8 @@
 ---
 bug: 0
-raised: 500
+raised: 1600
 goal: 1600
-supporters: 0
+supporters: 2
 date: '2017-11-02 14:24 -0400'
 published: true
 title: Holds and Self-checkout
