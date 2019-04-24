@@ -10,6 +10,7 @@ module: Cataloging
 short_description: Matching Profiles
 tags: 'cataloging, import profiles'
 ---
+
 ## Do you import records from vendors and find that each vendor requires special handling upon import for things like encoding, matching rule, overwrite actions, etc.?
 
 This development will allow you to have the ability to create "matching profiles" for use on the "Stage MARC Records for Import" screen. This would make it possible to choose a profile rather than manually filling in each of the fields for record type, encoding, record and item matching rules and actions each time a batch of MARC records is imported. 
