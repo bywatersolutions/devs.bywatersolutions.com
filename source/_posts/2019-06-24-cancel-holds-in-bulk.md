@@ -18,4 +18,3 @@ When holds expire, canceling holds one at a time, takes a lot of time.  With thi
 In the Holds Awaiting Pickup module, on the "Holds Waiting Over.." tab, we would like to add checkboxes to the holds listed.  And then add a button to allow staff to Cancel just those holds they have selected.
 
 ![Screenshot 2019-06-24 16.15.32.png]({{site.baseurl}}/source/images/Screenshot 2019-06-24 16.15.32.png)
-
