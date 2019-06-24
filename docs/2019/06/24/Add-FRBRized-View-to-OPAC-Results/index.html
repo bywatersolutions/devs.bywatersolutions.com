@@ -3,7 +3,7 @@
 <head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>New suggestions sent via email | ByWater Solutions - Development Crowdsourcing</title>
+  <title>Add FRBRized View to OPAC Results | ByWater Solutions - Development Crowdsourcing</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" type="image/png" href="favicon.png">
 
@@ -36,37 +36,52 @@
 
   <section class="container">
 	<h2>
-		New suggestions sent via email
+		Add FRBRized View to OPAC Results
 	</h2>
-	<p class="short-description">Allow email alerts to be sent to librarians when new suggestions are created by patrons.</p>
+	<p class="short-description">Add a view to the OPAC of multiple different editions from multiple different sources.</p>
 
-    
-        <a href="https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=5770">
-            Koha Community Bug #5770
-        </a>
     
 
 	<h3>
-		Goal: $2000
+		Goal: $30000
 	</h3>
 	<h3>
-		Raised: $2000
+		Raised: $2500
 	</h3>
 	<h3>
-		Supporters: 1
+		Supporters: 2
 	</h3>
 
 	<article class="article">
-		<h1 id="Goal"><a href="#Goal" class="headerlink" title="Goal"></a>Goal</h1><p>To allow email alerts to be sent to librarians when new suggestions are created by patrons.</p>
-<h1 id="Plan-of-attack"><a href="#Plan-of-attack" class="headerlink" title="Plan of attack"></a>Plan of attack</h1><ol>
-<li>Create new notice for email alert</li>
-<li>Modify C4::Suggestions::NewSuggestion to send an email to the branch email address or KohaAdminEmailAddress if the branch email does not exist</li>
-<li>add a system pref for a new email address for this so it would check the pref first, the branch email address second, and the KohaAdminEmailAddress last</li>
-</ol>
-<h1 id="Updates"><a href="#Updates" class="headerlink" title="Updates"></a>Updates</h1><p>A member of the Koha community is currently working on this feature. You can follow the status of the work by going to Bug #5770 in Bugzilla.</p>
+		<p><img src="/images/Add-FRBRized-View-to-OPAC-Results.png" alt="Add-FRBRized-View-to-OPAC-Results.png"></p>
+<p><a href="http://web.archive.org/web/20151029045058/http://devs.bywatersolutions.com/wp-content/uploads/2015/09/FRBR.pdf" target="_blank" rel="noopener">A full spec can be read here.</a><br>This development will be modeled after a VuFind variation named Pika.</p>
 
 	</article>
 
+    
+        <h1>Make a pledge!</h1>
+        <form action="https://formspree.io/developments@bywatersolutions.com" method="POST">
+            <input type="hidden" name="project" value="Add FRBRized View to OPAC Results"/>
+
+            <p/>
+            <label for="library">Library Name (required)</label>
+            <input type="text" name="library"/>
+
+            <p/>
+            <label for="name">Your name (required)</label>
+            <input type="text" name="name"/>
+
+            <p/>
+            <label for="email">Email address (required)</label>
+            <input type="text" name="email"/>
+
+            <p/>
+            <label for="pledge_amount">Pledge amount</label>
+            <input type="text" name="pledge_amount"/>
+
+            <p/>
+            <input type="submit" value="Send">
+        </form>
     
 
 	<div id="disqus_thread"></div>
