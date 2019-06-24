@@ -10,7 +10,7 @@ module: Acquisitions
 short_description: Create Holds from Suggestions
 tags: 'acquisitions, holds, suggestions'
 ---
-## RT 59369
+
 
 
 Do your patrons place suggestions?  Do you order from those suggestions?  Would your patrons like to be automatically placed into the holds queue for that title you ordered that they suggested?
