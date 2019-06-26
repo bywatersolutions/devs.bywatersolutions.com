@@ -7,7 +7,7 @@ date: '2019-06-24 15:08 -0600'
 published: true
 title: iCal Export of Due Dates
 tags: opac
-module: Opac
+module: OPAC
 short_description: Alter the behavior of iCal Exporting of Due dates
 ---
 
