@@ -1,8 +1,8 @@
 ---
 bug: 0
-raised: 400
+raised: 600
 goal: 2000
-supporters: 2
+supporters: 3
 date: '2019-06-24 16:06 -0600'
 published: true
 title: Cancel Holds in Bulk
