@@ -1,8 +1,8 @@
 ---
 bug: 18532
-raised: 1000
+raised: 2000
 goal: 5000
-supporters: 1
+supporters: 2
 date: '2019-04-26 16:15 -0500'
 published: true
 title: Auto-Renew Notices in Digest Format!
