@@ -1,14 +1,15 @@
 ---
 bug: 0
-raised: 500
+raised: 1000
 goal: 5000
-supporters: 1
+supporters: 2
 date: '2019-06-24 15:50 -0600'
 published: true
 title: Create Holds from Suggestions
 module: Acquisitions
 short_description: Create Holds from Suggestions
 tags: 'acquisitions, holds, suggestions'
+Sponsor: St Pauls 500
 ---
 
 
