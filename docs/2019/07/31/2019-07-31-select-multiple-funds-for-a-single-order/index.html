@@ -3,7 +3,7 @@
 <head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>New suggestions sent via email | ByWater Solutions - Development Crowdsourcing</title>
+  <title>Select Multiple Funds for a Single Order | ByWater Solutions - Development Crowdsourcing</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" type="image/png" href="favicon.png">
 
@@ -36,37 +36,64 @@
 
   <section class="container">
 	<h2>
-		New suggestions sent via email
+		Select Multiple Funds for a Single Order
 	</h2>
-	<p class="short-description">Allow email alerts to be sent to librarians when new suggestions are created by patrons.</p>
+	<p class="short-description">Multiple Funds per Order</p>
 
-    
-        <a href="https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=5770">
-            Koha Community Bug #5770
-        </a>
     
 
 	<h3>
-		Goal: $2000
+		Goal: $15000
 	</h3>
 	<h3>
-		Raised: $2000
+		Raised: $0
 	</h3>
 	<h3>
-		Supporters: 1
+		Supporters: 0
 	</h3>
 
 	<article class="article">
-		<h1 id="Goal"><a href="#Goal" class="headerlink" title="Goal"></a>Goal</h1><p>To allow email alerts to be sent to librarians when new suggestions are created by patrons.</p>
-<h1 id="Plan-of-attack"><a href="#Plan-of-attack" class="headerlink" title="Plan of attack"></a>Plan of attack</h1><ol>
-<li>Create new notice for email alert</li>
-<li>Modify C4::Suggestions::NewSuggestion to send an email to the branch email address or KohaAdminEmailAddress if the branch email does not exist</li>
-<li>add a system pref for a new email address for this so it would check the pref first, the branch email address second, and the KohaAdminEmailAddress last</li>
+		<p>Currently in Acquisitions orders placed are tied to a single fund.  Sometimes, libraries need to split the cost across two or more funds.  For example:</p>
+<ul>
+<li><p>The Sociology department and Psychology department pool their respective funds to to split the cost of a subscription needed for both deparments.</p>
+</li>
+<li><p>Or maybe it’s the end of the fiscal year and there is $20.00 left in YA fund and $15.00 left in the Adult materials fund.  Acquisitions staff would like to cobble those two funds together to purchase an item at $35.00</p>
+</li>
+</ul>
+<p><strong>We are proposing the following development to allow users to select multiple funds for a single order:</strong></p>
+<ol>
+<li>Create a new database table to contain an order and associated fund/amount data.</li>
+<li>The acquisitions Order table would show either a single fund or the word “multi”. </li>
+<li>If multi is selected the user then selects all the funds desired.</li>
+<li>The new orderfunds table would have as many lines as needed to make up the price of the item ordered (funds selected above).  fund A at $70 and fund B at 30$ for a total price of $100.  Each fund could have a unique dollar amount taken from it.</li>
 </ol>
-<h1 id="Updates"><a href="#Updates" class="headerlink" title="Updates"></a>Updates</h1><p>A member of the Koha community is currently working on this feature. You can follow the status of the work by going to Bug #5770 in Bugzilla.</p>
 
 	</article>
 
+    
+        <h1>Make a pledge!</h1>
+        <form action="https://formspree.io/developments@bywatersolutions.com" method="POST">
+            <input type="hidden" name="project" value="Select Multiple Funds for a Single Order"/>
+
+            <p/>
+            <label for="library">Library Name (required)</label>
+            <input type="text" name="library"/>
+
+            <p/>
+            <label for="name">Your name (required)</label>
+            <input type="text" name="name"/>
+
+            <p/>
+            <label for="email">Email address (required)</label>
+            <input type="text" name="email"/>
+
+            <p/>
+            <label for="pledge_amount">Pledge amount</label>
+            <input type="text" name="pledge_amount"/>
+
+            <p/>
+            <input type="submit" value="Send">
+        </form>
     
 
 	<div id="disqus_thread"></div>
