@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head><meta name="generator" content="Hexo 3.8.0">
+<head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>ByWater Solutions - Development Crowdsourcing</title>
@@ -24,11 +24,11 @@
   <div class="container">
     <div class="header-content">
       <a href="/">
-          <img style="vertical-align:middle" src="/images/logo.png" height="25" width="25">
+          <img style="vertical-align:middle" src="/images/logo.png" height="25" width="25" />
           <h1 class="header-logo">ByWater Solutions</h1>
       </a>
       <form id="header-search-form" class="header-search-form">
-        <input id="header-search-input" class="header-search-input" type="text" placeholder="Search...">
+        <input id="header-search-input" class="header-search-input" type="text" placeholder="Search..."/>
       </form>
     </div>
   </div>
@@ -37,7 +37,7 @@
   <section class="jumbotron">
   <div class="container">
     <h2 class="jumbotron-title">
-        <span class="symbol"><img style="vertical-align:middle" src="/images/full_logo.png" alt=""></span>
+        <span class="symbol"><img style="vertical-align:middle" src="/images/full_logo.png" alt="" /></span>
         Development Crowdsourcing
     </h2>
   </div>
@@ -53,20 +53,20 @@
 
     
         <li class="nav-item">
-            <a href="#" class="nav-link module_filter" id="module_filter-Catalog">
-                Catalog
+            <a href="#" class="nav-link module_filter" id="module_filter-Cataloging">
+                Cataloging
+            </a>
+        </li>
+    
+        <li class="nav-item">
+            <a href="#" class="nav-link module_filter" id="module_filter-Notices">
+                Notices
             </a>
         </li>
     
         <li class="nav-item">
             <a href="#" class="nav-link module_filter" id="module_filter-Holds">
                 Holds
-            </a>
-        </li>
-    
-        <li class="nav-item">
-            <a href="#" class="nav-link module_filter" id="module_filter-Cataloging">
-                Cataloging
             </a>
         </li>
     
@@ -89,6 +89,12 @@
         </li>
     
         <li class="nav-item">
+            <a href="#" class="nav-link module_filter" id="module_filter-Catalog">
+                Catalog
+            </a>
+        </li>
+    
+        <li class="nav-item">
             <a href="#" class="nav-link module_filter" id="module_filter-Acquisitions">
                 Acquisitions
             </a>
@@ -107,20 +113,14 @@
         </li>
     
         <li class="nav-item">
-            <a href="#" class="nav-link module_filter" id="module_filter-undefined">
-                undefined
+            <a href="#" class="nav-link module_filter" id="module_filter-OPAC">
+                OPAC
             </a>
         </li>
     
         <li class="nav-item">
-            <a href="#" class="nav-link module_filter" id="module_filter-Featured">
-                Featured
-            </a>
-        </li>
-    
-        <li class="nav-item">
-            <a href="#" class="nav-link module_filter" id="module_filter-tools">
-                tools
+            <a href="#" class="nav-link module_filter" id="module_filter-Tools">
+                Tools
             </a>
         </li>
     
@@ -163,21 +163,39 @@ function filterCategories() {
   <section class="container">
   <ul class="cards-content">
   
-    <li class="card-wrap wrapper module-Catalog">
+    <li class="card-wrap wrapper module-Cataloging">
       <div class="card">
         <div class="card-block">
-            <h2 class="card-title">Add FRBRized View to OPAC Results</h2>
+            <h2 class="card-title">Matching Profiles for Importing MARC records!!</h2>
 
             
-              <h5>Add a view to the OPAC of multiple different editions from multiple different sources.</h5>
+              <h5>Matching Profiles</h5>
             
 
-            <a href="/2019/02/11/Add-FRBRized-View-to-OPAC-Results/" class="btn btn-primary">Details</a>
+            <a href="/2019/04/24/matching-profiles-for-importing-marc-records/" class="btn btn-primary">Details</a>
 
             
 
       </div>
-    </div></li>
+    </li>
+  
+    <li class="card-wrap wrapper module-Notices">
+      <div class="card">
+        <div class="card-block">
+            <h2 class="card-title">Auto-Renew Notices in Digest Format!</h2>
+
+            
+              <h5>Auto-Renew Notices in Digest</h5>
+            
+
+            <a href="/2019/04/26/auto-renew-notices-in-digest-format/" class="btn btn-primary">Details</a>
+
+            
+                <div class="ribbon-wrapper-green"><div class="ribbon-green">Funded!</div></div>
+            
+
+      </div>
+    </li>
   
     <li class="card-wrap wrapper module-Holds">
       <div class="card">
@@ -195,23 +213,7 @@ function filterCategories() {
             
 
       </div>
-    </div></li>
-  
-    <li class="card-wrap wrapper module-Cataloging">
-      <div class="card">
-        <div class="card-block">
-            <h2 class="card-title">Show item count on Z39.50 results</h2>
-
-            
-              <h5>Show holding counts when searching Z39.50 targets</h5>
-            
-
-            <a href="/2016/11/30/Show-item-count-on-Z39-50-results/" class="btn btn-primary">Details</a>
-
-            
-
-      </div>
-    </div></li>
+    </li>
   
     <li class="card-wrap wrapper module-Self-Checkout">
       <div class="card">
@@ -229,7 +231,7 @@ function filterCategories() {
             
 
       </div>
-    </div></li>
+    </li>
   
     <li class="card-wrap wrapper module-Self-Checkout">
       <div class="card">
@@ -243,9 +245,11 @@ function filterCategories() {
             <a href="/2016/11/30/Self-Check-module-stand-alone-check-in/" class="btn btn-primary">Details</a>
 
             
+                <div class="ribbon-wrapper-green"><div class="ribbon-green">Funded!</div></div>
+            
 
       </div>
-    </div></li>
+    </li>
   
     <li class="card-wrap wrapper module-Serials">
       <div class="card">
@@ -263,55 +267,7 @@ function filterCategories() {
             
 
       </div>
-    </div></li>
-  
-    <li class="card-wrap wrapper module-Cataloging">
-      <div class="card">
-        <div class="card-block">
-            <h2 class="card-title">Search filters for cataloging module</h2>
-
-            
-              <h5>Add advanced search and filtering capabilities to the cataloging search via a filters box</h5>
-            
-
-            <a href="/2017/07/17/Search-filters-for-cataloging-module/" class="btn btn-primary">Details</a>
-
-            
-
-      </div>
-    </div></li>
-  
-    <li class="card-wrap wrapper module-Holds">
-      <div class="card">
-        <div class="card-block">
-            <h2 class="card-title">Restrict number of holds placed by day</h2>
-
-            
-              <h5>Add the ability to restrict the number of holds placed per day up to the maximum number of holds in circ/hold rules.</h5>
-            
-
-            <a href="/2016/12/01/Restrict-number-of-holds-placed-by-day/" class="btn btn-primary">Details</a>
-
-            
-
-      </div>
-    </div></li>
-  
-    <li class="card-wrap wrapper module-Circulation">
-      <div class="card">
-        <div class="card-block">
-            <h2 class="card-title">Restrict Holds Based on Circ Limit</h2>
-
-            
-              <h5>Add a way to restrict holds for patrons who are at or over their circulation limit.</h5>
-            
-
-            <a href="/2016/12/01/Restrict-Holds-Based-on-Circ-Limit/" class="btn btn-primary">Details</a>
-
-            
-
-      </div>
-    </div></li>
+    </li>
   
     <li class="card-wrap wrapper module-Circulation">
       <div class="card">
@@ -329,7 +285,7 @@ function filterCategories() {
             
 
       </div>
-    </div></li>
+    </li>
   
     <li class="card-wrap wrapper module-Catalog">
       <div class="card">
@@ -347,7 +303,7 @@ function filterCategories() {
             
 
       </div>
-    </div></li>
+    </li>
   
     <li class="card-wrap wrapper module-Circulation">
       <div class="card">
@@ -365,7 +321,7 @@ function filterCategories() {
             
 
       </div>
-    </div></li>
+    </li>
   
     <li class="card-wrap wrapper module-Acquisitions">
       <div class="card">
@@ -383,7 +339,7 @@ function filterCategories() {
             
 
       </div>
-    </div></li>
+    </li>
   
     <li class="card-wrap wrapper module-Accounting">
       <div class="card">
@@ -401,7 +357,7 @@ function filterCategories() {
             
 
       </div>
-    </div></li>
+    </li>
   
     <li class="card-wrap wrapper module-Holds">
       <div class="card">
@@ -419,7 +375,7 @@ function filterCategories() {
             
 
       </div>
-    </div></li>
+    </li>
   
     <li class="card-wrap wrapper module-Circulation">
       <div class="card">
@@ -437,7 +393,7 @@ function filterCategories() {
             
 
       </div>
-    </div></li>
+    </li>
   
     <li class="card-wrap wrapper module-Cataloging">
       <div class="card">
@@ -455,7 +411,7 @@ function filterCategories() {
             
 
       </div>
-    </div></li>
+    </li>
   
     <li class="card-wrap wrapper module-Holds">
       <div class="card">
@@ -473,7 +429,7 @@ function filterCategories() {
             
 
       </div>
-    </div></li>
+    </li>
   
     <li class="card-wrap wrapper module-Tags">
       <div class="card">
@@ -491,7 +447,7 @@ function filterCategories() {
             
 
       </div>
-    </div></li>
+    </li>
   
     <li class="card-wrap wrapper module-Catalog">
       <div class="card">
@@ -509,23 +465,7 @@ function filterCategories() {
             
 
       </div>
-    </div></li>
-  
-    <li class="card-wrap wrapper module-Holds">
-      <div class="card">
-        <div class="card-block">
-            <h2 class="card-title">Disable the ability to suspend holds related to certain itemtypes</h2>
-
-            
-              <h5>Disallow &quot;suspend hold&quot; on certain item types.</h5>
-            
-
-            <a href="/2016/11/30/Disable-the-ability-to-suspend-holds-related-to-certain-itemtypes/" class="btn btn-primary">Details</a>
-
-            
-
-      </div>
-    </div></li>
+    </li>
   
     <li class="card-wrap wrapper module-Cataloging">
       <div class="card">
@@ -543,7 +483,7 @@ function filterCategories() {
             
 
       </div>
-    </div></li>
+    </li>
   
     <li class="card-wrap wrapper module-Cataloging">
       <div class="card">
@@ -561,7 +501,7 @@ function filterCategories() {
             
 
       </div>
-    </div></li>
+    </li>
   
     <li class="card-wrap wrapper module-Circulation">
       <div class="card">
@@ -579,7 +519,7 @@ function filterCategories() {
             
 
       </div>
-    </div></li>
+    </li>
   
     <li class="card-wrap wrapper module-Holds">
       <div class="card">
@@ -597,7 +537,7 @@ function filterCategories() {
             
 
       </div>
-    </div></li>
+    </li>
   
     <li class="card-wrap wrapper module-Accounting">
       <div class="card">
@@ -615,7 +555,7 @@ function filterCategories() {
             
 
       </div>
-    </div></li>
+    </li>
   
     <li class="card-wrap wrapper module-Cataloging">
       <div class="card">
@@ -633,7 +573,7 @@ function filterCategories() {
             
 
       </div>
-    </div></li>
+    </li>
   
     <li class="card-wrap wrapper module-Holds">
       <div class="card">
@@ -651,7 +591,7 @@ function filterCategories() {
             
 
       </div>
-    </div></li>
+    </li>
   
     <li class="card-wrap wrapper module-Circulation">
       <div class="card">
@@ -669,7 +609,23 @@ function filterCategories() {
             
 
       </div>
-    </div></li>
+    </li>
+  
+    <li class="card-wrap wrapper module-Catalog">
+      <div class="card">
+        <div class="card-block">
+            <h2 class="card-title">Add FRBRized View to OPAC Results</h2>
+
+            
+              <h5>Add a view to the OPAC of multiple different editions from multiple different sources.</h5>
+            
+
+            <a href="/2019/08/01/Add-FRBRized-View-to-OPAC-Results/" class="btn btn-primary">Details</a>
+
+            
+
+      </div>
+    </li>
   
     <li class="card-wrap wrapper module-Cataloging">
       <div class="card">
@@ -687,9 +643,105 @@ function filterCategories() {
             
 
       </div>
-    </div></li>
+    </li>
   
-    <li class="card-wrap wrapper module-undefined">
+    <li class="card-wrap wrapper module-OPAC">
+      <div class="card">
+        <div class="card-block">
+            <h2 class="card-title">Hoopla Integration with the Koha OPAC</h2>
+
+            
+              <h5>Hoopla Integration</h5>
+            
+
+            <a href="/2019/08/01/2019-08-01-hoopla-integration-with-the-koha-opac/" class="btn btn-primary">Details</a>
+
+            
+
+      </div>
+    </li>
+  
+    <li class="card-wrap wrapper module-Acquisitions">
+      <div class="card">
+        <div class="card-block">
+            <h2 class="card-title">Select Multiple Funds for a Single Order</h2>
+
+            
+              <h5>Multiple Funds per Order</h5>
+            
+
+            <a href="/2019/07/31/2019-07-31-select-multiple-funds-for-a-single-order/" class="btn btn-primary">Details</a>
+
+            
+
+      </div>
+    </li>
+  
+    <li class="card-wrap wrapper module-OPAC">
+      <div class="card">
+        <div class="card-block">
+            <h2 class="card-title">Incorporating Overdrive Advantage</h2>
+
+            
+              <h5>Include Overdrive Advantage Records in the OPAC</h5>
+            
+
+            <a href="/2019/06/26/2019-06-26-incorporating-overdrive-advantage/" class="btn btn-primary">Details</a>
+
+            
+
+      </div>
+    </li>
+  
+    <li class="card-wrap wrapper module-OPAC">
+      <div class="card">
+        <div class="card-block">
+            <h2 class="card-title">iCal Export of Due Dates</h2>
+
+            
+              <h5>Alter the behavior of iCal Exporting of Due dates</h5>
+            
+
+            <a href="/2019/06/24/2019-06-24-ical-export-of-due-dates/" class="btn btn-primary">Details</a>
+
+            
+
+      </div>
+    </li>
+  
+    <li class="card-wrap wrapper module-Acquisitions">
+      <div class="card">
+        <div class="card-block">
+            <h2 class="card-title">Create Holds from Suggestions</h2>
+
+            
+              <h5>Create Holds from Suggestions</h5>
+            
+
+            <a href="/2019/06/24/2019-06-24-create-holds-from-suggestions/" class="btn btn-primary">Details</a>
+
+            
+
+      </div>
+    </li>
+  
+    <li class="card-wrap wrapper module-Holds">
+      <div class="card">
+        <div class="card-block">
+            <h2 class="card-title">Cancel Holds in Bulk</h2>
+
+            
+              <h5>Cancel Holds in Bulk</h5>
+            
+
+            <a href="/2019/06/24/2019-06-24-cancel-holds-in-bulk/" class="btn btn-primary">Details</a>
+
+            
+
+      </div>
+    </li>
+  
+    <li class="card-wrap wrapper module-Catalog">
       <div class="card">
         <div class="card-block">
             <h2 class="card-title">Allow Prioritization of Multiple Image Sources</h2>
@@ -703,9 +755,9 @@ function filterCategories() {
             
 
       </div>
-    </div></li>
+    </li>
   
-    <li class="card-wrap wrapper module-Featured">
+    <li class="card-wrap wrapper module-Catalog">
       <div class="card">
         <div class="card-block">
             <h2 class="card-title">FRBR-ized Catalog</h2>
@@ -719,25 +771,9 @@ function filterCategories() {
             
 
       </div>
-    </div></li>
+    </li>
   
-    <li class="card-wrap wrapper module-undefined">
-      <div class="card">
-        <div class="card-block">
-            <h2 class="card-title">Convert action_logs.info to JSON</h2>
-
-            
-              <h5>Action_logs does not give enough detail. This will help resolve this issue.</h5>
-            
-
-            <a href="/2018/06/11/2018-06-11-convert-action-logs-info-to-json/" class="btn btn-primary">Details</a>
-
-            
-
-      </div>
-    </div></li>
-  
-    <li class="card-wrap wrapper module-undefined">
+    <li class="card-wrap wrapper module-Accounting">
       <div class="card">
         <div class="card-block">
             <h2 class="card-title">Prevent backdated returns from creating credits</h2>
@@ -749,43 +785,13 @@ function filterCategories() {
             <a href="/2018/06/07/2018-06-07-prevent-backdated-returns-from-creating-credits/" class="btn btn-primary">Details</a>
 
             
-
-      </div>
-    </div></li>
-  
-    <li class="card-wrap wrapper module-undefined">
-      <div class="card">
-        <div class="card-block">
-            <h2 class="card-title">localuse recorded for holds/transfers</h2>
-
-            
-              <h5>localuse recorded for holds/transfers</h5>
-            
-
-            <a href="/2018/06/07/2018-06-07-localuse-recorded-for-holds-transfers/" class="btn btn-primary">Details</a>
-
+                <div class="ribbon-wrapper-green"><div class="ribbon-green">Funded!</div></div>
             
 
       </div>
-    </div></li>
+    </li>
   
-    <li class="card-wrap wrapper module-undefined">
-      <div class="card">
-        <div class="card-block">
-            <h2 class="card-title">Extend Deduplication plugin to work for authorities</h2>
-
-            
-              <h5>Extend Deduplication plugin to work for authorities</h5>
-            
-
-            <a href="/2018/05/22/2018-05-22-your-filename/" class="btn btn-primary">Details</a>
-
-            
-
-      </div>
-    </div></li>
-  
-    <li class="card-wrap wrapper module-undefined">
+    <li class="card-wrap wrapper module-Circulation">
       <div class="card">
         <div class="card-block">
             <h2 class="card-title">Batch Checkin Module</h2>
@@ -799,9 +805,9 @@ function filterCategories() {
             
 
       </div>
-    </div></li>
+    </li>
   
-    <li class="card-wrap wrapper module-undefined">
+    <li class="card-wrap wrapper module-Tools">
       <div class="card">
         <div class="card-block">
             <h2 class="card-title">Match on multiple records</h2>
@@ -813,11 +819,13 @@ function filterCategories() {
             <a href="/2017/11/02/2017-11-02-match-on-multiple-records/" class="btn btn-primary">Details</a>
 
             
+                <div class="ribbon-wrapper-green"><div class="ribbon-green">Funded!</div></div>
+            
 
       </div>
-    </div></li>
+    </li>
   
-    <li class="card-wrap wrapper module-undefined">
+    <li class="card-wrap wrapper module-Self-Checkout">
       <div class="card">
         <div class="card-block">
             <h2 class="card-title">Holds and Self-checkout</h2>
@@ -829,11 +837,13 @@ function filterCategories() {
             <a href="/2017/11/02/2017-11-02-holds-and-self-checkout/" class="btn btn-primary">Details</a>
 
             
+                <div class="ribbon-wrapper-green"><div class="ribbon-green">Funded!</div></div>
+            
 
       </div>
-    </div></li>
+    </li>
   
-    <li class="card-wrap wrapper module-tools">
+    <li class="card-wrap wrapper module-Tools">
       <div class="card">
         <div class="card-block">
             <h2 class="card-title">Check boxes on import screen</h2>
@@ -847,9 +857,9 @@ function filterCategories() {
             
 
       </div>
-    </div></li>
+    </li>
   
-    <li class="card-wrap wrapper module-undefined">
+    <li class="card-wrap wrapper module-Tools">
       <div class="card">
         <div class="card-block">
             <h2 class="card-title">Add patron attributes into the patron card creator</h2>
@@ -863,7 +873,7 @@ function filterCategories() {
             
 
       </div>
-    </div></li>
+    </li>
   
   <!-- HIDE SHOW MORE FOR NOW
     <li class="card-wrap">
