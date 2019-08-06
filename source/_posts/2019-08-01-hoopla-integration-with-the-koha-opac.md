@@ -1,14 +1,15 @@
 ---
 bug: 0
-raised: 0
+raised: 4000
 goal: 8000
-supporters: 0
+supporters: 1
 date: '2019-08-01 10:18 -0600'
 published: true
 title: Hoopla Integration with the Koha OPAC
 module: OPAC
 short_description: Hoopla Integration
 tags: 'Hoopla, OPAC'
+supporter1: hoopla
 ---
 
 **_Do you subscribe to Hoopla?  
@@ -24,8 +25,3 @@ We are interested in a development to integrate your Hoopla content into Koha se
 ## Putting content in front of the user in your OPAC means one less layer between your patrons and the content they want!
 
 Click the link and sponsor a part of the development today!
-
-
-
-
-
