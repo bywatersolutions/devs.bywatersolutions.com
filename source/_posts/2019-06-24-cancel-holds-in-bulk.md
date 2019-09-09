@@ -1,14 +1,15 @@
 ---
 bug: 0
-raised: 600
+raised: 800
 goal: 2000
-supporters: 3
+supporters: 4
 date: '2019-06-24 16:06 -0600'
 published: true
 title: Cancel Holds in Bulk
 module: Holds
 short_description: Cancel Holds in Bulk
 tags: holds
+donor4: huntsvillemadison
 ---
 
 **Add the ability Cancel Multiple Holds**
