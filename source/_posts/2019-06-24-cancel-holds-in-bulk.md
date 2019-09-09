@@ -9,7 +9,10 @@ title: Cancel Holds in Bulk
 module: Holds
 short_description: Cancel Holds in Bulk
 tags: holds
-donor4: huntsvillemadison
+donor4: huntsvillemadison 200
+donor1: bedford 200
+donor2: portsmouth 200
+donor3: losgatos 200
 ---
 
 **Add the ability Cancel Multiple Holds**
