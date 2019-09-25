@@ -12,6 +12,7 @@ tags: 'acquisitions, holds, suggestions'
 Sponsor: St Pauls 500
 Sponsor1: Altadena 500
 Sponsor2: St Pauls 500
+Sponsor3: Bedford 4500
 ---
 
 
