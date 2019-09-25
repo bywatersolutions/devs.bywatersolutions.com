@@ -1,6 +1,6 @@
 ---
 bug: 0
-raised: 800
+raised: 2000
 goal: 2000
 supporters: 4
 date: '2019-06-24 16:06 -0600'
@@ -10,7 +10,7 @@ module: Holds
 short_description: Cancel Holds in Bulk
 tags: holds
 donor4: huntsvillemadison 200
-donor1: bedford 200
+donor1: bedford 1400
 donor2: portsmouth 200
 donor3: losgatos 200
 ---
