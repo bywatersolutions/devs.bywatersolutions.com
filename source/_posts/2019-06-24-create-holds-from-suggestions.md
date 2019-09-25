@@ -1,8 +1,8 @@
 ---
 bug: 0
-raised: 1000
+raised: 5000
 goal: 5000
-supporters: 2
+supporters: 3
 date: '2019-06-24 15:50 -0600'
 published: true
 title: Create Holds from Suggestions
