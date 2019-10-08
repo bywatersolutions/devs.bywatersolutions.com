@@ -17,9 +17,10 @@ Interested in increasing traffic to the Hoopla content?_**
 
 We are interested in a development to integrate your Hoopla content into Koha search results...in much the same way that Overdrive is shown in search results.
   
+  
+  ![Screen Shot 2019-10-07 at 11.33.54 AM.jpg]({{site.baseurl}}/source/images/Screen Shot 2019-10-07 at 11.33.54 AM.jpg)
+
     
-    
-![overdrive.jpg]({{site.baseurl}}/source/images/overdrive.jpg)
   
     
 ## Putting content in front of the user in your OPAC means one less layer between your patrons and the content they want!
