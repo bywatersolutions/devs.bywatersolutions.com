@@ -9,6 +9,7 @@ title: Select Multiple Funds for a Single Order
 module: Acquisitions
 short_description: Multiple Funds per Order
 tags: 'acquisitions, funds'
+RT: 59207
 ---
 Currently in Acquisitions orders placed are tied to a single fund.  Sometimes, libraries need to split the cost across two or more funds.  For example:
 
