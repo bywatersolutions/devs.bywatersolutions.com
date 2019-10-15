@@ -1,7 +1,7 @@
 ---
 title: Add FRBRized View to OPAC Results
-raised: 2500
-supporters: 2
+raised: 2000
+supporters: 1
 date: CURRENT_DATETIME
 goal: 30000
 short_description: >-
@@ -10,6 +10,9 @@ short_description: >-
 tags: 'koha,opac,catalog,frbr,frbrized'
 bug: 0
 module: Catalog
+published: true
+RT: 29327
+Sponsor1: DoverNet 2000
 ---
 
 ![Add-FRBRized-View-to-OPAC-Results.png]({{site.baseurl}}/source/images/Add-FRBRized-View-to-OPAC-Results.png)
