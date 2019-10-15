@@ -10,6 +10,7 @@ short_description: 'Work to be done, add batch checkin feature similar to batch 
 tags: circulation
 module: Circulation
 Supporter1: AAROME 500
+RT: 46772
 ---
 # Batch Checkin Module
 
