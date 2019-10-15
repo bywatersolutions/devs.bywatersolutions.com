@@ -9,6 +9,8 @@ title: iCal Export of Due Dates
 tags: opac
 module: OPAC
 short_description: Alter the behavior of iCal Exporting of Due dates
+RT: 58699
+Sponsor1: Huntsville Madison 500
 ---
 
 
