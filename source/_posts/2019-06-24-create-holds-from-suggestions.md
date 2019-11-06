@@ -6,13 +6,14 @@ supporters: 3
 date: '2019-06-24 15:50 -0600'
 published: true
 title: Create Holds from Suggestions
-module: Acquisitions
+module: Funded
 short_description: Create Holds from Suggestions
 tags: 'acquisitions, holds, suggestions'
 Sponsor: St Pauls 500
 Sponsor1: Altadena 500
 Sponsor2: St Pauls 500
 Sponsor3: Bedford 4500
+originalmodule: Acquisitions
 ---
 
 
