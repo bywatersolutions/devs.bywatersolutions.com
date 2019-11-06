@@ -6,11 +6,12 @@ supporters: 2
 date: '2019-08-01 10:18 -0600'
 published: true
 title: Hoopla Integration with the Koha OPAC
-module: OPAC
+module: Funded
 short_description: Hoopla Integration
 tags: 'Hoopla, OPAC'
 supporter1: hoopla
 supporter2: Nekls
+originalmodule: OPAC
 ---
 
 **_Do you subscribe to Hoopla?  
