@@ -3,12 +3,15 @@ title: Clearing Z39.50 search fields
 goal: 1000
 raised: 1000
 supporters: 1
-date: 2016-12-01 06:42:53
-short_description: Add a button on the Z39.50 search form that will reset all the fields to blank.
-in_koha_release: 3.20
-tags:
-bug:
-module: Cataloging
+date: 'Wed Nov 30 2016 23:42:53 GMT-0700 (Mountain Standard Time)'
+short_description: >-
+  Add a button on the Z39.50 search form that will reset all the fields to
+  blank.
+in_koha_release: 3.2
+bug: 0
+module: Funded
+published: true
+originalmodule: cataloging
 ---
 
 When doing multiple z39.50 searches one after another, it would be helpful if there was a way to clear all the entries in the z39.50 in one fell swoop instead of having to remove each field individually. This development will add a button on the Z39.50 search form that will reset all the fields to blank.
