@@ -6,13 +6,14 @@ supporters: 4
 date: '2019-04-26 16:15 -0500'
 published: true
 title: Auto-Renew Notices in Digest Format!
-module: Notices
+module: Funded
 short_description: Auto-Renew Notices in Digest
 Sponsor: Tacoma 1000 credit
 Sponsor1: Tacoma 1000 credit
 Sponsor2: Bedford 1000
 Sponsor3: Cedar Park 1000
 Sponsor4: University of Arts 1000
+Module: Notices
 ---
 ## A New Post
 
