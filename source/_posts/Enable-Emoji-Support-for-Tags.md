@@ -8,7 +8,8 @@ supporters: 2
 short_description: Allow for the use of Emojis when tagging
 bug: 15885
 published: true
-module: Tags
+module: Funded
+originalmodule: Tags
 ---
 
 ![Enable-Emoji-Support-for-Tags.jpg]({{site.baseurl}}/source/images/Enable-Emoji-Support-for-Tags.jpg)
