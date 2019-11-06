@@ -8,7 +8,8 @@ published: true
 title: Match on multiple records
 short_description: Match on multiple records
 Module: Tools
-module: Tools
+module: Funded
+originalModule: Tools
 ---
 This development would allow the system to alert the user about multiple matches when importing records. The user would then be able to select which record, if any, to overlay.
 
