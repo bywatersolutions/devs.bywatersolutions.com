@@ -9,8 +9,9 @@ short_description: >-
   by patrons.
 tags: koha acquisitions suggestions email
 bug: 5770
-module: Acquisitions
+module: Funded
 published: true
+originalmodule: acquisitions
 ---
 
 # Goal
