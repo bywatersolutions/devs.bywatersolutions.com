@@ -2,12 +2,15 @@
 title: Self-check module highlighting
 raised: 1000
 supporters: 1
-date: 2016-12-01 06:15:19
+date: 'Wed Nov 30 2016 23:15:19 GMT-0700 (Mountain Standard Time)'
 goal: 1000
-short_description: Ability for self-check users to distinguish newly checked out books from currently checked out books.
+short_description: >-
+  Ability for self-check users to distinguish newly checked out books from
+  currently checked out books.
 tags: sco self check selfcheck highlight
-bug:
-module: Self-Checkout
+bug: 0
+module: self-check
+published: true
 ---
 
 When checking out books from the staff client, newly checked out books are automatically separated from books that are currently checked out to the patron. The self-check should also have a way of distinguishing newly checked out books from previously checked out books.
