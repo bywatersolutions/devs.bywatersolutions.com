@@ -5,10 +5,11 @@ supporters: 1
 date: 'Wed Nov 30 2016 06:35:35 GMT-0500 (EST)'
 goal: 2000
 short_description: Allow a partial writeoff in the same manner as a partial payment
-tags: koha,circulation,fine,fines,writeoff,writeoffs
+tags: 'koha,circulation,fine,fines,writeoff,writeoffs'
 bug: 11210
 published: true
-module: Accounting
+module: Funded
+originalmodule: Accounting
 ---
 
 ![Allow-partial-writeoffs-of-fines.png]({{site.baseurl}}/source/images/Allow-partial-writeoffs-of-fines.png)
