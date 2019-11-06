@@ -2,12 +2,17 @@
 title: Claimed Returned
 raised: 8000
 supporters: 3
-date: 2016-11-30 12:40:18
+date: 'Wed Nov 30 2016 05:40:18 GMT-0700 (Mountain Standard Time)'
 goal: 8000
-short_description: This feature will add the ability for library staff to mark things as claimed returned when the patron states that he/she returned an item that is still showing as checked out.
+short_description: >-
+  This feature will add the ability for library staff to mark things as claimed
+  returned when the patron states that he/she returned an item that is still
+  showing as checked out.
 tags: koha claims returned
 bug: 14697
-module: Circulation
+module: Funded
+published: true
+originalmodule: circulation
 ---
 
 * mark an item claimed returned via circulation
