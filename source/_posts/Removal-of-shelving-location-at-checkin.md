@@ -6,8 +6,9 @@ date: 'Thu Dec 01 2016 01:26:05 GMT-0500 (Eastern Standard Time)'
 goal: 1500
 short_description: Shelving locations need to ability to be removed upon checkin.
 bug: 0
-module: Circulation
+module: Funded
 published: true
+originalmodule: circulation
 ---
 
 Shelving locations need to ability to be removed upon checkin.
