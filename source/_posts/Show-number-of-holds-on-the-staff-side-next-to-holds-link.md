@@ -9,8 +9,9 @@ short_description: >-
   next to 'holds' link
 tags: koha holds
 bug: 14876
-module: holds
+module: Funded
 published: true
+originalmodule: holds
 ---
 
 ![Screenshot](image.png)
