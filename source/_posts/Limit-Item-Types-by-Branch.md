@@ -8,7 +8,8 @@ short_description: This feature will allow the creation of branch specific item 
 tags: koha itemtype library
 bug: 0
 published: true
-module: Cataloging
+module: Funded
+originalmodule: Cataloging
 ---
 ![Limit-Item-Types-by-Branch.png]({{site.baseurl}}/source/images/Limit-Item-Types-by-Branch.png)
 
