@@ -9,7 +9,7 @@ short_description: >-
   multiple items.
 tags: koha sco self-check selfcheck
 bug: 15492
-module: Self-Checkout
+module: Self-check
 published: true
 ---
 
