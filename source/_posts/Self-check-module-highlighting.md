@@ -9,8 +9,9 @@ short_description: >-
   currently checked out books.
 tags: sco self check selfcheck highlight
 bug: 0
-module: self-check
+module: Funded
 published: true
+originalmodule: self-check
 ---
 
 When checking out books from the staff client, newly checked out books are automatically separated from books that are currently checked out to the patron. The self-check should also have a way of distinguishing newly checked out books from previously checked out books.
