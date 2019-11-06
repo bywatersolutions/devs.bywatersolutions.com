@@ -2,12 +2,16 @@
 title: Search serials by barcode
 raised: 1000
 supporters: 1
-date: 2016-11-30 11:24:34
+date: 'Wed Nov 30 2016 04:24:34 GMT-0700 (Mountain Standard Time)'
 goal: 1000
-short_description: Allow serials to be searched by barcode from the top search bar and the advanced searched
+short_description: >-
+  Allow serials to be searched by barcode from the top search bar and the
+  advanced searched
 tags: koha serials
 bug: 14875
-module: Serials
+module: Funded
+published: true
+originalmodule: serials
 ---
 
 ![Screenshot](image.png)
