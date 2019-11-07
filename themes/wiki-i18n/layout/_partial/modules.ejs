@@ -54,11 +54,18 @@ function filterCategories() {
         cards[i].style.display = 'block';
     }
 
-    if ( module != "Funded" ) { // Hide funded cards by default
+    if ( module == "ALL" ) { // Hide funded cards by default
         cards = document.getElementsByClassName('module-Funded');
         for ( let i = 0; i < cards.length; i++ ) {
             cards[i].style.display = 'none';
         }
     }
 }
+
+document.addEventListener("DOMContentLoaded", function(event) {
+    cards = document.getElementsByClassName('module-Funded');
+    for ( let i = 0; i < cards.length; i++ ) {
+        cards[i].style.display = 'none';
+    }
+});
 </script>
