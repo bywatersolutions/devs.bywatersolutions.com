@@ -53,5 +53,12 @@ function filterCategories() {
     for ( let i = 0; i < cards.length; i++ ) {
         cards[i].style.display = 'block';
     }
+
+    if ( module != "Funded" ) { // Hide funded cards by default
+        cards = document.getElementsByClassName('module-Funded');
+        for ( let i = 0; i < cards.length; i++ ) {
+            cards[i].style.display = 'none';
+        }
+    }
 }
 </script>
