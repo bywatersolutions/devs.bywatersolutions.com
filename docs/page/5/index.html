@@ -139,6 +139,13 @@ function filterCategories() {
     for ( let i = 0; i < cards.length; i++ ) {
         cards[i].style.display = 'block';
     }
+
+    if ( module != "Funded" ) { // Hide funded cards by default
+        cards = document.getElementsByClassName('module-Funded');
+        for ( let i = 0; i < cards.length; i++ ) {
+            cards[i].style.display = 'none';
+        }
+    }
 }
 </script>
 
@@ -602,7 +609,7 @@ function filterCategories() {
               <h5>Add a view to the OPAC of multiple different editions from multiple different sources.</h5>
             
 
-            <a href="/2019/11/06/Add-FRBRized-View-to-OPAC-Results/" class="btn btn-primary">Details</a>
+            <a href="/2019/11/07/Add-FRBRized-View-to-OPAC-Results/" class="btn btn-primary">Details</a>
 
             
 
