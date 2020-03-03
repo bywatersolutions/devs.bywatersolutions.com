@@ -3,7 +3,7 @@
 <head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Increase statistics data for Local use report  | ByWater Solutions - Development Crowdsourcing</title>
+  <title>Course Reserves Improvements | ByWater Solutions - Development Crowdsourcing</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" type="image/png" href="favicon.png">
 
@@ -36,18 +36,14 @@
 
   <section class="container">
 	<h2>
-		Increase statistics data for Local use report 
+		Course Reserves Improvements
 	</h2>
-	<p class="short-description">Increase statistics data for Local use reporting</p>
+	<p class="short-description">Speed improvements in Course Reserves</p>
 
-    
-        <a href="https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=9717">
-            Koha Community Bug #9717
-        </a>
     
 
 	<h3>
-		Goal: $2500
+		Goal: $6000
 	</h3>
 	<h3>
 		Raised: $0
@@ -57,22 +53,15 @@
 	</h3>
 
 	<article class="article">
-		<p><strong>Development to refine ‘local use’ entries in Statistics.</strong></p>
-<p>This development will add information to checkins related to holds and transfers in the statistics table when using RecordLocalUseOnReturn.  We propose adding ‘hold’ and ‘transfer’ to the statistics table in the statistics.proccode field when a checkin prompts the user that a hold was found or a transfer requested.  </p>
-<p><em><strong>Caveats:</strong></em></p>
-<ul>
-<li>The assumption made is that the user will proceed with ‘trapping’ the hold and completing the transfer of the item.</li>
-<li>This development will not prevent extra local uses from being recorded when an item is checked in more than once.  (double check-ins) </li>
-<li>Also, using Koha’s statistical patron will also resolve this issue without a development for libraries wishing to use that workflow option.</li>
-</ul>
-<p>The cost of this development is $2500</p>
+		<p>This development is designed to improve the functionality/efficiency/speed in the Course Reserves module.  We are proposing to create an API (or a few) in the course reserves module to facilitate the manipulation and display of data.  This should have the primary benefit of making the course reserves module faster when using.  It will also allow for new features/enhancements to be built due to the new API(s) written.</p>
+<p>Cost of $6000</p>
 
 	</article>
 
     
         <h1>Make a pledge!</h1>
         <form action="https://formspree.io/developments@bywatersolutions.com" method="POST">
-            <input type="hidden" name="project" value="Increase statistics data for Local use report "/>
+            <input type="hidden" name="project" value="Course Reserves Improvements"/>
 
             <p/>
             <label for="library">Library Name (required)</label>
