@@ -1,7 +1,7 @@
 ---
 title: Add FRBRized View to OPAC Results
 raised: 2000
-supporters: 1
+supporters: 2
 date: CURRENT_DATETIME
 goal: 30000
 short_description: >-
@@ -13,6 +13,7 @@ module: Catalog
 published: true
 RT: 29327
 Sponsor1: DoverNet 2000
+Sponsor2: Arcadia 5000
 ---
 
 ![Add-FRBRized-View-to-OPAC-Results.png]({{site.baseurl}}/source/images/Add-FRBRized-View-to-OPAC-Results.png)
