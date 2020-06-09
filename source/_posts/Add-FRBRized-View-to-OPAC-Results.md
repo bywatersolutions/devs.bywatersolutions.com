@@ -13,7 +13,8 @@ module: Catalog
 published: true
 RT: 29327
 Sponsor1: DoverNet 2000
-Sponsor2: Arcadia 5000
+Sponsor2: Arcadia 5000 2019
+Sponsor3: Arcadia 3000 2018
 ---
 
 ![Add-FRBRized-View-to-OPAC-Results.png]({{site.baseurl}}/source/images/Add-FRBRized-View-to-OPAC-Results.png)
