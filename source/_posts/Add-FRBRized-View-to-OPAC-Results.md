@@ -1,6 +1,6 @@
 ---
 title: Add FRBRized View to OPAC Results
-raised: 2000
+raised: 10000
 supporters: 2
 date: CURRENT_DATETIME
 goal: 30000
