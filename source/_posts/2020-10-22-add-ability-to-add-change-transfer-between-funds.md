@@ -25,8 +25,8 @@ Create an interface to modify (add/change/transfer) amounts from/to active funds
 See bugzilla [25916](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=25916) for more information
 
 Cost: $7500
-
-
+  
+  
 ## Part 3
 See the history of the fund  
 Create a history table on the page and populate with the information logged (date, amount, reason)
@@ -34,7 +34,7 @@ Create a history table on the page and populate with the information logged (dat
 See bugzilla [25918](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=25918) for more information
 
 Cost: $1250
- 
- 
- 
+  
+  
+  
 ## **Total cost $8750**
