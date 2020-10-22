@@ -33,8 +33,7 @@ Create a history table on the page and populate with the information logged (dat
 See bugzilla [25918](https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=25918) for more information
 
 Cost: $1250
-
-
-
-Total cost $8750
-
+ 
+ 
+ 
+## **Total cost $8750**
