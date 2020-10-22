@@ -10,6 +10,7 @@ module: Acquisitions
 short_description: Modify funds
 RT: 66463
 Sponsors: Koha ACQ-SIG members
+tags: 'funds,acquisitions,logging'
 ---
 ## Part 1:
 Log modifications to funds- Add an option to include fund changes into Action logs 
