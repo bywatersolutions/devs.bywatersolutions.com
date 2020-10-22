@@ -1,5 +1,5 @@
 ---
-bug: .nan
+bug: 25916
 raised: 0
 goal: 8750
 supporters: 0
@@ -7,7 +7,7 @@ date: '2020-10-22 13:52 -0600'
 published: true
 title: 'Add ability to add, change, or transfer between funds'
 module: Acquisitions
-short_description: Modify funds
+short_description: 'Add ability to add, change, or transfer between funds'
 RT: 66463
 Sponsors: Koha ACQ-SIG members
 tags: 'funds,acquisitions,logging'
