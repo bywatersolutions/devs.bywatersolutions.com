@@ -1,8 +1,8 @@
 ---
 bug: 0
-raised: 0
+raised: 5000
 goal: 5000
-supporters: 0
+supporters: 2
 date: '2019-11-06 13:52 -0700'
 published: true
 title: Customize the Accountlines Description
@@ -10,6 +10,9 @@ module: Accounting
 short_description: Customize the Description field
 RT: 63216
 RT2: 60955
+RT3: 71258
+Sponsor1: NEKLS 1000
+Sponsor2: Koha-US 4000
 ---
 ## "Is there any way we can add some more data to the description when a fine (or lost item fee) is created?"
 
@@ -18,4 +21,3 @@ When fines are created, certain information is included into the description fie
 We would like to add the fine description customization into the Notices/Messaging area and allow that field to be customized with template toolkit.
 
 ![Screenshot 2019-11-06 13.58.51.png]({{site.baseurl}}/source/images/Screenshot 2019-11-06 13.58.51.png)
-
