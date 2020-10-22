@@ -5,7 +5,7 @@ goal: 8750
 supporters: 0
 date: '2020-10-22 13:52 -0600'
 published: true
-title: Add ability to add/change/transfer between funds
+title: 'Add ability to add, change, or transfer between funds'
 module: Acquisitions
 short_description: Modify funds
 RT: 66463
