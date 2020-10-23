@@ -1,5 +1,5 @@
 ---
-bug: 25916
+bug: 0
 raised: 0
 goal: 8750
 supporters: 0
@@ -7,11 +7,14 @@ date: '2020-10-22 13:52 -0600'
 published: true
 title: 'Add ability to add, change, or transfer between funds'
 module: Acquisitions
-short_description: 'Add ability to add, change, or transfer between funds'
+short_description: Modifying funds
 RT: 66463
 Sponsors: Koha ACQ-SIG members
 tags: 'funds,acquisitions,logging'
 ---
+  
+   
+   
 ## Part 1:
 Log modifications to funds- Add an option to include fund changes into Action logs 
 
@@ -38,5 +41,3 @@ Cost: $1250
   
   
 ## **Total cost $8750**
-  
-  
