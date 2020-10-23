@@ -1,0 +1,64 @@
+name: CI
+on: [push]
+jobs:
+  build:
+    name: Build
+    if: "! contains(toJSON(github.event.commits.*.message), 'Site auto-updated')"
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+
+    - name: Configure git
+      run: |
+        git config --local user.name 'Kyle M Hall'
+        git config --local user.email 'kyle@bywatersolutions.com'
+
+    - name: Install hexo
+      run: sudo npm install -g hexo
+
+    - name: Install deps
+      run: npm install
+
+      # prose.io mangles the image paths, fix it before generating the statis files
+    - name: Fix site baseurl
+      run: git grep -l "{{site.baseurl}}/source" | xargs sed -i 's|{{site.baseurl}}/source||g'
+
+    - name: Regenerate the site
+      run: hexo generate
+
+      # don't commit the de-mangling of the image paths for prose.io,
+      # we need them to be mangled for editing
+    - name: Reset source directory
+      run: git checkout source/
+
+    - name: Add docs directory
+      run: git add docs
+
+    - name: Commit to repo
+      run: git commit --allow-empty -m 'Site auto-updated'
+
+    - name: Push changes
+      uses: bywatersolutions/github-action-push@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+
+  publish:
+    name: Publish
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        ref: master
+
+    - name: Show last commit
+      run: git show HEAD
+
+    - name: Publish to Registry
+      uses: bywatersolutions/github-action-publish-docker@master
+      with:
+        name: bywatersolutions/devs.bywatersolutions.com
+        username: ${{ secrets.QUAY_USERNAME }}
+        password: ${{ secrets.QUAY_PASSWORD }}
+        registry: quay.io
+
