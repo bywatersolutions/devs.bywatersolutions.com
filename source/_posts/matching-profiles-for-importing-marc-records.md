@@ -1,6 +1,6 @@
 ---
 bug: 0
-raised: 2500
+raised: 5000
 goal: 5000
 supporters: 1
 date: '2019-04-24 11:21 -0500'
@@ -9,6 +9,7 @@ title: Matching Profiles for Importing MARC records!!
 module: Cataloging
 short_description: Matching Profiles
 tags: 'cataloging, import profiles'
+sponsor: Carnegie Stout Public Library
 ---
 
 ## Do you import records from vendors and find that each vendor requires special handling upon import for things like encoding, matching rule, overwrite actions, etc.?
