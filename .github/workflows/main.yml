@@ -26,6 +26,9 @@ jobs:
     - name: Git Diff
       run: git diff
 
+    - name: Setup tmate session
+      uses: mxschmitt/action-tmate@v3
+
     - name: Regenerate the site
       run: hexo generate
 
