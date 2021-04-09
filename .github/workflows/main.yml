@@ -17,17 +17,14 @@ jobs:
         git config --local user.name 'Kyle M Hall'
         git config --local user.email 'kyle@bywatersolutions.com'
 
-    - name: Setup tmate session
-      uses: mxschmitt/action-tmate@v3
-
-    - name: Install hexo
-      run: sudo npm install -g hexo@3.9.0
-
-    - name: Install hexo-cli
-      run: sudo npm install hexo-cli@4.2.0
+#    - name: Setup tmate session
+#      uses: mxschmitt/action-tmate@v3
 
     - name: Install deps
       run: npm install
+
+    - name: Install hexo
+      run: sudo npm install -g hexo@3.9.0
 
       # prose.io mangles the image paths, fix it before generating the statis files
     - name: Fix site baseurl
