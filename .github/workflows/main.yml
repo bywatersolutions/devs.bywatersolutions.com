@@ -13,8 +13,8 @@ jobs:
         git config --local user.name 'Kyle M Hall'
         git config --local user.email 'kyle@bywatersolutions.com'
 
-    - name: Setup tmate session
-      uses: mxschmitt/action-tmate@v3
+#    - name: Setup tmate session
+#      uses: mxschmitt/action-tmate@v3
 
     - name: Install hexo
       run: sudo npm install -g hexo@3.9.0
@@ -29,13 +29,13 @@ jobs:
     - name: Fix site baseurl
       run: git grep -l "{{site.baseurl}}/source" | xargs sed -i 's|{{site.baseurl}}/source||g'
 
-    - name: Git Diff
+    - name: Git Status
       run: git status
 
     - name: Regenerate the site
       run: hexo generate
 
-    - name: Git Diff 2
+    - name: Git Status 2
       run: git status
 
       # don't commit the de-mangling of the image paths for prose.io,
@@ -43,13 +43,13 @@ jobs:
     - name: Reset source directory
       run: git checkout source/
 
-    - name: Git Diff 3
+    - name: Git Status 3
       run: git status
 
     - name: Add docs directory
       run: git add docs
 
-    - name: Git Diff 4
+    - name: Git Status 4
       run: git status
 
     - name: Commit to repo
