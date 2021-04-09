@@ -13,8 +13,8 @@ jobs:
         git config --local user.name 'Kyle M Hall'
         git config --local user.email 'kyle@bywatersolutions.com'
 
-#    - name: Setup tmate session
-#      uses: mxschmitt/action-tmate@v3
+    - name: Setup tmate session
+      uses: mxschmitt/action-tmate@v3
 
     - name: Install hexo
       run: sudo npm install -g hexo@3.9.0
