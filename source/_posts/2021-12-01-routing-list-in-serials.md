@@ -12,4 +12,4 @@ RT: 62577
 ---
 ## Routing Lists are not currently Editable.
 
-Allow Routing Lists to be managed in Notices & Slips. Allow them to customized  with notes or news or borrower information.
+Allow Routing Lists to be managed in Notices & Slips. Allow them to be customized with notes or news or borrower information.
