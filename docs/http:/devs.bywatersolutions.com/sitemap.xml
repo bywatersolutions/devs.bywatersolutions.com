@@ -2,394 +2,394 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://devs.bywatersolutions.com/2019/06/24/2019-06-24-cancel-holds-in-bulk/</loc>
+    
+    <lastmod>2021-12-01T20:32:41.711Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://devs.bywatersolutions.com/2019/08/01/2019-08-01-hoopla-integration-with-the-koha-opac/</loc>
     
-    <lastmod>2021-12-01T20:12:53.594Z</lastmod>
+    <lastmod>2021-12-01T20:32:41.711Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://devs.bywatersolutions.com/2019/11/06/2019-11-06-customize-the-accountlines-description/</loc>
     
-    <lastmod>2021-12-01T20:12:53.594Z</lastmod>
+    <lastmod>2021-12-01T20:32:41.711Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://devs.bywatersolutions.com/2019/11/18/2019-11-18-item-checkout-from-item-holding-screen/</loc>
     
-    <lastmod>2021-12-01T20:12:53.594Z</lastmod>
+    <lastmod>2021-12-01T20:32:41.711Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://devs.bywatersolutions.com/2021/12/01/Add-FRBRized-View-to-OPAC-Results/</loc>
     
-    <lastmod>2021-12-01T20:12:53.594Z</lastmod>
+    <lastmod>2021-12-01T20:32:41.711Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://devs.bywatersolutions.com/2016/11/30/Add-Owning-Library-Column-to-Checkouts/</loc>
     
-    <lastmod>2021-12-01T20:12:53.594Z</lastmod>
+    <lastmod>2021-12-01T20:32:41.711Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://devs.bywatersolutions.com/2016/12/01/Adding-holds-count-to-Holds-tab/</loc>
     
-    <lastmod>2021-12-01T20:12:53.594Z</lastmod>
+    <lastmod>2021-12-01T20:32:41.711Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://devs.bywatersolutions.com/2016/11/30/Allow-partial-writeoffs-of-fines/</loc>
     
-    <lastmod>2021-12-01T20:12:53.594Z</lastmod>
+    <lastmod>2021-12-01T20:32:41.711Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://devs.bywatersolutions.com/2016/11/30/Delete-Bib-After-Moving-Item/</loc>
     
-    <lastmod>2021-12-01T20:12:53.594Z</lastmod>
+    <lastmod>2021-12-01T20:32:41.711Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://devs.bywatersolutions.com/2016/11/30/Enable-Emoji-Support-for-Tags/</loc>
     
-    <lastmod>2021-12-01T20:12:53.594Z</lastmod>
+    <lastmod>2021-12-01T20:32:41.711Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://devs.bywatersolutions.com/2016/11/30/Limit-Item-Types-by-Branch/</loc>
     
-    <lastmod>2021-12-01T20:12:53.594Z</lastmod>
+    <lastmod>2021-12-01T20:32:41.711Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://devs.bywatersolutions.com/2016/11/30/Mark-Hold-Items-On-hold-instead-of-Available/</loc>
     
-    <lastmod>2021-12-01T20:12:53.594Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2019/06/24/2019-06-24-cancel-holds-in-bulk/</loc>
-    
-    <lastmod>2021-12-01T20:12:53.590Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2017/10/10/2017-10-10-add-patron-attributes-into-the-patron-card-creator/</loc>
-    
-    <lastmod>2021-12-01T20:10:56.669Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2017/11/02/2017-11-02-check-boxes-on-import-screen/</loc>
-    
-    <lastmod>2021-12-01T20:10:56.669Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2017/11/02/2017-11-02-holds-and-self-checkout/</loc>
-    
-    <lastmod>2021-12-01T20:10:56.669Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2017/11/02/2017-11-02-match-on-multiple-records/</loc>
-    
-    <lastmod>2021-12-01T20:10:56.669Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2018/01/05/2018-01-05-batch-checkin-module/</loc>
-    
-    <lastmod>2021-12-01T20:10:56.669Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2018/06/07/2018-06-07-prevent-backdated-returns-from-creating-credits/</loc>
-    
-    <lastmod>2021-12-01T20:10:56.669Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2019/01/10/2019-01-10-allow-prioritization-of-multiple-image-sources/</loc>
-    
-    <lastmod>2021-12-01T20:10:56.669Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2019/06/24/2019-06-24-create-holds-from-suggestions/</loc>
-    
-    <lastmod>2021-12-01T20:10:56.669Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2019/06/24/2019-06-24-ical-export-of-due-dates/</loc>
-    
-    <lastmod>2021-12-01T20:10:56.669Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2019/06/26/2019-06-26-incorporating-overdrive-advantage/</loc>
-    
-    <lastmod>2021-12-01T20:10:56.669Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2019/07/31/2019-07-31-select-multiple-funds-for-a-single-order/</loc>
-    
-    <lastmod>2021-12-01T20:10:56.669Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2019/08/01/2019-08-01-has-this-patron-been-notified-of-the-hold-hold-slips-development/</loc>
-    
-    <lastmod>2021-12-01T20:10:56.669Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2019/10/01/2019-10-01-overduesblockcirc-ask-for-confirmation-just-once-per-patron/</loc>
-    
-    <lastmod>2021-12-01T20:10:56.669Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2019/10/15/2019-10-15-allow-patrons-to-bulk-edit-holds/</loc>
-    
-    <lastmod>2021-12-01T20:10:56.669Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2019/10/15/2019-10-15-printing-slips-in-acquisitions/</loc>
-    
-    <lastmod>2021-12-01T20:10:56.669Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2019/11/19/2019-11-19-syndetics-set-up-on-staff-side-of-koha/</loc>
-    
-    <lastmod>2021-12-01T20:10:56.669Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2020/01/28/2020-01-28-require-library-branch-selection-when-logging-in/</loc>
-    
-    <lastmod>2021-12-01T20:10:56.669Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2020/02/25/2020-02-25-holds-queue-use-items-holdingbranch-as-match/</loc>
-    
-    <lastmod>2021-12-01T20:10:56.669Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2020/02/25/2020-02-25-local-holds-stay-with-in-local-group/</loc>
-    
-    <lastmod>2021-12-01T20:10:56.669Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2020/03/03/2020-03-03-course-reserves-improvements/</loc>
-    
-    <lastmod>2021-12-01T20:10:56.669Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2020/03/03/2020-03-03-increase-statistics-data-for-local-use-report/</loc>
-    
-    <lastmod>2021-12-01T20:10:56.669Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2020/04/16/2020-04-16-self-check-circulation-display/</loc>
-    
-    <lastmod>2021-12-01T20:10:56.669Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2020/10/22/2020-10-22-add-ability-to-add-change-transfer-between-funds/</loc>
-    
-    <lastmod>2021-12-01T20:10:56.669Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2021/05/19/2021-05-19-patron-import-enhancements/</loc>
-    
-    <lastmod>2021-12-01T20:10:56.669Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2021/12/01/2021-12-01-routing-list-in-serials/</loc>
-    
-    <lastmod>2021-12-01T20:10:56.669Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2016/12/01/Ability-to-change-the-number-ordered/</loc>
-    
-    <lastmod>2021-12-01T20:10:56.669Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2016/12/01/Aggressive-ISSN-Matching-during-import/</loc>
-    
-    <lastmod>2021-12-01T20:10:56.669Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2016/12/01/Balancing-high-demand-holds/</loc>
-    
-    <lastmod>2021-12-01T20:10:56.669Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2016/11/30/Claimed-Returned/</loc>
-    
-    <lastmod>2021-12-01T20:10:56.669Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2016/12/01/Clearing-Z39-50-search-fields/</loc>
-    
-    <lastmod>2021-12-01T20:10:56.669Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2016/12/01/Display-of-RDA-MARC-fields-subfields-in-OPAC/</loc>
-    
-    <lastmod>2021-12-01T20:10:56.669Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2016/12/01/Hold-suspension-in-staff-client/</loc>
-    
-    <lastmod>2021-12-01T20:10:56.669Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2016/11/30/Make-Longoverdue-Lost-items-not-renewable/</loc>
-    
-    <lastmod>2021-12-01T20:10:56.669Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2016/11/30/New-notice-for-patrons-that-owe-money/</loc>
-    
-    <lastmod>2021-12-01T20:10:56.669Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2016/11/30/New-suggestions-sent-via-email/</loc>
-    
-    <lastmod>2021-12-01T20:10:56.669Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2016/12/01/Override-fix-loan-period/</loc>
-    
-    <lastmod>2021-12-01T20:10:56.669Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2016/12/01/Printing-lists/</loc>
-    
-    <lastmod>2021-12-01T20:10:56.669Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2016/12/01/Removal-of-shelving-location-at-checkin/</loc>
-    
-    <lastmod>2021-12-01T20:10:56.669Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2016/11/30/Search-serials-by-barcode/</loc>
-    
-    <lastmod>2021-12-01T20:10:56.669Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2016/11/30/Self-Check-module-stand-alone-check-in/</loc>
-    
-    <lastmod>2021-12-01T20:10:56.669Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devs.bywatersolutions.com/2016/12/01/Self-check-module-highlighting/</loc>
-    
-    <lastmod>2021-12-01T20:10:56.669Z</lastmod>
+    <lastmod>2021-12-01T20:32:41.711Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://devs.bywatersolutions.com/2016/11/30/Show-number-of-holds-on-the-staff-side-next-to-holds-link/</loc>
     
-    <lastmod>2021-12-01T20:10:56.669Z</lastmod>
+    <lastmod>2021-12-01T20:30:36.450Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://devs.bywatersolutions.com/2019/04/26/auto-renew-notices-in-digest-format/</loc>
     
-    <lastmod>2021-12-01T20:10:56.669Z</lastmod>
+    <lastmod>2021-12-01T20:30:36.450Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://devs.bywatersolutions.com/2019/04/24/matching-profiles-for-importing-marc-records/</loc>
     
-    <lastmod>2021-12-01T20:10:56.669Z</lastmod>
+    <lastmod>2021-12-01T20:30:36.450Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2017/10/10/2017-10-10-add-patron-attributes-into-the-patron-card-creator/</loc>
+    
+    <lastmod>2021-12-01T20:30:36.446Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2017/11/02/2017-11-02-check-boxes-on-import-screen/</loc>
+    
+    <lastmod>2021-12-01T20:30:36.446Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2017/11/02/2017-11-02-holds-and-self-checkout/</loc>
+    
+    <lastmod>2021-12-01T20:30:36.446Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2017/11/02/2017-11-02-match-on-multiple-records/</loc>
+    
+    <lastmod>2021-12-01T20:30:36.446Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2018/01/05/2018-01-05-batch-checkin-module/</loc>
+    
+    <lastmod>2021-12-01T20:30:36.446Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2018/06/07/2018-06-07-prevent-backdated-returns-from-creating-credits/</loc>
+    
+    <lastmod>2021-12-01T20:30:36.446Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2019/01/10/2019-01-10-allow-prioritization-of-multiple-image-sources/</loc>
+    
+    <lastmod>2021-12-01T20:30:36.446Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2019/06/24/2019-06-24-create-holds-from-suggestions/</loc>
+    
+    <lastmod>2021-12-01T20:30:36.446Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2019/06/24/2019-06-24-ical-export-of-due-dates/</loc>
+    
+    <lastmod>2021-12-01T20:30:36.446Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2019/06/26/2019-06-26-incorporating-overdrive-advantage/</loc>
+    
+    <lastmod>2021-12-01T20:30:36.446Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2019/07/31/2019-07-31-select-multiple-funds-for-a-single-order/</loc>
+    
+    <lastmod>2021-12-01T20:30:36.446Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2019/08/01/2019-08-01-has-this-patron-been-notified-of-the-hold-hold-slips-development/</loc>
+    
+    <lastmod>2021-12-01T20:30:36.446Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2019/10/01/2019-10-01-overduesblockcirc-ask-for-confirmation-just-once-per-patron/</loc>
+    
+    <lastmod>2021-12-01T20:30:36.446Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2019/10/15/2019-10-15-allow-patrons-to-bulk-edit-holds/</loc>
+    
+    <lastmod>2021-12-01T20:30:36.446Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2019/10/15/2019-10-15-printing-slips-in-acquisitions/</loc>
+    
+    <lastmod>2021-12-01T20:30:36.446Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2019/11/19/2019-11-19-syndetics-set-up-on-staff-side-of-koha/</loc>
+    
+    <lastmod>2021-12-01T20:30:36.446Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2020/01/28/2020-01-28-require-library-branch-selection-when-logging-in/</loc>
+    
+    <lastmod>2021-12-01T20:30:36.446Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2020/02/25/2020-02-25-holds-queue-use-items-holdingbranch-as-match/</loc>
+    
+    <lastmod>2021-12-01T20:30:36.446Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2020/02/25/2020-02-25-local-holds-stay-with-in-local-group/</loc>
+    
+    <lastmod>2021-12-01T20:30:36.446Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2020/03/03/2020-03-03-course-reserves-improvements/</loc>
+    
+    <lastmod>2021-12-01T20:30:36.446Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2020/03/03/2020-03-03-increase-statistics-data-for-local-use-report/</loc>
+    
+    <lastmod>2021-12-01T20:30:36.446Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2020/04/16/2020-04-16-self-check-circulation-display/</loc>
+    
+    <lastmod>2021-12-01T20:30:36.446Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2020/10/22/2020-10-22-add-ability-to-add-change-transfer-between-funds/</loc>
+    
+    <lastmod>2021-12-01T20:30:36.446Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2021/05/19/2021-05-19-patron-import-enhancements/</loc>
+    
+    <lastmod>2021-12-01T20:30:36.446Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2021/12/01/2021-12-01-routing-list-in-serials/</loc>
+    
+    <lastmod>2021-12-01T20:30:36.446Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2016/12/01/Ability-to-change-the-number-ordered/</loc>
+    
+    <lastmod>2021-12-01T20:30:36.446Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2016/12/01/Aggressive-ISSN-Matching-during-import/</loc>
+    
+    <lastmod>2021-12-01T20:30:36.446Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2016/12/01/Balancing-high-demand-holds/</loc>
+    
+    <lastmod>2021-12-01T20:30:36.446Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2016/11/30/Claimed-Returned/</loc>
+    
+    <lastmod>2021-12-01T20:30:36.446Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2016/12/01/Clearing-Z39-50-search-fields/</loc>
+    
+    <lastmod>2021-12-01T20:30:36.446Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2016/12/01/Display-of-RDA-MARC-fields-subfields-in-OPAC/</loc>
+    
+    <lastmod>2021-12-01T20:30:36.446Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2016/12/01/Hold-suspension-in-staff-client/</loc>
+    
+    <lastmod>2021-12-01T20:30:36.446Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2016/11/30/Make-Longoverdue-Lost-items-not-renewable/</loc>
+    
+    <lastmod>2021-12-01T20:30:36.446Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2016/11/30/New-notice-for-patrons-that-owe-money/</loc>
+    
+    <lastmod>2021-12-01T20:30:36.446Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2016/11/30/New-suggestions-sent-via-email/</loc>
+    
+    <lastmod>2021-12-01T20:30:36.446Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2016/12/01/Override-fix-loan-period/</loc>
+    
+    <lastmod>2021-12-01T20:30:36.446Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2016/12/01/Printing-lists/</loc>
+    
+    <lastmod>2021-12-01T20:30:36.446Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2016/12/01/Removal-of-shelving-location-at-checkin/</loc>
+    
+    <lastmod>2021-12-01T20:30:36.446Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2016/11/30/Search-serials-by-barcode/</loc>
+    
+    <lastmod>2021-12-01T20:30:36.446Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2016/11/30/Self-Check-module-stand-alone-check-in/</loc>
+    
+    <lastmod>2021-12-01T20:30:36.446Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devs.bywatersolutions.com/2016/12/01/Self-check-module-highlighting/</loc>
+    
+    <lastmod>2021-12-01T20:30:36.446Z</lastmod>
     
   </url>
   
