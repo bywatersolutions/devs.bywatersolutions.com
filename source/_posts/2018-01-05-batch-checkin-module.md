@@ -1,6 +1,6 @@
 ---
 bug: 0
-raised: 500
+raised: 2500
 goal: 6000
 supporters: 1
 date: '2018-01-05 13:51 -0500'
@@ -12,6 +12,7 @@ module: Circulation
 Supporter1: AAROME 500
 RT: 46772
 BZ: 19814
+Supporter2: Uintah 2000
 ---
 # Batch Checkin Module
 
