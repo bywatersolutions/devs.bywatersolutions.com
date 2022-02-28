@@ -1,6 +1,6 @@
 ---
 bug: 0
-raised: 1500
+raised: 3000
 goal: 3000
 supporters: 1
 date: '2021-12-08 15:28 -0600'
