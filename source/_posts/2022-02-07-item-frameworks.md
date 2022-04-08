@@ -1,14 +1,17 @@
 ---
 bug: 24606
-raised: 0
+raised: 8000
 goal: 8000
-supporters: 0
+supporters: 2
 date: '2022-02-07 07:51 -0600'
 published: true
 title: Item Frameworks
 module: Cataloging
 short_description: Item Frameworks
 RT: 63095
+RT2: 95849
+Sponsor1: Monterey County
+Sponsor2: Aspencat (Clic)
 ---
 ## Ability to create and use 'frameworks' when adding item records
 
