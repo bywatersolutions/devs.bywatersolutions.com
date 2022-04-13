@@ -1,14 +1,15 @@
 ---
-bug: 0
-raised: 0
+bug: 21225
+raised: 6000
 goal: 6000
-supporters: 0
+supporters: 1
 date: '2019-11-19 14:01 -0700'
 published: true
 title: Syndetics set up on Staff Side of Koha
 module: Display
 short_description: Display Syndetics information on Staff side
 RT: 51162
+Sponsor: ByWater Solutions
 ---
 ## Syndetics setup on staff client
 	
