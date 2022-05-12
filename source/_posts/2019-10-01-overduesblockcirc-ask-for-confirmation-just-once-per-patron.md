@@ -1,8 +1,8 @@
 ---
 bug: 16943
-raised: 200
+raised: 3700
 goal: 5500
-supporters: 1
+supporters: 2
 date: '2019-10-01 17:43 -0600'
 published: true
 title: OverduesBlockCirc - Ask for confirmation just once per patron
@@ -10,6 +10,7 @@ module: Circulation
 short_description: OverdueBlocksCirc confirm just once
 rt: 60854
 sponsor1: panhandle 200
+sponsor2: arcadia public 3500
 ---
 The OverduesBlockCirc pops up a dialog box to confirm a circulation.  
 
