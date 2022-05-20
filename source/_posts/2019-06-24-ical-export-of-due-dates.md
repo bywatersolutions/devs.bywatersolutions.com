@@ -1,8 +1,8 @@
 ---
 bug: 0
-raised: 2000
+raised: 2500
 goal: 2500
-supporters: 2
+supporters: 3
 date: '2019-06-24 15:08 -0600'
 published: true
 title: iCal Export of Due Dates
@@ -12,6 +12,7 @@ short_description: Alter the behavior of iCal Exporting of Due dates
 RT: 58699
 Sponsor1: Huntsville Madison 500
 Sponsor2: Arcadia public 1500
+Sponsor3: ByWater Solutions 500
 ---
 
 
