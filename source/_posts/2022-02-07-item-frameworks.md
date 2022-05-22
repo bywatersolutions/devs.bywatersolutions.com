@@ -6,7 +6,7 @@ supporters: 2
 date: '2022-02-07 07:51 -0600'
 published: true
 title: Item Frameworks
-module: Cataloging
+module: Funded
 short_description: Item Frameworks
 RT: 63095
 RT2: 95849
