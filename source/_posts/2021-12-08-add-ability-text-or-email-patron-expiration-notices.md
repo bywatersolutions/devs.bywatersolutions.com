@@ -8,7 +8,7 @@ published: true
 title: Add ability text or email Patron Expiration Notices
 RT: 85544
 Supporter1: Salina Public Library
-module: Tools
+module: Funded
 short_description: Enhancement to Patron Expiration Notice
 ---
 ## Enhancement to the Patron Expiration Notices
