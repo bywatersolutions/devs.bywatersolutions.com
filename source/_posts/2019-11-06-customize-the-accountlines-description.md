@@ -6,7 +6,7 @@ supporters: 2
 date: '2019-11-06 13:52 -0700'
 published: true
 title: Customize the Accountlines Description
-module: Patrons
+module: Funded
 short_description: Customize the Description field
 RT: 63216
 RT2: 60955
