@@ -6,7 +6,7 @@ supporters: 3
 date: '2019-10-01 17:43 -0600'
 published: true
 title: OverduesBlockCirc - Ask for confirmation just once per patron
-module: Circulation
+module: Funded
 short_description: OverdueBlocksCirc confirm just once
 rt: 60854
 sponsor1: panhandle 200
