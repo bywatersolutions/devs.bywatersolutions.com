@@ -34,29 +34,78 @@
   </div>
 </header>
 
-  <div class="container">
-    <h2 class="archive-title">Archives</h2>
-  </div>
   <section class="container">
+	<h2>
+		
+	</h2>
+	<p class="short-description">SIP functionality </p>
 
-    <h3 class="words-title">_</h3>
-  
-  <a class="word" href="/2022/05/22/Add-FRBRized-View-to-OPAC-Results/">
-    Add FRBRized View to OPAC Results
-  </a>
-
-  <a class="word" href="/2022/05/22/2022-05-22-your-filename/">
     
-  </a>
 
-  <a class="word" href="/2022/05/22/2022-05-22-move-long-overdue-cron-config-into-koha/">
-    Move long overdue cron config into Koha
-  </a>
+	<h3>
+		Goal: $4500
+	</h3>
+	<h3>
+		Raised: $0
+	</h3>
+	<h3>
+		Supporters: 0
+	</h3>
 
-  <a class="word" href="/2022/05/22/2022-05-22-block-refunds-on-lost-items/">
-    Block refunds on Lost items
-  </a>
+	<article class="article">
+		<p>Add the ability for SIP selfcheckin devices to authenticate users based on a repeatable patron attribute. With this development a patron could have multiple of a single attribute (ie. child card) and that attribute would be designated as a method of identifying the parent level account to perform the checkout.</p>
+<p>This attribute would also be required to be ‘unique’.  That is to say if you have two parents, each with their own individual account, they could not both have the child cards assigned to the accounts.  Only one parent can have the child attribute for child cardnumbers.</p>
+<p>Example:<br>Parent A has 3 children (1,2,3).  Each child has their own account and their own library card and cardnumber.  However the library would prefer that all items be checked out the parent.  Parent A would then have 3 attributes for ‘CHILD CARD’ each attribute with a child’s cardnumber associated.  When the child attempts to login, Koha authenticates that cardnumber as a CHILD CARD belonging to the parent and checks out the item on the parent record.</p>
+<p>$4500, sip functionality only not for Koha’s Self check module<br>1 - Add sip config option ‘additional_id_attribute’  - only specifiy unique atrtributes<br>2 - Adjust SIP code to find patron by this id</p>
 
+	</article>
+
+    
+        <h1>Make a pledge!</h1>
+        <form action="https://formspree.io/developments@bywatersolutions.com" method="POST">
+            <input type="hidden" name="project" value=""/>
+
+            <p/>
+            <label for="library">Library Name (required)</label>
+            <input type="text" name="library"/>
+
+            <p/>
+            <label for="name">Your name (required)</label>
+            <input type="text" name="name"/>
+
+            <p/>
+            <label for="email">Email address (required)</label>
+            <input type="text" name="email"/>
+
+            <p/>
+            <label for="pledge_amount">Pledge amount</label>
+            <input type="text" name="pledge_amount"/>
+
+            <p/>
+            <input type="submit" value="Send">
+        </form>
+    
+
+	<div id="disqus_thread"></div>
+	<script>
+		/**
+		*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+		*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+		/*
+		var disqus_config = function () {
+			this.page.url = page.permalink;  // Replace PAGE_URL with your page's canonical URL variable
+			this.page.identifier = 'bwsdev'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+		};
+		*/
+		(function() { // DON'T EDIT BELOW THIS LINE
+			var d = document, s = d.createElement('script');
+			s.src = '//bwsdevs.disqus.com/embed.js';
+			s.setAttribute('data-timestamp', +new Date());
+			(d.head || d.body).appendChild(s);
+		})();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                                
 </section>
 
   <section class="footer">
@@ -85,5 +134,6 @@
 </script>
 <script src="/js/header.js"></script>
 
+  <script id="dsq-count-scr" src="//bwsdevs.disqus.com/count.js" async></script>
   </body>
 </html>
