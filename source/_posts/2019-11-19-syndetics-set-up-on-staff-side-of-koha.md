@@ -6,7 +6,7 @@ supporters: 1
 date: '2019-11-19 14:01 -0700'
 published: true
 title: Syndetics set up on Staff Side of Koha
-module: Catalog
+module: Funded
 short_description: Display Syndetics information on Staff side
 RT: 51162
 Sponsor: ByWater Solutions
