@@ -5,8 +5,8 @@ goal: 4500
 supporters: 0
 date: '2022-05-22 14:25 -0600'
 published: true
-title: ''
-module: Circulation
+title: SIP self check authentication method
+module: Self Check
 short_description: 'SIP functionality '
 rt: 85736
 ---
