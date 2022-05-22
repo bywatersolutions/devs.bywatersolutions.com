@@ -6,7 +6,7 @@ supporters: 1
 date: '2019-04-24 11:21 -0500'
 published: true
 title: Matching Profiles for Importing MARC records!!
-module: Cataloging
+module: Funded
 short_description: Matching Profiles
 tags: 'cataloging, import profiles'
 sponsor: Carnegie Stout Public Library
