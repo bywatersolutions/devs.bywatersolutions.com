@@ -58,12 +58,14 @@
 
 	<article class="article">
 		<h2 id="Automatic-Patron-Account-Renewal"><a href="#Automatic-Patron-Account-Renewal" class="headerlink" title="Automatic Patron Account Renewal"></a>Automatic Patron Account Renewal</h2><p>We are proposing an option to make it easy for a patron to have their library membership automatically renew based on their activity at the library. </p>
-<p>When membership renewals come up for a patron, it would be useful for libraries to make a decision about automatic renewals of membership, based on current activity at the library. This would be a benefit/advantage for users who don’t come into the physical branch but who do use curbside or electronic services. If Koha could look at borrowers.lastseen - last time a patron has been seen (connected at the OPAC or staff interface), this could be used as a way to identify that activity and renew the patron accordingly. </p>
+<p>When membership renewals come up for a patron, it would be useful for libraries to make a decision about automatic renewals of membership, based on current activity at the library. This would be a benefit/advantage for users who don’t come into the physical branch but who do use curbside or electronic services. If Koha could look at borrowers.lastseen - last time a patron has been seen (connected at the OPAC or accessed through the staff interface), this could be used as a way to identify that activity and renew the patron accordingly. </p>
+<p>Use Case: Patron A places holds in the OPAC and requests curbside pickup on a regular basis.  They haven’t been inside the library to use self check or checkout at the circ desk in 2 years.  Their account is due expire on 6/1/2022.  When the expiration date draws near, Koha will check the settings for autorenew (autorenew if active within 120 days) and if the patron has logged into the opac in the last 120 days, they are renewed per the patron category rules.</p>
+<p>Use Case 2: Patron B only uses ersources at the library.  They have logged into Overdrive in May 2022.  Their account is set to expire May 31, 2022.  The library is set up to autorenew patrons who have been active in the past 60 days.  When Koha checks for expiration, this patron meets the time frame for activity and is renewed per the category rules.</p>
 <p>$3000<br>Work to be done:</p>
 <ul>
 <li>Patron categories will have setting for ‘Auto-renew if active within X days’</li>
-<li>0 or unset will disable patron renewal</li>
-<li>Check lastseendate if within range renew</li>
+<li>A value of 0 (or unset) will disable automatic patron renewal</li>
+<li>Check lastseendate and if within ‘active range’ renew the patron per rules in the category</li>
 <li>Membership expiry cron should be used to notify patrons of the automatic renewal (and fee if applicable)</li>
 </ul>
 
