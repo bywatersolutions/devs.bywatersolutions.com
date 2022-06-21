@@ -16,4 +16,4 @@ Supporter2: Uintah 2000
 ---
 # Batch Checkin Module
 
-Work to be done, add batch checkin feature similar to batch checkout feature. The ability for batch checkin for Self-Check and RFID machines.
+Work to be done, add batch checkin feature similar to batch checkout feature. The ability for batch checkin for Self-Check machines.
