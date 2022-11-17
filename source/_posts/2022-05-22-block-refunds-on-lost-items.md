@@ -1,14 +1,15 @@
 ---
 bug: 0
-raised: 0
+raised: 5000
 goal: 5000
-supporters: 0
+supporters: 1
 date: '2022-05-22 14:11 -0600'
 published: true
 title: Block refunds on Lost items
 module: Circulation
 short_description: Lost Item Refunds
-rt: 82715
+rt: 106319
+sponsor: Rapid City Public Library
 ---
 Often lost items should not generate refunds to patrons even when that lost item is found and returned to the library.  This development will create a system preference that allows the library to specify the age of a paid lost item that cannot be refunded.  
 
