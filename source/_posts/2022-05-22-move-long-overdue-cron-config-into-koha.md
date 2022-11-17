@@ -1,14 +1,15 @@
 ---
 bug: 0
-raised: 0
+raised: 10000
 goal: 10000
-supporters: 0
+supporters: 1
 date: '2022-05-22 14:19 -0600'
 published: true
 title: Move long overdue cron config into Koha
 module: Cron
 short_description: move long overdue cron config into Koha
-rt: 80682
+rt: 106319
+sponsor: Rapid City Public Library
 ---
 This enhancement request will move all the configuration options for the Long Overdue Cron into the staff side of Koha so that libraries can manage these settings on their own instead of needing someone to adjust them at the command line on the server.
 
