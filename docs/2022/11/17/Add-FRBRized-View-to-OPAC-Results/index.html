@@ -3,7 +3,7 @@
 <head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Move long overdue cron config into Koha | ByWater Solutions - Development Crowdsourcing</title>
+  <title>Add FRBRized View to OPAC Results | ByWater Solutions - Development Crowdsourcing</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" type="image/png" href="favicon.png">
 
@@ -36,30 +36,51 @@
 
   <section class="container">
 	<h2>
-		Move long overdue cron config into Koha
+		Add FRBRized View to OPAC Results
 	</h2>
-	<p class="short-description">move long overdue cron config into Koha</p>
+	<p class="short-description">Add a view to the OPAC of multiple different editions from multiple different sources.</p>
 
     
 
 	<h3>
-		Goal: $10000
+		Goal: $30000
 	</h3>
 	<h3>
 		Raised: $10000
 	</h3>
 	<h3>
-		Supporters: 1
+		Supporters: 2
 	</h3>
 
 	<article class="article">
-		<p>This enhancement request will move all the configuration options for the Long Overdue Cron into the staff side of Koha so that libraries can manage these settings on their own instead of needing someone to adjust them at the command line on the server.</p>
-<p>The development will create a new configuration page in the Administration area of Koha to allow libraries to set their configurations per branch for the long overdue process.  New API routes will need to be created to allow Koha to get and set the rules.  The rules will be set at the branch level, group level, or system level.</p>
-<p>The current cron will still function with the runtime options however it will warn that the switches are to be deprecated and the new interface should be used.</p>
-<p>We estimate this at $10,000, work to be done:<br>1 - Add a new config page to the administration section<br>2 - Add API routes for getting/setting rules<br>3 - Utilize datatables API for displaying/editing rules<br>4 - Allow for defining rules at the system, group, or library level<br>5 - The cron switches will take precedence if set, but will warn of deprecation</p>
+		<p><img src="/images/Add-FRBRized-View-to-OPAC-Results.png" alt="Add-FRBRized-View-to-OPAC-Results.png"></p>
 
 	</article>
 
+    
+        <h1>Make a pledge!</h1>
+        <form action="https://formspree.io/developments@bywatersolutions.com" method="POST">
+            <input type="hidden" name="project" value="Add FRBRized View to OPAC Results"/>
+
+            <p/>
+            <label for="library">Library Name (required)</label>
+            <input type="text" name="library"/>
+
+            <p/>
+            <label for="name">Your name (required)</label>
+            <input type="text" name="name"/>
+
+            <p/>
+            <label for="email">Email address (required)</label>
+            <input type="text" name="email"/>
+
+            <p/>
+            <label for="pledge_amount">Pledge amount</label>
+            <input type="text" name="pledge_amount"/>
+
+            <p/>
+            <input type="submit" value="Send">
+        </form>
     
 
 	<div id="disqus_thread"></div>
