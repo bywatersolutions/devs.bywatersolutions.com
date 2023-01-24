@@ -9,7 +9,7 @@ title: Interactive Inventory
 module: Tools
 RT: 80182
 ---
-Libraries that are engaged in active weeding are scanning shelves on a regular basis to ensure that the collection is as accurate as possible for their patrons.  We propose enhancing the inventory module so that it can provide a more interactive experience for librarians.  
+Libraries that are engaged in active weeding are scanning shelves on a regular basis want to ensure that the collection is as accurate as possible for their patrons.  We propose enhancing the inventory module so that it can provide a more interactive experience for librarians and help streamline the inventory process.  
 
 Currently, staff scan a number of item's barcode on a shelf, in a collection and upload that file of scanned barcodes into Koha.  Koha comes back with info about items with non-standard statuses, and missing/lost statuses, etc.  We propose that the item data be presented to staff as they scan the barcodes, right there at the shelf!!!  (For example, staff conducts the inventory with a laptop plus scanner on a cart).
 
