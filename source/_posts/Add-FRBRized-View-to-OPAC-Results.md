@@ -7,7 +7,7 @@ goal: 30000
 short_description: >-
   Add a view to the OPAC of multiple different editions from multiple different
   sources.
-tags: 'koha,opac,catalog,frbr,frbrized'
+tags: 'koha,OPAC,catalog,frbr,frbrized'
 bug: 0
 module: Catalog
 published: true

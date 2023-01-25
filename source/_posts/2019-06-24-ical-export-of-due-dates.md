@@ -6,7 +6,7 @@ supporters: 3
 date: '2019-06-24 15:08 -0600'
 published: true
 title: iCal Export of Due Dates
-tags: opac
+tags: OPAC
 module: Funded
 short_description: Alter the behavior of iCal Exporting of Due dates
 RT: 58699

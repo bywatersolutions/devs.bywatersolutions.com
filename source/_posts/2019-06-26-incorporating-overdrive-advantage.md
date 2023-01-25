@@ -8,7 +8,7 @@ published: true
 title: Incorporating Overdrive Advantage
 module: OPAC
 short_description: Include Overdrive Advantage Records in the OPAC
-tags: 'overdrive, opac'
+tags: 'overdrive, OPAC'
 RT: 58441
 ---
 Overdrive Advantage records are not currently included in the Overdrive integration in Koha.  This development would include searching Overdrive for your library's Advantage records and display them to your patrons when they are logged into the OPAC.
