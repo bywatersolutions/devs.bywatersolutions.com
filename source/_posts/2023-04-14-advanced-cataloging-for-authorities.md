@@ -7,7 +7,7 @@ date: '2023-04-14 10:37 -0600'
 published: true
 title: Advanced Cataloging for Authorities
 module: Catalog
-short_description: Advanced Cataloging for Authorities
+short_description: 'Advanced Cataloging for Authorities'
 RT: 110212
 ---
 Advanced Cataloging for Authorities
