@@ -81,3 +81,8 @@ jobs:
         password: ${{ secrets.QUAY_PASSWORD }}
         registry: quay.io
 
+    - name: Show last commit
+      run: git show HEAD
+
+    - name: Notify service to update container
+      run: curl -X POST https://portainer.tools.bywatersolutions.com/api/webhooks/f8371bdf-027d-47e6-839e-54342a0ab437
