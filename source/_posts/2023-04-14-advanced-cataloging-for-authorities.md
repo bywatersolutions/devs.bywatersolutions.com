@@ -7,7 +7,7 @@ date: '2023-04-14 10:37 -0600'
 published: true
 title: Advanced Cataloging for Authorities
 module: Catalog
-short_description: 'Advanced Cataloging for Authorities'
+short_description: Advanced Cataloging for Authorities
 RT: 110212
 ---
 Advanced Cataloging for Authorities
@@ -16,3 +16,5 @@ Do you enjoy cataloging Authority records?  Do you want an option that allows yo
 
 Proposal:
 Create interface to allow catalogers to use an Advanced Cataloging option in Authorities.  This will be based on the interface currently available in Bibliographic cataloging.
+
+See Bugzilla for more information: https://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=22232
